@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "title": "余白に灯る (Yohaku ni Tomoru)",
+  "title": "魔法少女レニィ☆マギカ (Mahou Shoujo Renny Magica)",
   "note": "グラフィック/BGM担当(Codex)向けの契約ファイル。パスは全て実在すること(現状はプレースホルダ)。本物に差し替えるだけで動作する。詳細な手順は assets/README.md を参照。",
   "namingConvention": {
     "background": "bg_<場所>_<時間帯>",

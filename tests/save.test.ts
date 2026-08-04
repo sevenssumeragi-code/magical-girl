@@ -94,7 +94,7 @@ describe('セーブ／ロードの往復', () => {
   });
 
   it('壊れたデータは null として扱い例外を投げない', () => {
-    localStorage.setItem('yohaku:save:1', '{ 壊れた JSON');
+    localStorage.setItem('renny-magica:save:1', '{ 壊れた JSON');
     expect(() => loadSlot(1)).not.toThrow();
     expect(loadSlot(1)).toBeNull();
   });
@@ -148,6 +148,6 @@ describe('周回データ', () => {
   it('変更が無ければ書き込まない', () => {
     const store = new PersistentStore();
     store.flush();
-    expect(localStorage.getItem('yohaku:persistent')).toBeNull();
+    expect(localStorage.getItem('renny-magica:persistent')).toBeNull();
   });
 });

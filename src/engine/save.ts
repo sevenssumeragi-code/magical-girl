@@ -2,7 +2,7 @@
 
 import type { BacklogEntry, EndingId, GameState, PersistentData, SaveSlot, Settings } from './types';
 
-const PREFIX = 'yohaku:';
+const PREFIX = 'renny-magica:';
 const SLOT_KEY = (slot: number | 'auto') => `${PREFIX}save:${slot}`;
 const SETTINGS_KEY = `${PREFIX}settings`;
 const PERSISTENT_KEY = `${PREFIX}persistent`;

@@ -182,8 +182,8 @@ export class App {
       el(
         'div',
         { class: `title-inner${intro}` },
-        el('h1', { class: 'title-main', textContent: '余白に灯る' }),
-        el('p', { class: 'title-sub', textContent: 'Yohaku ni Tomoru' }),
+        el('h1', { class: 'title-main', textContent: '魔法少女レニィ☆マギカ' }),
+        el('p', { class: 'title-sub', textContent: 'Mahou Shoujo Renny☆Magica' }),
         menu,
         el('p', {
           class: 'title-progress',

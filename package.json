@@ -1,9 +1,9 @@
 {
-  "name": "yohaku-ni-tomoru",
+  "name": "mahou-shoujo-renny-magica",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "余白に灯る - 中編ノベルゲーム",
+  "description": "魔法少女レニィ☆マギカ - 中編ノベルゲーム",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
