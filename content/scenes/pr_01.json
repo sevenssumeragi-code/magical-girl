@@ -5,14 +5,32 @@
   "background": "bg_ruin_street_night",
   "bgm": "bgm_prologue",
   "lines": [
-    {
-      "type": "cg",
-      "asset": "cg_01_awakening"
-    },
-    {
-      "type": "narration",
-      "text": "（未執筆: 崩れた街路でハルが目覚める。記憶がない。自分の名前だけが分かる）"
-    }
+    { "type": "cg", "asset": "cg_01_awakening" },
+    { "type": "narration", "text": "目を開けると、割れたアスファルトの隙間から、細い草が一本だけ伸びていた。" },
+    { "type": "narration", "text": "頬に当たっているのは砂利だ。冷たい。ということは、僕は道路に倒れているらしい。" },
+    { "type": "narration", "text": "身体を起こす。どこも痛くない。痛くないのに、芯のところが奇妙に重い。長いあいだ息を止めていた後みたいだ。" },
+    { "type": "narration", "text": "街灯が三本、間隔をあけて灯っていた。光の届かない場所は、輪郭ごと夜に呑まれている。" },
+    { "type": "narration", "text": "崩れた家。根元から傾いた電柱。道の真ん中で口を開けたままの、深い亀裂。" },
+    { "type": "narration", "text": "人の気配がない。車の音もしない。風だけが、割れた窓の縁を鳴らしている。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……ここ、どこだろう" },
+    { "type": "sfx", "asset": "se_wind" },
+    { "type": "narration", "text": "声は出た。喉も動く。身体はちゃんと僕のものだ。" },
+    { "type": "narration", "text": "じゃあ、記憶はどこにあるんだろう。" },
+    { "type": "narration", "text": "探そうとして、すぐに分かった。無いのだ。「思い出せない」のとは違う。引き出しを開けたら底まで綺麗に空だった──そういう感触だった。" },
+    { "type": "narration", "text": "家族の顔。住んでいた場所。昨日の夕飯。どれも、最初から入っていなかったみたいに手応えがない。" },
+    { "type": "narration", "text": "ただ、ひとつだけ落ちていたものがある。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……{name}" },
+    { "type": "narration", "text": "僕の名前。それだけが、なぜか確かだった。" },
+    { "type": "narration", "text": "不思議と、怖くはなかった。" },
+    { "type": "narration", "text": "たぶん、怖がるためには、失ったものを覚えていないといけないんだと思う。何も覚えていない僕には、惜しむ相手すらいない。" },
+    { "type": "narration", "text": "立ち上がる。膝が笑うこともなかった。" },
+    { "type": "narration", "text": "とりあえず歩こう。ここにいても、何も戻ってきそうにない。" },
+    { "type": "narration", "text": "──そのとき、道の先で、空気が縦に裂けた。" },
+    { "type": "sfx", "asset": "se_core_pulse" },
+    { "type": "narration", "text": "裂け目の向こうに、夜より暗いものが見えた。" },
+    { "type": "narration", "text": "見てはいけないものだと、身体のほうが先に分かった。足が勝手に半歩下がる。" },
+    { "type": "narration", "text": "けれど、遅かった。" },
+    { "type": "narration", "text": "裂け目は僕を見つけて、ゆっくりと、笑うみたいに広がった。" }
   ],
   "next": "pr_02"
 }

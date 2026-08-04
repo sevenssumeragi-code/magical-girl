@@ -4,10 +4,34 @@
   "background": "bg_eikai_void",
   "bgm": "bgm_battle_01",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: 翳界に迷い込む。墜者に襲われる。無我夢中で戦い、勝ってしまう）"
-    }
+    { "type": "narration", "text": "落ちた、と思った。" },
+    { "type": "narration", "text": "けれど足はどこかを踏んでいる。上も下も分からないのに、立てている。" },
+    { "type": "narration", "text": "見渡す限り、色がおかしかった。紫とも緑ともつかない光が層になって漂い、その隙間を黒い澱が糸のように流れていく。" },
+    { "type": "narration", "text": "美しいのに、見ているだけで喉の奥が塩辛くなる。ここは、人が入っていい場所ではない。" },
+    { "type": "narration", "text": "背後で、湿った音がした。" },
+    { "type": "sfx", "asset": "se_impact" },
+    { "type": "narration", "text": "振り向く。黒い澱が寄り集まって、輪郭のない何かが立ち上がっていた。" },
+    { "type": "narration", "text": "顔らしきものはない。それなのに、確かにこちらを見ている。" },
+    { "type": "narration", "text": "そして──泣いていた。" },
+    { "type": "narration", "text": "音は聞こえない。ただ、泣いていると分かった。悲しくてたまらないものが、僕を殺そうとしている。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "──っ" },
+    { "type": "narration", "text": "腕が飛んできた。避けようと思うより早く、身体が横に跳んでいた。" },
+    { "type": "narration", "text": "自分の動きに、自分で驚く。こんなふうに動けるなんて、僕は知らなかった。" },
+    { "type": "narration", "text": "いや──「知らなかった」も何も、僕には比べる昨日がない。" },
+    { "type": "narration", "text": "二撃目。今度は、手のひらが熱くなった。" },
+    { "type": "sfx", "asset": "se_magic_cast" },
+    { "type": "narration", "text": "何もなかったはずの右手に、白い光が形を取っていく。細く、短い、槍のような何か。" },
+    { "type": "narration", "text": "使い方は、考えるまでもなかった。息を吸うのと同じだった。" },
+    { "type": "narration", "text": "踏み込む。突く。" },
+    { "type": "sfx", "asset": "se_impact" },
+    { "type": "narration", "text": "手応えは、驚くほど軽かった。" },
+    { "type": "narration", "text": "黒い澱がほどけて散る。泣き声のような気配が、風に溶けるみたいに薄くなっていく。" },
+    { "type": "narration", "text": "最後に、小さな黒い核がひとつ、僕の足元に転がって止まった。" },
+    { "type": "narration", "text": "光の層が剥がれ落ちる。紫も緑も遠のいて、気づけばまた、あの崩れた街路の真ん中に立っていた。" },
+    { "type": "narration", "text": "手のひらの槍は、もう消えている。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "……僕、いま、何をしたんだろう" },
+    { "type": "narration", "text": "勝った、という気がしない。" },
+    { "type": "narration", "text": "あれは、殺されかけた相手のはずだ。それなのに胸に残っているのは、取り返しのつかないことをした、という感触だけだった。" }
   ],
   "next": "pr_03"
 }
