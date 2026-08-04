@@ -1,0 +1,25 @@
+{
+  "id": "ch03_06",
+  "chapter": 3,
+  "background": "bg_town_slope_night",
+  "bgm": "bgm_neo",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ネオと交渉。彼は「消すべきものが5つある」と言う）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C22）",
+      "options": [
+        {
+          "text": "（未執筆: C22 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C22 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch03_07"
+}

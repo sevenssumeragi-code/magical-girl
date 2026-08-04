@@ -1,0 +1,25 @@
+{
+  "id": "ch02_10",
+  "chapter": 2,
+  "background": "bg_eikai_void",
+  "bgm": "bgm_battle_02",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ジンパチ単独行動の顛末。追うか止めるか）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C16）",
+      "options": [
+        {
+          "text": "（未執筆: C16 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C16 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch02_11"
+}

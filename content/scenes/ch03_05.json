@@ -1,0 +1,25 @@
+{
+  "id": "ch03_05",
+  "chapter": 3,
+  "background": "bg_school_classroom",
+  "bgm": "bgm_sad",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 疑心の連鎖。誰が誰を信じるか）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C21）",
+      "options": [
+        {
+          "text": "（未執筆: C21 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C21 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch03_06"
+}

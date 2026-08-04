@@ -1,0 +1,25 @@
+{
+  "id": "ch03_07",
+  "chapter": 3,
+  "background": "bg_school_rooftop_night",
+  "bgm": "bgm_quiet",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: レニィが初めて真面目な顔をする。「僕、たまに変な夢を見るんだ」）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C23）",
+      "options": [
+        {
+          "text": "（未執筆: C23 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C23 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch03_08"
+}

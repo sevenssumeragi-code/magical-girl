@@ -1,0 +1,13 @@
+{
+  "id": "pr_02",
+  "chapter": 0,
+  "background": "bg_eikai_void",
+  "bgm": "bgm_battle_01",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 翳界に迷い込む。墜者に襲われる。無我夢中で戦い、勝ってしまう）"
+    }
+  ],
+  "next": "pr_03"
+}

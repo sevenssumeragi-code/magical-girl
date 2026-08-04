@@ -1,0 +1,19 @@
+{
+  "id": "ch04_06",
+  "chapter": 4,
+  "background": "bg_school_classroom",
+  "bgm": "bgm_sad",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: **伏線A回収**：ムニ＝喪われた弟、レニィ＝生きていたら在ったはずの弟）"
+    },
+    {
+      "type": "flag",
+      "set": {
+        "truth_material": true
+      }
+    }
+  ],
+  "next": "ch04_07"
+}

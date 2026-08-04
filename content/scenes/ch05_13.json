@@ -1,0 +1,13 @@
+{
+  "id": "ch05_13",
+  "chapter": 5,
+  "background": "bg_eikai_core",
+  "bgm": "bgm_neo_theme",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 選択の実行（分岐集約点C：外環系））"
+    }
+  ],
+  "next": "ch05_14"
+}

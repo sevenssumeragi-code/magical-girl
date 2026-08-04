@@ -1,0 +1,13 @@
+{
+  "id": "ch03_09",
+  "chapter": 3,
+  "background": "bg_eikai_theater",
+  "bgm": "bgm_battle_02",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 分裂状態での戦闘。連携が崩壊する）"
+    }
+  ],
+  "next": "ch03_10"
+}

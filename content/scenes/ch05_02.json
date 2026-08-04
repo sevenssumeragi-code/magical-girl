@@ -1,0 +1,25 @@
+{
+  "id": "ch05_02",
+  "chapter": 5,
+  "background": "bg_town_slope_night",
+  "bgm": "bgm_neo",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ネオとの決着（戦う／説得する））"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C33）",
+      "options": [
+        {
+          "text": "（未執筆: C33 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C33 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch05_03"
+}

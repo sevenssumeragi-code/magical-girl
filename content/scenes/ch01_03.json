@@ -1,0 +1,25 @@
+{
+  "id": "ch01_03",
+  "chapter": 1,
+  "background": "bg_school_classroom",
+  "bgm": "bgm_renny",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: レニィが机で寝ている。起こす／起こさない）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C04）",
+      "options": [
+        {
+          "text": "（未執筆: C04 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C04 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch01_04"
+}

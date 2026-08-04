@@ -1,0 +1,13 @@
+{
+  "id": "ch01_06",
+  "chapter": 1,
+  "background": "bg_town_slope_day",
+  "bgm": "bgm_daily_02",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 昼の街。日常パート。ハルの居場所（空き教室）が決まる）"
+    }
+  ],
+  "next": "ch01_07"
+}

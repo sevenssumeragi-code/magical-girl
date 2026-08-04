@@ -1,0 +1,13 @@
+{
+  "id": "ch05_05",
+  "chapter": 5,
+  "background": "bg_flashback_ruin",
+  "bgm": "bgm_geru_theme",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ゲルの願いの正体に、ハルだけが手を届かせられる理由）"
+    }
+  ],
+  "next": "ch05_06"
+}

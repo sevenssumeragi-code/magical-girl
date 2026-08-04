@@ -1,0 +1,13 @@
+{
+  "id": "ch02_02",
+  "chapter": 2,
+  "background": "bg_eikai_clock",
+  "bgm": "bgm_battle_01",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 翳界「時計」。ムニが戦闘中に硬直する）"
+    }
+  ],
+  "next": "ch02_03"
+}

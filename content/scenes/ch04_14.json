@@ -1,0 +1,13 @@
+{
+  "id": "ch04_14",
+  "chapter": 4,
+  "background": "bg_school_infirmary",
+  "bgm": "bgm_shock",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ゲルの灯核が半ばまで黒く染まる **章末**）"
+    }
+  ],
+  "next": "ch05_01"
+}

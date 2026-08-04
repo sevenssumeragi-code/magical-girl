@@ -1,0 +1,15 @@
+{
+  "id": "end_good_b",
+  "chapter": 5,
+  "chapterTitle": "受け継ぐ手",
+  "background": "bg_town_slope_day",
+  "bgm": "bgm_hope",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: GOOD B 受け継ぐ手）"
+    }
+  ],
+  "next": null,
+  "ending": "end_good_b"
+}

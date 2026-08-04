@@ -1,0 +1,25 @@
+{
+  "id": "ch05_06",
+  "chapter": 5,
+  "background": "bg_school_gate_night",
+  "bgm": "bgm_tension",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: **善意→最悪③**：ゲルを救う行為が5人の消滅条件を満たすと判明）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C35）",
+      "options": [
+        {
+          "text": "（未執筆: C35 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C35 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch05_07"
+}

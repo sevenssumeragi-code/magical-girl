@@ -1,0 +1,13 @@
+{
+  "id": "ch05_11",
+  "chapter": 5,
+  "background": "bg_eikai_core",
+  "bgm": "bgm_hope",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 選択の実行（分岐集約点A：希望系））"
+    }
+  ],
+  "next": "ch05_12"
+}

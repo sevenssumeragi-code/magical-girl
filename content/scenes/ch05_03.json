@@ -1,0 +1,13 @@
+{
+  "id": "ch05_03",
+  "chapter": 5,
+  "background": "bg_eikai_void",
+  "bgm": "bgm_battle_03",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ネオ戦 or ネオとの共闘（C33により分岐））"
+    }
+  ],
+  "next": "ch05_04"
+}

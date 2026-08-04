@@ -1,0 +1,25 @@
+{
+  "id": "ch04_10",
+  "chapter": 4,
+  "background": "bg_town_slope_night",
+  "bgm": "bgm_jinpachi",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ジンパチの素材＝名も知らぬ誰か。「名前がねえのかよ、俺には」）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C29）",
+      "options": [
+        {
+          "text": "（未執筆: C29 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C29 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch04_11"
+}

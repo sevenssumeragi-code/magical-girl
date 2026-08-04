@@ -1,0 +1,23 @@
+{
+  "id": "ch04_04",
+  "chapter": 4,
+  "background": "bg_flashback_ruin",
+  "bgm": "bgm_geru_theme",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_10_geru_wish"
+    },
+    {
+      "type": "narration",
+      "text": "（未執筆: 回想：願い「もう二度と、独りで戦いたくない」）"
+    },
+    {
+      "type": "flag",
+      "set": {
+        "truth_wish": true
+      }
+    }
+  ],
+  "next": "ch04_05"
+}

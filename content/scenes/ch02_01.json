@@ -1,0 +1,26 @@
+{
+  "id": "ch02_01",
+  "chapter": 2,
+  "chapterTitle": "第二章 ─ 翳る",
+  "background": "bg_school_classroom",
+  "bgm": "bgm_daily_01",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 燼核の残量が乏しいと判明。狩り場の割り当て）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C10）",
+      "options": [
+        {
+          "text": "（未執筆: C10 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C10 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch02_02"
+}

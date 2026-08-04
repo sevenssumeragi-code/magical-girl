@@ -1,0 +1,25 @@
+{
+  "id": "ch03_08",
+  "chapter": 3,
+  "background": "bg_town_park",
+  "bgm": "bgm_muni",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ムニとの時間。彼が急速に幼くなっていく）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C24）",
+      "options": [
+        {
+          "text": "（未執筆: C24 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C24 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch03_09"
+}

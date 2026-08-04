@@ -1,0 +1,17 @@
+{
+  "id": "ch03_13",
+  "chapter": 3,
+  "background": "bg_ruin_street_night",
+  "bgm": "bgm_shock",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_09_not_human"
+    },
+    {
+      "type": "narration",
+      "text": "（未執筆: ネオ「貴様らは、人間ではない」 **章末**）"
+    }
+  ],
+  "next": "ch04_01"
+}

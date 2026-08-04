@@ -1,0 +1,25 @@
+{
+  "id": "ch01_02",
+  "chapter": 1,
+  "background": "bg_school_classroom",
+  "bgm": "bgm_daily_01",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 拠点の教室。ジンパチが噛みつき、ヒュウが取りなす）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C03）",
+      "options": [
+        {
+          "text": "（未執筆: C03 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C03 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch01_03"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "ch03_04",
+  "chapter": 3,
+  "background": "bg_school_storage",
+  "bgm": "bgm_horror",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_08_hyu_hoard"
+    },
+    {
+      "type": "narration",
+      "text": "（未執筆: **善意→最悪②**：ヒュウが燼核を独占していたと露見。動機はゲルの負担軽減）"
+    },
+    {
+      "type": "flag",
+      "set": {
+        "hyu_hoarded": true
+      }
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C20）",
+      "options": [
+        {
+          "text": "（未執筆: C20 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C20 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch03_05"
+}

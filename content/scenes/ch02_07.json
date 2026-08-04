@@ -1,0 +1,17 @@
+{
+  "id": "ch02_07",
+  "chapter": 2,
+  "background": "bg_school_classroom",
+  "bgm": "bgm_tension",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_07_neo_appear"
+    },
+    {
+      "type": "narration",
+      "text": "（未執筆: **ネオ初登場**。燼核を奪い、6人を一蹴して去る）"
+    }
+  ],
+  "next": "ch02_08"
+}

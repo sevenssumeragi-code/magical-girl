@@ -1,0 +1,13 @@
+{
+  "id": "pr_04",
+  "chapter": 0,
+  "background": "bg_school_gate_night",
+  "bgm": "bgm_tension",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 「僕はいつ契約したの」→《あなたはもう、契約を終えています》**章末**）"
+    }
+  ],
+  "next": "ch01_01"
+}

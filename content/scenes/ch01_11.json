@@ -1,0 +1,17 @@
+{
+  "id": "ch01_11",
+  "chapter": 1,
+  "background": "bg_school_classroom",
+  "bgm": "bgm_quiet",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_03_six_cores"
+    },
+    {
+      "type": "narration",
+      "text": "（未執筆: 戦闘後。**伏線B設置**：6人の灯核を並べ、ハルのだけ無色）"
+    }
+  ],
+  "next": "ch01_12"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ch04_13",
+  "chapter": 4,
+  "background": "bg_school_rooftop_night",
+  "bgm": "bgm_quiet",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 残された者たちの夜。ハルが選択を迫られる）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C31）",
+      "options": [
+        {
+          "text": "（未執筆: C31 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C31 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch04_14"
+}

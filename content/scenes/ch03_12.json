@@ -1,0 +1,13 @@
+{
+  "id": "ch03_12",
+  "chapter": 3,
+  "background": "bg_ruin_street_night",
+  "bgm": "bgm_neo",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ネオがゲルの前に立つ。ハルが割って入る）"
+    }
+  ],
+  "next": "ch03_13"
+}

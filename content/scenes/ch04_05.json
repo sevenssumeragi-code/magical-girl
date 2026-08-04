@@ -1,0 +1,17 @@
+{
+  "id": "ch04_05",
+  "chapter": 4,
+  "background": "bg_eikai_void",
+  "bgm": "bgm_shock",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_11_manifestation"
+    },
+    {
+      "type": "narration",
+      "text": "（未執筆: 願いの成就の仕方。翳から5体が実体化した記録）"
+    }
+  ],
+  "next": "ch04_06"
+}

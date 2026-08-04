@@ -1,0 +1,25 @@
+{
+  "id": "ch02_12",
+  "chapter": 2,
+  "background": "bg_school_rooftop_night",
+  "bgm": "bgm_geru",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ゲルがムニの異変に何かを察している素振り）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C17）",
+      "options": [
+        {
+          "text": "（未執筆: C17 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C17 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch02_13"
+}

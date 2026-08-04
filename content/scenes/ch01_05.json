@@ -1,0 +1,13 @@
+{
+  "id": "ch01_05",
+  "chapter": 1,
+  "background": "bg_school_rooftop_night",
+  "bgm": "bgm_quiet",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ゲルから灯守のルール説明。翳・燼核・墜化）"
+    }
+  ],
+  "next": "ch01_06"
+}

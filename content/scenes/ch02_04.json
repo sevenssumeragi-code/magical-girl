@@ -1,0 +1,25 @@
+{
+  "id": "ch02_04",
+  "chapter": 2,
+  "background": "bg_school_rooftop_day",
+  "bgm": "bgm_renny",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: レニィがムニに付き添う。二人が並ぶ絵の違和感）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C12）",
+      "options": [
+        {
+          "text": "（未執筆: C12 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C12 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch02_05"
+}

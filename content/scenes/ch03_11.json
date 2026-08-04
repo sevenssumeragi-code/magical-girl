@@ -1,0 +1,13 @@
+{
+  "id": "ch03_11",
+  "chapter": 3,
+  "background": "bg_school_gate_night",
+  "bgm": "bgm_geru",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ゲルが単独で街を出ようとしている。引き止めるか）"
+    }
+  ],
+  "next": "ch03_12"
+}

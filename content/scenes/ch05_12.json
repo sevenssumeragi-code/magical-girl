@@ -1,0 +1,13 @@
+{
+  "id": "ch05_12",
+  "chapter": 5,
+  "background": "bg_eikai_core",
+  "bgm": "bgm_despair",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 選択の実行（分岐集約点B：絶望系））"
+    }
+  ],
+  "next": "ch05_13"
+}

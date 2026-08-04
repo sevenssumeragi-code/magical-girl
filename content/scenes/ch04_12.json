@@ -1,0 +1,34 @@
+{
+  "id": "ch04_12",
+  "chapter": 4,
+  "background": "bg_town_park",
+  "bgm": "bgm_sad",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_13_farewell",
+      "variant": "muni"
+    },
+    {
+      "type": "narration",
+      "text": "（未執筆: **決別確定シーン**（分岐：ムニ／レニィ／ゲル））"
+    },
+    {
+      "type": "resolveFate",
+      "what": "departed"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C30）",
+      "options": [
+        {
+          "text": "（未執筆: C30 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C30 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch04_13"
+}

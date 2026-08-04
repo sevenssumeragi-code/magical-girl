@@ -1,0 +1,29 @@
+{
+  "id": "ch05_10",
+  "chapter": 5,
+  "background": "bg_eikai_core",
+  "bgm": "bgm_quiet",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_14_core_depth"
+    },
+    {
+      "type": "narration",
+      "text": "（未執筆: 灯核の最深部。3年前のゲルが独りで座っている）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C36）",
+      "options": [
+        {
+          "text": "（未執筆: C36 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C36 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch05_11"
+}

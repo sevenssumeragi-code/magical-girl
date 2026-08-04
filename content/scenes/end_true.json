@@ -1,0 +1,19 @@
+{
+  "id": "end_true",
+  "chapter": 5,
+  "chapterTitle": "余白に灯る",
+  "background": "bg_epilogue_dawn",
+  "bgm": "bgm_true",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_15_true_end"
+    },
+    {
+      "type": "narration",
+      "text": "（未執筆: TRUE 余白に灯る）"
+    }
+  ],
+  "next": null,
+  "ending": "end_true"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ch04_08",
+  "chapter": 4,
+  "background": "bg_school_rooftop_night",
+  "bgm": "bgm_geru_theme",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: **伏線C回収**：ゲルの浄化が不完全な理由。5人分を支え続けている）"
+    }
+  ],
+  "next": "ch04_09"
+}

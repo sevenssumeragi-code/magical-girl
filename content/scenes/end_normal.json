@@ -1,0 +1,15 @@
+{
+  "id": "end_normal",
+  "chapter": 5,
+  "chapterTitle": "続く朝",
+  "background": "bg_school_classroom",
+  "bgm": "bgm_daily_01",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: NORMAL 続く朝）"
+    }
+  ],
+  "next": null,
+  "ending": "end_normal"
+}

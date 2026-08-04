@@ -1,0 +1,15 @@
+{
+  "id": "end_bad_c",
+  "chapter": 5,
+  "chapterTitle": "墜ちる",
+  "background": "bg_eikai_void",
+  "bgm": "bgm_horror",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: BAD C 墜ちる）"
+    }
+  ],
+  "next": null,
+  "ending": "end_bad_c"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ch02_09",
+  "chapter": 2,
+  "background": "bg_school_corridor",
+  "bgm": "bgm_jinpachi",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ジンパチが激昂。単独でネオを狩ると言い出す）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C15）",
+      "options": [
+        {
+          "text": "（未執筆: C15 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C15 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch02_10"
+}

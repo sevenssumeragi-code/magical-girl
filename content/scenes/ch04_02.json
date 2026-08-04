@@ -1,0 +1,13 @@
+{
+  "id": "ch04_02",
+  "chapter": 4,
+  "background": "bg_school_classroom",
+  "bgm": "bgm_shell",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: シェルを呼び出し、問い質す。**「訊かれなかったから答えなかった」**）"
+    }
+  ],
+  "next": "ch04_03"
+}

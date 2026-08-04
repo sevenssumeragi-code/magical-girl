@@ -1,0 +1,17 @@
+{
+  "id": "ch01_14",
+  "chapter": 1,
+  "background": "bg_school_corridor",
+  "bgm": "bgm_tension",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_05_geru_core"
+    },
+    {
+      "type": "narration",
+      "text": "（未執筆: **伏線C設置**：燼核使用後、ゲルの灯核だけ翳が残る。ハルが見てしまう。ゲルは「体質だ」と隠す **章末**）"
+    }
+  ],
+  "next": "ch02_01"
+}

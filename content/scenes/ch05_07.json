@@ -1,0 +1,13 @@
+{
+  "id": "ch05_07",
+  "chapter": 5,
+  "background": "bg_eikai_final",
+  "bgm": "bgm_battle_03",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 最終戦・前半。ゲルの灯核に潜る）"
+    }
+  ],
+  "next": "ch05_08"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ch02_05",
+  "chapter": 2,
+  "background": "bg_town_park",
+  "bgm": "bgm_daily_02",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: **善意→最悪①**：ハルがムニを戦線から外す判断。ムニは喜ぶが…）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C13）",
+      "options": [
+        {
+          "text": "（未執筆: C13 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C13 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch02_06"
+}

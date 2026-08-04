@@ -1,0 +1,25 @@
+{
+  "id": "pr_03",
+  "chapter": 0,
+  "background": "bg_ruin_street_night",
+  "bgm": "bgm_shell",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: シェル登場。灯守の説明。ハルの灯核が示される）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C01）",
+      "options": [
+        {
+          "text": "（未執筆: C01 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C01 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "pr_04"
+}

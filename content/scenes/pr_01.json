@@ -1,0 +1,18 @@
+{
+  "id": "pr_01",
+  "chapter": 0,
+  "chapterTitle": "プロローグ ─ 無色",
+  "background": "bg_ruin_street_night",
+  "bgm": "bgm_prologue",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_01_awakening"
+    },
+    {
+      "type": "narration",
+      "text": "（未執筆: 崩れた街路でハルが目覚める。記憶がない。自分の名前だけが分かる）"
+    }
+  ],
+  "next": "pr_02"
+}

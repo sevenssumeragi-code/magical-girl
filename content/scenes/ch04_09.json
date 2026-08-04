@@ -1,0 +1,25 @@
+{
+  "id": "ch04_09",
+  "chapter": 4,
+  "background": "bg_school_classroom",
+  "bgm": "bgm_tension",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ヒュウの素材＝墜化した先輩。彼が最も墜化に近い）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C28）",
+      "options": [
+        {
+          "text": "（未執筆: C28 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C28 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch04_10"
+}

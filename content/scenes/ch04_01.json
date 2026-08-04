@@ -1,0 +1,33 @@
+{
+  "id": "ch04_01",
+  "chapter": 4,
+  "chapterTitle": "第四章 ─ 暴く",
+  "background": "bg_ruin_street_night",
+  "bgm": "bgm_shock",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ネオの断言の余波。全員が動揺）"
+    },
+    {
+      "type": "flag",
+      "set": {
+        "truth_neo_origin": true,
+        "neo_identity_revealed": true
+      }
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C26）",
+      "options": [
+        {
+          "text": "（未執筆: C26 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C26 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch04_02"
+}

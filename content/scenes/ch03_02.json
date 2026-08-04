@@ -1,0 +1,25 @@
+{
+  "id": "ch03_02",
+  "chapter": 3,
+  "background": "bg_town_shopping",
+  "bgm": "bgm_hyu",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ヒュウの様子がおかしい。単独行動が増える）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C19）",
+      "options": [
+        {
+          "text": "（未執筆: C19 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C19 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch03_03"
+}

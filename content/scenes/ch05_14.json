@@ -1,0 +1,16 @@
+{
+  "id": "ch05_14",
+  "chapter": 5,
+  "background": "bg_eikai_core",
+  "bgm": "bgm_ending_bridge",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: エンディング判定処理シーン）"
+    },
+    {
+      "type": "resolveEnding"
+    }
+  ],
+  "next": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ch01_01",
+  "chapter": 1,
+  "chapterTitle": "第一章 ─ 灯る",
+  "background": "bg_school_gate_night",
+  "bgm": "bgm_daily_01",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 廃校の門でゲルに誰何される。剣呑な初対面）"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C02）",
+      "options": [
+        {
+          "text": "（未執筆: C02 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C02 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch01_02"
+}

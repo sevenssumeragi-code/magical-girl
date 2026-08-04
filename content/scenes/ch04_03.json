@@ -1,0 +1,13 @@
+{
+  "id": "ch04_03",
+  "chapter": 4,
+  "background": "bg_flashback_ruin",
+  "bgm": "bgm_geru_theme",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 回想：3年前。家族を喪ったゲル。独りの戦い）"
+    }
+  ],
+  "next": "ch04_04"
+}

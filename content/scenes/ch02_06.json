@@ -1,0 +1,13 @@
+{
+  "id": "ch02_06",
+  "chapter": 2,
+  "background": "bg_eikai_clock",
+  "bgm": "bgm_battle_02",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ムニ抜きの戦闘。負担がゲルに集中する）"
+    }
+  ],
+  "next": "ch02_07"
+}

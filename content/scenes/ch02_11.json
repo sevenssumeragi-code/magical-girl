@@ -1,0 +1,13 @@
+{
+  "id": "ch02_11",
+  "chapter": 2,
+  "background": "bg_school_infirmary",
+  "bgm": "bgm_sad",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: ムニが目覚める。だが「きのうのこと」を覚えていない）"
+    }
+  ],
+  "next": "ch02_12"
+}

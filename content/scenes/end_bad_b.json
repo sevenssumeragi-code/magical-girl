@@ -1,0 +1,15 @@
+{
+  "id": "end_bad_b",
+  "chapter": 5,
+  "chapterTitle": "独りの灯守",
+  "background": "bg_ruin_street_night",
+  "bgm": "bgm_despair",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: BAD B 独りの灯守）"
+    }
+  ],
+  "next": null,
+  "ending": "end_bad_b"
+}

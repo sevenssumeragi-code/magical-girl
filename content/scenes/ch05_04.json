@@ -1,0 +1,25 @@
+{
+  "id": "ch05_04",
+  "chapter": 5,
+  "background": "bg_school_rooftop_night",
+  "bgm": "bgm_quiet",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "（未執筆: 仲間との最後の対話（絆値により登場者が変動））"
+    },
+    {
+      "type": "choice",
+      "prompt": "（未執筆: C34）",
+      "options": [
+        {
+          "text": "（未執筆: C34 選択肢A）"
+        },
+        {
+          "text": "（未執筆: C34 選択肢B）"
+        }
+      ]
+    }
+  ],
+  "next": "ch05_05"
+}
