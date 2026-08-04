@@ -4,22 +4,53 @@
   "background": "bg_town_shopping",
   "bgm": "bgm_hyu",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: ヒュウと二人で街へ。ナルシシズムの下の観察眼）"
-    },
+    { "type": "narration", "text": "夕方の商店街は、半分がシャッターだった。" },
+    { "type": "narration", "text": "開いている店と閉まっている店が、一軒ずつ交互に並んでいる。生きている街と死んだ街の境目が、この通りを縦に走っているみたいだった。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "さて。荷物持ちを頼んだのは私ですが、実のところ、あなたを見ておきたかったのですよ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……試されてるってこと?" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "人聞きの悪い。鑑賞、と言ってください" },
+    { "type": "narration", "text": "ヒュウは歩きながら、ショーウィンドウのガラスに映る自分をさりげなく確認した。前髪の角度を、指で一度だけ直す。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "……ええ、今日も悪くありません。この街には少々もったいないくらいです" },
+    { "type": "narration", "text": "本気で言っている。それが分かるから、かえって嫌味がない。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "ところで。ジンパチくんとは、うまくやれそうですか" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "たぶん。怒鳴られてるけど、嫌われてはいないと思う" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "そのとおりです。彼は嫌いな相手には怒鳴りません。無視をします" },
+    { "type": "narration", "text": "さらりと言った。この人は、よく見ている。" },
+    { "type": "narration", "text": "自分の話ばかりしているように見えて、その実、部屋にいる全員の位置をいつも把握している人だ。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "ムニは? 懐かれたようですね" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "いなくなったりしないか、って訊かれた" },
+    { "type": "narration", "text": "ヒュウの足が、半歩ぶん遅れた。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "……そうですか" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "誰かいなくなったことがあるの" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "いいえ。この六人になってから、欠けたことは一度もありません" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "……ですから、余計に不思議なのですよ。あの子が、なぜあんなに怯えるのか" },
+    { "type": "narration", "text": "シャッターの前を、風が転がる空き缶を運んでいった。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C07）",
+      "prompt": "この人の自慢話に、どう付き合おう。",
       "options": [
         {
-          "text": "（未執筆: C07 選択肢A）"
+          "text": "「その前髪、こだわりあるんだね」と乗ってみる",
+          "bond": { "hyu": 6, "geru": -3 }
         },
         {
-          "text": "（未執筆: C07 選択肢B）"
+          "text": "「今の話、もっと聞かせて」と流れを戻す",
+          "bond": { "hyu": -3, "geru": 3 }
         }
       ]
-    }
+    },
+    { "type": "narration", "text": "ヒュウは、片方だけ見えている赤い目を細めた。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "……あなたは、思ったより厄介な方ですね" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "え" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "褒めています。私の話を、真に受けもせず、切り捨てもしない。そういう方は少ないのです" },
+    { "type": "narration", "text": "買い物袋を持ち直しながら、彼は前を向いた。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "ひとつだけ、忠告を差し上げましょう" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "ゲルには、あまり深く踏み込まないほうがよろしいでしょう" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……どうして" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "あの方は、三年ひとりで戦っていました。私たちが来る前から、ずっと" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "ひとりで立っていられる人というのは、支えようとする手を、重さとしてしか感じられないことがあるのですよ" },
+    { "type": "narration", "text": "その言い方には、経験の裏打ちがあった。" },
+    { "type": "narration", "text": "誰かを支えようとして、失敗したことのある人の言い方だった。" }
   ],
   "next": "ch01_09"
 }

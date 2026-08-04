@@ -4,10 +4,39 @@
   "background": "bg_school_rooftop_night",
   "bgm": "bgm_quiet",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: ゲルから灯守のルール説明。翳・燼核・墜化）"
-    }
+    { "type": "narration", "text": "屋上に上がると、風が思ったより強かった。" },
+    { "type": "narration", "text": "錆びたフェンスの向こうに、汐灘の夜景が広がっている。坂に沿って灯りが段々に並び、その先は黒い。海だ。" },
+    { "type": "narration", "text": "灯りの列が、途中でごっそり途切れている場所がある。あの崩れた区画だ。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "覚えることは三つだ" },
+    { "type": "narration", "text": "ゲルはフェンスにもたれて、前置きもなく始めた。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "一つ。灯核が本体だ。身体がどうなっても灯核が無事なら死なない。逆も同じだ" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "二つ。戦えば灯核に翳が溜まる。感情でも溜まる。腹を立てても、誰かを憎んでもだ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……溜まりきったら?" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "墜化する。お前が今夜倒したやつになる" },
+    { "type": "narration", "text": "背筋が冷えた。" },
+    { "type": "narration", "text": "あの、泣いていた黒い塊。あれは、もとは僕たちと同じだったのか。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "三つ。翳は燼核で吸い出せる。墜者を倒すと落ちる、黒い核だ" },
+    { "type": "narration", "text": "ポケットから、彼女は小指の先ほどの黒い粒を取り出した。表面が濡れたように光っている。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "使える回数は決まってる。無駄遣いするな" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……つまり、墜者を倒さないと、僕たちが墜者になる" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "そうだ" },
+    { "type": "narration", "text": "よくできている、と思ってしまった。" },
+    { "type": "narration", "text": "誰かが設計したみたいに、無駄がない。逃げ道もない。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "……ひどい仕組みだね" },
+    { "type": "narration", "text": "ゲルは、初めてこちらを正面から見た。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "surprised", "text": "……" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "そうだな" },
+    { "type": "narration", "text": "それだけだった。" },
+    { "type": "narration", "text": "でも、その二文字を言うまでに、彼女は少しだけ間を置いた。" },
+    { "type": "sfx", "asset": "se_wind" },
+    { "type": "narration", "text": "風がフェンスを鳴らす。ゲルは夜景のほうへ向き直った。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "最後にもう一つ。私たちは六人だ。お前を入れて七人になる" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "多すぎる。本当なら、こんなに集まるものじゃない" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……そうなの?" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "ああ。灯守は、普通は街にひとりかふたりだ" },
+    { "type": "narration", "text": "その言い方には、誇るところも、不思議がるところもなかった。" },
+    { "type": "narration", "text": "ただ、事実を並べているだけだった。" },
+    { "type": "narration", "text": "──だから僕も、そのときは何も引っかからなかったのだ。" }
   ],
   "next": "ch01_06"
 }

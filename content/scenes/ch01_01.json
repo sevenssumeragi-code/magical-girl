@@ -5,22 +5,49 @@
   "background": "bg_school_gate_night",
   "bgm": "bgm_daily_01",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: 廃校の門でゲルに誰何される。剣呑な初対面）"
-    },
+    { "type": "narration", "text": "門をくぐろうとした瞬間、首筋が冷たくなった。" },
+    { "type": "narration", "text": "刃だ、と分かったのは、それが喉に触れてからだった。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "動くな" },
+    { "type": "narration", "text": "低い声だった。女の子の声なのに、抑揚がまるでない。" },
+    { "type": "narration", "text": "視界の端に、紫の髪が揺れる。肩までのボブ。同じ年くらいに見える。制服のスカートの下に黒いスパッツを穿いていて、走ることしか考えていない格好だった。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "見ない顔だな。名前は" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……{name}" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "灯核を出せ。ゆっくりだ" },
+    { "type": "narration", "text": "言われたとおりにする。手のひらに、透明な珠が浮かんだ。" },
+    { "type": "narration", "text": "刃が、わずかに離れた。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "surprised", "text": "……色が無いな" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "そうみたいだね" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "珍しい。まあいい" },
+    { "type": "narration", "text": "それだけだった。彼女はもう灯核から目を離していた。" },
+    { "type": "narration", "text": "──あとになって思う。ここで一度でも深く訊いていれば、僕たちは半年ぶんくらい早く、何もかもを知っていたかもしれない。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《ゲル。この子は今夜、墜者を一体倒しました》" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "お前が連れてきたのか。勝手なことを" },
+    { "type": "dialogue", "speaker": "shell", "expression": "tilt", "text": "《行くあてが無いようでしたので》" },
+    { "type": "narration", "text": "ゲル、というらしい。刃を下ろしても、彼女の目つきは少しも緩まなかった。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C02）",
+      "prompt": "何か言わないと、このまま追い返されそうだった。",
       "options": [
         {
-          "text": "（未執筆: C02 選択肢A）"
+          "text": "「……いきなり刃物はどうかと思う」",
+          "bond": { "geru": -3, "jinpachi": 3 }
         },
         {
-          "text": "（未執筆: C02 選択肢B）"
+          "text": "「行くところがないんだ。置いてほしい」",
+          "bond": { "geru": 3, "jinpachi": -3 }
+        },
+        {
+          "text": "「怖い先輩がいるって聞いてないんだけど」",
+          "bond": { "geru": -3, "jinpachi": 3 }
         }
       ]
-    }
+    },
+    { "type": "narration", "text": "ゲルは、少しのあいだ黙って僕を見ていた。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "……ついてこい。判断は上でする" },
+    { "type": "narration", "text": "背を向けて歩き出す。振り返らない。" },
+    { "type": "narration", "text": "ついていきながら、僕はひとつだけ気づいたことがあった。" },
+    { "type": "narration", "text": "刃を突きつけていたあいだも、彼女の手はまったく震えていなかった。" },
+    { "type": "narration", "text": "そういう手になるまでに、何年かかるんだろう。" }
   ],
   "next": "ch01_02"
 }

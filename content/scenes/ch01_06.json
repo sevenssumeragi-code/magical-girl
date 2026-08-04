@@ -4,10 +4,38 @@
   "background": "bg_town_slope_day",
   "bgm": "bgm_daily_02",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: 昼の街。日常パート。ハルの居場所（空き教室）が決まる）"
-    }
+    { "type": "narration", "text": "昼の汐灘は、夜とはまったく別の街だった。" },
+    { "type": "narration", "text": "海へ下る長い坂。密集した屋根。塀の上で伸びている猫。自転車を押して登ってくる主婦。" },
+    { "type": "narration", "text": "この人たちは、夜に街の一部が裂けていることを知らない。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "そこ、段差あるよ" },
+    { "type": "narration", "text": "言われたときには、もうつまずいていた。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "遅かったねぇ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "……教えるのが遅いんだよ" },
+    { "type": "narration", "text": "レニィは笑って、また少しあくびをした。" },
+    { "type": "narration", "text": "買い出しの帰りだった。両手にビニール袋を提げて、坂を登っている。中身はほとんど水と、日持ちのする食べ物だ。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "ねえ。みんな、学校は" },
+    { "type": "dialogue", "speaker": "renny", "expression": "normal", "text": "行ってないよ。ジンパチとヒュウは、たまに行ってるみたいだけど" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "夜に狩りに出るとね、朝は無理なんだ" },
+    { "type": "narration", "text": "袋を持ち直しながら、彼は少しだけ真面目な顔をした。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "normal", "text": "ゲルはずっと前からああだよ。僕たちが来る前から" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……僕たち?" },
+    { "type": "dialogue", "speaker": "renny", "expression": "normal", "text": "うん。僕もヒュウもジンパチもムニも、気がついたらここにいたから" },
+    { "type": "narration", "text": "足が止まりかけた。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……気がついたら?" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "そういう言い方するとおかしいねぇ。契約したのは覚えてるよ、たぶん" },
+    { "type": "dialogue", "speaker": "renny", "expression": "normal", "text": "たぶん、っていうのは、うまく思い出せないからなんだけど" },
+    { "type": "narration", "text": "レニィはそこで話を切って、坂の上を指した。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "ほら、着いたよ" },
+    { "type": "narration", "text": "廃校の門が、昼の光の中では驚くほど普通に見えた。ただの古い建物だ。" },
+    { "type": "narration", "text": "その日のうちに、僕の場所が決まった。" },
+    { "type": "narration", "text": "拠点の隣の空き教室。埃を払って、寝袋をひとつ置いただけの部屋。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "normal", "text": "雨漏りすんぞ、そこ。窓際は避けとけ" },
+    { "type": "narration", "text": "そう言いながら、ジンパチは自分の毛布をひとつ放ってよこした。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……いいの" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "勘違いすんな。風邪ひかれると、こっちの手が減るってだけだ" },
+    { "type": "narration", "text": "毛布は、太陽の匂いがした。ちゃんと干してある匂いだった。" },
+    { "type": "narration", "text": "疑ってるって、あんなに大声で言っていた人が。" },
+    { "type": "narration", "text": "その夜、僕は生まれて初めて──たぶん初めて、屋根のある場所で眠った。" }
   ],
   "next": "ch01_07"
 }

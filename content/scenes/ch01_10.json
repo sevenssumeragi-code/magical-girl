@@ -4,22 +4,65 @@
   "background": "bg_eikai_garden",
   "bgm": "bgm_battle_02",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: 戦闘継続。ハルが庇う相手を選ぶ）"
-    },
+    { "type": "narration", "text": "崩れたのは、一瞬だった。" },
+    { "type": "narration", "text": "墜者の腕が、束になって薙いだ。ムニの止めていた輪の外側から、造花の壁ごと。" },
+    { "type": "sfx", "asset": "se_impact" },
+    { "type": "dialogue", "speaker": "muni", "expression": "surprised", "text": "……あ" },
+    { "type": "narration", "text": "静けさが破れた。止まっていた花が、いっせいに牙になって降ってくる。" },
+    { "type": "narration", "text": "全員がばらばらに吹き飛ばされた。" },
+    { "type": "narration", "text": "受け身を取って顔を上げる。視界の中に、四人が同時に入った。" },
+    { "type": "narration", "text": "レニィは──足を取られて転んでいる。起き上がろうとして、間に合わない。" },
+    { "type": "narration", "text": "ジンパチは──正面から受け止めようとしている。無茶だ。あの本数は捌けない。" },
+    { "type": "narration", "text": "ヒュウは──外套が壁に縫い留められて、動けない。" },
+    { "type": "narration", "text": "ムニは──立ち尽くしている。逃げようともしていない。" },
+    { "type": "narration", "text": "身体は、ひとつしかない。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C08）",
+      "prompt": "誰の前に、割って入るか。",
       "options": [
         {
-          "text": "（未執筆: C08 選択肢A）"
+          "text": "レニィを庇う",
+          "bond": { "renny": 10, "jinpachi": -3, "hyu": -3 },
+          "taint": 4
         },
         {
-          "text": "（未執筆: C08 選択肢B）"
+          "text": "ジンパチを庇う",
+          "bond": { "jinpachi": 10, "renny": -3, "muni": -3 },
+          "taint": 4
+        },
+        {
+          "text": "ヒュウを庇う",
+          "bond": { "hyu": 10, "jinpachi": -3, "muni": -3 },
+          "taint": 4
+        },
+        {
+          "text": "ムニを庇う",
+          "bond": { "muni": 10, "renny": -3, "hyu": -3 },
+          "taint": 4
         }
       ]
-    }
+    },
+    { "type": "narration", "text": "間に合った。" },
+    { "type": "narration", "text": "槍を横に倒して、降ってくるものを全部受けた。腕の骨が軋む音が、身体の内側から聞こえた。" },
+    { "type": "sfx", "asset": "se_impact" },
+    { "type": "narration", "text": "そして、間に合わなかったほうの音も、同時に聞こえた。" },
+    { "type": "narration", "text": "誰かが吹き飛ばされて、造花の海に沈む音。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "──全員伏せろ!" },
+    { "type": "narration", "text": "ゲルが、真上から落ちてきた。" },
+    { "type": "narration", "text": "紫の刃が、墜者の腕の付け根をまとめて断つ。返す動きで中心に潜り込み、そのまま一息に貫いた。" },
+    { "type": "sfx", "asset": "se_shatter" },
+    { "type": "narration", "text": "花壇が、内側から崩れていく。" },
+    { "type": "narration", "text": "造花が一枚ずつ黒く縮んで、灰になって落ちる。地平線まで続いていた花畑が、端から消えていった。" },
+    { "type": "narration", "text": "最後に、小さな黒い核がひとつ残った。" },
+    { "type": "narration", "text": "遊歩道に戻ってきたとき、僕たちは全員、どこかしら傷を負っていた。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "{name}。次からは、庇うな" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……え" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "お前が一人を庇えば、残りが三人になる。数の計算をしろ" },
+    { "type": "narration", "text": "正しい。ひとつも間違っていない。" },
+    { "type": "narration", "text": "それなのに、僕はうまく頷けなかった。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "……ゲル。それ、今言わなくてもいいと思うよ" },
+    { "type": "narration", "text": "レニィが、めずらしく低い声で言った。" },
+    { "type": "narration", "text": "ゲルは何も答えず、燼核を拾って歩き出した。" }
   ],
   "next": "ch01_11"
 }

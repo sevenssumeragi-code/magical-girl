@@ -35,7 +35,7 @@ function pronounRegex(token) {
 }
 
 /** 敬体の目印。ヒュウの台詞は必ずいずれかを含む。 */
-const POLITE = /(です|ます|ましょ|ませ|でしょ|ください|ございま)/;
+const POLITE = /(です|でし|ます|まし|ませ|でしょ|ください|ございま)/;
 /** 短い感嘆・相槌は敬体判定の対象外にする。 */
 const POLITE_EXEMPT_LENGTH = 8;
 
@@ -94,6 +94,21 @@ function check(file, sceneId, index, line) {
 
   if (line.speaker === 'hyu' && text.length >= POLITE_EXEMPT_LENGTH && !POLITE.test(text)) {
     violations.push({ file, sceneId, index, speaker: 'hyu', rule: '敬語でない台詞', text });
+  }
+
+  // 台詞は話者名を別枠で表示するため、本文に鉤括弧を含めない規約。
+  // 執筆時の閉じ括弧の書き残しをここで検出する。
+  for (const bracket of ['「', '」']) {
+    if (text.includes(bracket)) {
+      violations.push({
+        file,
+        sceneId,
+        index,
+        speaker: line.speaker,
+        rule: `台詞本文に鉤括弧「${bracket}」が混入しています`,
+        text,
+      });
+    }
   }
 
   if (line.speaker === 'muni' && text.includes('僕')) {

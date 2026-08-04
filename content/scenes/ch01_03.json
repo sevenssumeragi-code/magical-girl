@@ -4,22 +4,59 @@
   "background": "bg_school_classroom",
   "bgm": "bgm_renny",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: レニィが机で寝ている。起こす／起こさない）"
-    },
+    { "type": "narration", "text": "作業台の端で、誰かが突っ伏して寝ていた。" },
+    { "type": "narration", "text": "青い髪。ふわりとした癖毛が、机の上に広がっている。制服の上着のボタンは、ひとつもかかっていない。" },
+    { "type": "narration", "text": "この騒ぎの中で、よく眠れるものだ。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "normal", "text": "レニィだ。放っとけ。そいつは大体寝てる" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "昨夜も一昨夜も、狩りの帰りに歩きながら寝ていましたよ。器用なものです" },
+    { "type": "sfx", "asset": "se_bell" },
+    { "type": "narration", "text": "遠くで、どこかの学校のチャイムが鳴った。こんな時間に鳴るはずがないのに。" },
+    { "type": "narration", "text": "その音で、青い頭がもぞりと動いた。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C04）",
+      "prompt": "起こしたものか、迷った。",
       "options": [
         {
-          "text": "（未執筆: C04 選択肢A）"
+          "text": "肩を叩いて起こす",
+          "bond": { "renny": 6, "jinpachi": -3 },
+          "flags": { "woke_renny": true }
         },
         {
-          "text": "（未執筆: C04 選択肢B）"
+          "text": "そっとしておく",
+          "bond": { "renny": -3, "geru": 3 },
+          "flags": { "woke_renny": false }
         }
       ]
-    }
+    },
+    {
+      "type": "narration",
+      "text": "肩に触れると、思っていたよりずっと薄い骨の感触がした。",
+      "requires": { "flags": { "woke_renny": true } }
+    },
+    {
+      "type": "narration",
+      "text": "起こすのはやめておいた。この人が寝ているのは、たぶん今夜だけのことじゃない。",
+      "requires": { "flags": { "woke_renny": false } }
+    },
+    { "type": "narration", "text": "それでも、彼はゆっくりと顔を上げた。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "normal", "text": "……ん。もう朝だっけ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "夜だ" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "そっかあ。じゃあまだ寝ててよかったんだねぇ" },
+    { "type": "narration", "text": "とろけたような声だった。緊張していた部屋の空気が、その一言でだいぶ緩んだ気がする。" },
+    { "type": "narration", "text": "彼は僕を見て、二回まばたきをした。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "surprised", "text": "あれ。知らない人がいる" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "今日から、たぶんお世話になる。{name}っていう" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "僕はレニィ。よろしくね" },
+    { "type": "narration", "text": "差し出された手を握る。ひんやりしていた。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "normal", "text": "ジンパチ、この人怒鳴った?" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "怒鳴ってねえよ" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "怒鳴ったんだね。ジンパチはすぐ怒鳴るんだよ。でも三日くらいで慣れるよ" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "レニィ。三日というのは、少々楽観が過ぎるのではありませんか" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "ヒュウは慣れるまで一ヶ月かかったもんね" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "surprised", "text": "……その話は、しない約束だったはずですが" },
+    { "type": "narration", "text": "呼び捨てだ。ジンパチのことも、ヒュウのことも。" },
+    { "type": "narration", "text": "この人だけが、この部屋の誰にも敬語を使っていない。それがひどく自然に見えた。" },
+    { "type": "narration", "text": "そしてレニィは、僕の手を握ったまま、また少し船を漕いだ。" }
   ],
   "next": "ch01_04"
 }

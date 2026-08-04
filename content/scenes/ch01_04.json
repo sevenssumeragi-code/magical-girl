@@ -4,22 +4,63 @@
   "background": "bg_school_corridor",
   "bgm": "bgm_muni",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: ムニが物陰から様子を窺っている。手を差し出すか）"
-    },
+    { "type": "narration", "text": "水を汲みに廊下へ出た。" },
+    { "type": "narration", "text": "窓ガラスは半分が割れていて、床には外から吹き込んだ落ち葉が溜まっている。踏むと、乾いた音が奥まで響いた。" },
+    { "type": "narration", "text": "その音が止まったとき、別の音が残った。" },
+    { "type": "sfx", "asset": "se_footstep" },
+    { "type": "narration", "text": "掃除用具入れの陰。小さな靴の先が、ほんの少しだけはみ出している。" },
+    { "type": "narration", "text": "覗き込むと、丸い目とぶつかった。" },
+    { "type": "narration", "text": "五歳くらいだろうか。青い髪の男の子が、大きすぎるパーカーの袖を握りしめて、こちらを見上げていた。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "surprised", "text": "……っ" },
+    { "type": "narration", "text": "逃げようとして、逃げなかった。用具入れの縁を掴んだまま、半分だけ顔を隠している。" },
+    { "type": "narration", "text": "怖いのに、見ていたいのだと思った。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C05）",
+      "prompt": "どうしよう。",
       "options": [
         {
-          "text": "（未執筆: C05 選択肢A）"
+          "text": "しゃがんで、手を差し出す",
+          "bond": { "muni": 6, "geru": 3 },
+          "flags": { "reached_for_muni": true }
         },
         {
-          "text": "（未執筆: C05 選択肢B）"
+          "text": "何もせず、そのまま待つ",
+          "bond": { "muni": 3, "geru": 3 },
+          "flags": { "reached_for_muni": false }
         }
       ]
-    }
+    },
+    {
+      "type": "narration",
+      "text": "膝をついて、手のひらを上に向けた。犬にするみたいだと思って、少しだけ申し訳なくなった。",
+      "requires": { "flags": { "reached_for_muni": true } }
+    },
+    {
+      "type": "narration",
+      "text": "動かずに待った。追いかけたら、この子はきっと逃げてしまう。",
+      "requires": { "flags": { "reached_for_muni": false } }
+    },
+    { "type": "narration", "text": "長い時間が過ぎた気がした。実際は、十数える程度だったと思う。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "normal", "text": "……だれ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "{name}。今日からここにいる" },
+    { "type": "dialogue", "speaker": "muni", "expression": "normal", "text": "ぼく、ムニ" },
+    { "type": "narration", "text": "そう言って、彼はようやく用具入れの陰から出てきた。" },
+    { "type": "narration", "text": "身体が小さい。パーカーの裾が膝まである。袖は、手のひらが半分隠れる長さだ。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "sad", "text": "……ねえ、いなくなったりしない?" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "え" },
+    { "type": "dialogue", "speaker": "muni", "expression": "sad", "text": "みんな、いなくなるから。いやなの" },
+    { "type": "narration", "text": "答えに詰まった。" },
+    { "type": "narration", "text": "いなくならない、と言うのは簡単だ。でも僕は、昨日の自分がどこにいたのかも知らない。明日どうなるかなんて、何ひとつ約束できない。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……できるだけ、いるようにする" },
+    { "type": "dialogue", "speaker": "muni", "expression": "normal", "text": "……うん" },
+    { "type": "narration", "text": "ムニは、それで満足したらしかった。" },
+    { "type": "narration", "text": "廊下の奥から、ゲルの声が飛んできた。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "ムニ。夜は出るなと言ってるだろ" },
+    { "type": "dialogue", "speaker": "muni", "expression": "smile", "text": "ゲルねえちゃん、あのね、あたらしいひとがきたの" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "知ってる。私が連れてきた" },
+    { "type": "narration", "text": "ゲルはムニの前でも、声の温度をほとんど変えなかった。" },
+    { "type": "narration", "text": "ただ、彼女の手はごく自然にムニの背中に回って、そのまま部屋のほうへ押していった。" },
+    { "type": "narration", "text": "刃を突きつけていたときと、同じ手だった。" }
   ],
   "next": "ch01_05"
 }
