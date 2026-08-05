@@ -72,7 +72,15 @@
     { "type": "narration", "text": "いま、そこに何が入っているだろう。" },
     { "type": "narration", "text": "ジンパチの怒鳴り声。ヒュウの笑い方。レニィの伸びた語尾。ムニの、二本だけ握る手。" },
     { "type": "narration", "text": "ゲルが、七人だと言い直すのに使った、あの少しの間。" },
-    { "type": "narration", "text": "──空だったのは、三ヶ月前までの話だ。" }
+    { "type": "narration", "text": "──空だったのは、三ヶ月前までの話だ。" },
+    { "type": "narration", "text": "落ちながら、シェルの言葉を思い出していた。" },
+    { "type": "narration", "text": "器は、中身がないから器なのです。空であることは、欠落ではありません。用途です。" },
+    { "type": "narration", "text": "あのとき僕は、それを慰めだと思った。" },
+    { "type": "narration", "text": "違った。あれは、仕様の説明だったのだ。" },
+    { "type": "narration", "text": "この生き物は、三年ずっと、訊かれれば答える気でいた。" },
+    { "type": "narration", "text": "訊かなかったのは、僕たちのほうだ。" },
+    { "type": "narration", "text": "落ちる速度が、ゆるくなった。" },
+    { "type": "narration", "text": "底が、近い。" }
   ],
   "next": "ch05_10"
 }

@@ -41,7 +41,20 @@
     { "type": "narration", "text": "誰も何も言わなかった。ジンパチが立ち上がりかけて、そのまま止まった。" },
     { "type": "narration", "text": "ヒュウが、初めて前髪をかき上げた。隠れていたほうの目が、露わになった。" },
     { "type": "narration", "text": "レニィは、笑わなかった。" },
-    { "type": "narration", "text": "そしてゲルが──ゲルだけが、その言葉に、少しも驚いていなかった。" }
+    { "type": "narration", "text": "そしてゲルが──ゲルだけが、その言葉に、少しも驚いていなかった。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "……ふざけんな。証拠を出せ、証拠を" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "証拠なら、貴様ら自身が持っている" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "三年より前を、思い出してみるがいい" },
+    { "type": "narration", "text": "誰も、何も言わなかった。" },
+    { "type": "narration", "text": "四人が四人とも、同じ場所で止まったのだ。" },
+    { "type": "narration", "text": "三年前より前が、無い。" },
+    { "type": "narration", "text": "これまでは、それを言葉にする理由がなかった。困らなかったから。" },
+    { "type": "narration", "text": "四人ぶんの沈黙が、そのまま証拠になった。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "……ネオ" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "お前は、いつからそれを知っていた" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "……初めから知っている" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "私は、それを消しに来た者だからだ" },
+    { "type": "narration", "text": "街灯が、一本だけ、じじ、と鳴って消えた。" }
   ],
   "next": "ch04_01"
 }

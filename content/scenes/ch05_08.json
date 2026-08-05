@@ -181,7 +181,16 @@
     { "type": "narration", "text": "その人は、最後に道を空けた。" },
     { "type": "narration", "text": "膝をついて、雨に打たれながら、僕が通り過ぎるのを見ていた。" },
     { "type": "narration", "text": "何か言われた気がする。聞き取れなかった。" },
-    { "type": "narration", "text": "──聞き返しに戻る時間は、もうなかった。" }
+    { "type": "narration", "text": "──聞き返しに戻る時間は、もうなかった。" },
+    { "type": "narration", "text": "走りながら、考えていた。" },
+    { "type": "narration", "text": "この人は、なぜ道を空けたんだろう。" },
+    { "type": "narration", "text": "勝ったから、ではない。僕は勝っていない。" },
+    { "type": "narration", "text": "たぶん、止めるつもりが最初からなかったのだ。" },
+    { "type": "narration", "text": "止めようとして、止まってほしくなくて、それでもそこに立っていた。" },
+    { "type": "narration", "text": "そういう立ち方を、僕はこの三ヶ月で何度も見てきた。" },
+    { "type": "narration", "text": "──ゲルが、いつもしていた立ち方だ。" },
+    { "type": "narration", "text": "この人たちは、あの人の記憶からできている。" },
+    { "type": "narration", "text": "だとしたら、こういうところまで似てしまうのは、当たり前のことだった。" }
   ],
   "next": "ch05_09"
 }

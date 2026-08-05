@@ -151,6 +151,18 @@
       "text": "それが、この子の出した答えだった。",
       "requires": { "flags": { "muni_alive": true } }
     },
+    { "type": "narration", "text": "最後に、ヒュウが上がってきた。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "……皆さん、降りていかれましたね" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "うん" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "では、私が最後です。順番というのは、こういうときに便利ですね" },
+    { "type": "narration", "text": "フェンスに寄りかかって、彼は街を見た。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "……この街は、綺麗ですか" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……え" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "私には、判断がつかないのです" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "私が美しいと思うものは、全部、あの方の記憶から来ておりますので" },
+    { "type": "narration", "text": "答えられなかった。" },
+    { "type": "narration", "text": "綺麗だよ、と言うのは簡単だ。でもそれは、この人の問いには答えていない。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "……よろしいのです。答えのない問いを立てるのが、私の趣味ですので" },
     { "type": "narration", "text": "空が白んだ。" },
     { "type": "narration", "text": "残り、十二時間。" }
   ],

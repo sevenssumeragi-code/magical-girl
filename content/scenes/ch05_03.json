@@ -105,7 +105,17 @@
     { "type": "narration", "text": "使ったところで、三十分ぶんも延びない。" },
     { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "……三十分。それでも、三十分です" },
     { "type": "narration", "text": "ヒュウが拾って、保健室へ持っていった。" },
-    { "type": "narration", "text": "残った四十時間を、僕たちはどう使うか、まだ決めていなかった。" }
+    { "type": "narration", "text": "残った四十時間を、僕たちはどう使うか、まだ決めていなかった。" },
+    { "type": "narration", "text": "屋上から降りる途中で、ジンパチが立ち止まった。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "……なあ。四十時間って、けっこう長えよな" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……そうだね" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "長えのに、何にも思いつかねえんだ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "最後の四十時間で何するかなんて、考えたことねえからな" },
+    { "type": "narration", "text": "考えたことがない。" },
+    { "type": "narration", "text": "当たり前だ。この人たちは、三年しか生きていない。" },
+    { "type": "narration", "text": "その三年のうち、ほとんどを夜の街で過ごした。" },
+    { "type": "narration", "text": "──だから、何も思いつかないのだ。" },
+    { "type": "narration", "text": "やりたかったことを、まだ、ひとつも作れていない。" }
   ],
   "next": "ch05_04"
 }

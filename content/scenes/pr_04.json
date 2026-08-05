@@ -32,7 +32,17 @@
     { "type": "narration", "text": "シェルは、少しだけ首を傾げた。" },
     { "type": "narration", "text": "そして、いつもとまったく同じ、穏やかな調子で答えた。" },
     { "type": "dialogue", "speaker": "shell", "expression": "glow", "text": "《あなたはもう、契約を終えています》" },
-    { "type": "narration", "text": "門の向こうで、二階の明かりが、ひとつ揺れた。" }
+    { "type": "narration", "text": "門の向こうで、二階の明かりが、ひとつ揺れた。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……終えてるって、どういうこと" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《言葉のとおりです。あなたはすでに、契約を終えています》" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "じゃあ、僕の願いは何だったんだ" },
+    { "type": "narration", "text": "シェルは、答えなかった。" },
+    { "type": "narration", "text": "はぐらかしたのではない。この生き物は、はぐらかすということをしない。" },
+    { "type": "narration", "text": "──ただ、黙っていた。" },
+    { "type": "narration", "text": "訊いたはずなのに、答えが返ってこない。それは、この夜が初めてだった。" },
+    { "type": "narration", "text": "そして、最後でもなかった。" },
+    { "type": "narration", "text": "門を押した。錆びた蝶番が、長く鳴った。" },
+    { "type": "narration", "text": "その音を、僕はこのあと三ヶ月、毎晩のように聞くことになる。" }
   ],
   "next": "ch01_01"
 }

@@ -39,6 +39,13 @@
     { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《この結末は、私の計算には含まれておりませんでした》" },
     { "type": "narration", "text": "そう言った声に、感情はなかった。" },
     { "type": "narration", "text": "けれど、この生き物が「記録しておく」と言ったのは、三年で一度きりだった。" },
+    { "type": "narration", "text": "ほどけていく途中で、ひとつだけ、はっきり分かったことがある。" },
+    { "type": "narration", "text": "願いを解いても、あの三日間は消えなかった。" },
+    { "type": "narration", "text": "十三歳の女の子が、素手で瓦礫を掘った三日間。" },
+    { "type": "narration", "text": "それは、誰の願いでもない。ただ、あった出来事だ。" },
+    { "type": "narration", "text": "願いから生まれたものは、願いと一緒に消える。" },
+    { "type": "narration", "text": "起きたことは、消えない。" },
+    { "type": "narration", "text": "──だから、あの人が僕たちを覚えている限りは、たぶん、大丈夫だ。" },
     { "type": "narration", "text": "光が、落ちた。" }
   ],
   "next": "ch05_14"

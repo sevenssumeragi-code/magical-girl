@@ -34,7 +34,17 @@
     { "type": "narration", "text": "その明るいほうへ、ゲルは歩いていった。" },
     { "type": "narration", "text": "灯核を握ったままの手を、ポケットの奥に押し込んで。" },
     { "type": "narration", "text": "──三年、ひとりで戦ってきた人が、いま、六人ぶんの明るさに背中を向けている。" },
-    { "type": "narration", "text": "そのことの意味を、僕はまだ、ひとつも分かっていなかった。" }
+    { "type": "narration", "text": "そのことの意味を、僕はまだ、ひとつも分かっていなかった。" },
+    { "type": "narration", "text": "その夜、僕は自分の灯核を出して、長いこと眺めていた。" },
+    { "type": "narration", "text": "透明だった。翳がひとつも溜まっていない。今日も戦ったのに。" },
+    { "type": "narration", "text": "ゲルの灯核は、燼核を使っても黒が残る。" },
+    { "type": "narration", "text": "僕の灯核は、戦っても黒くならない。" },
+    { "type": "narration", "text": "二人とも、ほかの四人とは違う壊れ方をしている。" },
+    { "type": "narration", "text": "そこまでは、気づいていた。" },
+    { "type": "narration", "text": "気づいていて、それを並べて考えなかった。" },
+    { "type": "narration", "text": "──もし並べていたら、どうなっていただろう。" },
+    { "type": "narration", "text": "たぶん、何も変わらなかったと思う。" },
+    { "type": "narration", "text": "それでも、そう思うことでしか、あの三ヶ月を許せない夜がある。" }
   ],
   "next": "ch02_01"
 }

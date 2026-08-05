@@ -120,6 +120,15 @@
     { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "もし僕がさ、僕じゃなかったら、どうする?" },
     { "type": "narration", "text": "冗談みたいな言い方だった。" },
     { "type": "narration", "text": "だから僕も、冗談みたいに返してしまった。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "……レニィがレニィじゃなかったら、誰なんだよ" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "さあ。誰だろうねぇ" },
+    { "type": "narration", "text": "笑って、彼は空を見た。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "……ねえ。もしそうだったら、{name}は僕のこと、まだレニィって呼んでくれる?" },
+    { "type": "narration", "text": "そこで初めて、これが冗談ではないと気づいた。" },
+    { "type": "narration", "text": "気づいたのに、うまい言葉が出てこなかった。" },
+    { "type": "narration", "text": "呼ぶよ、と言えばよかった。それだけでよかったのだ。" },
+    { "type": "narration", "text": "僕は、黙ってしまった。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "……いいよ。困らせちゃったね" },
     { "type": "narration", "text": "──それを、あとでずいぶん後悔することになる。" }
   ],
   "next": "ch03_08"

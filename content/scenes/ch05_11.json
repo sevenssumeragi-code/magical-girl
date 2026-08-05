@@ -40,6 +40,14 @@
     { "type": "dialogue", "speaker": "geru", "expression": "special", "text": "私は、お前に何も返せない" },
     { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "じゃあ、覚えててよ" },
     { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "あなたの記憶のどこにもいなかった僕を、これから入れておいて" },
+    { "type": "narration", "text": "三年ぶんの重さが、僕の中で落ち着く場所を探している。" },
+    { "type": "narration", "text": "落ち着かない。当たり前だ。これは、僕のものではないからだ。" },
+    { "type": "narration", "text": "けれど、預かりものというのは、そういうものだと思う。" },
+    { "type": "narration", "text": "重くて、落ち着かなくて、返しに行く用事がずっと残る。" },
+    { "type": "narration", "text": "──だから、いい。" },
+    { "type": "narration", "text": "白い空間が、最後に一度だけ、紫に染まった。" },
+    { "type": "narration", "text": "瓦礫が、砂になってほどけていく。" },
+    { "type": "narration", "text": "三年前の街が、ようやく三年前になった。" },
     { "type": "narration", "text": "光が、上がった。" }
   ],
   "next": "ch05_14"

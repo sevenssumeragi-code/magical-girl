@@ -61,7 +61,12 @@
     { "type": "dialogue", "speaker": "geru", "expression": "special", "text": "来るなと言っている。ここで終わりでいい" },
     { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "真っ先に来いって言ったのは、あなただ" },
     { "type": "narration", "text": "返事は、なかった。" },
-    { "type": "narration", "text": "その代わり、黒い雨が、ほんの少しだけ弱まった。" }
+    { "type": "narration", "text": "その代わり、黒い雨が、ほんの少しだけ弱まった。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "……いま、雨が緩みました" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "surprised", "text": "偶然だろ" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "いいえ。あの方が、まだこちらの声を聞いておられる証拠です" },
+    { "type": "narration", "text": "この人の計算は、こういうときだけ、やたらと優しい方に転ぶ。" },
+    { "type": "narration", "text": "黒い雨の中を、僕たちは進んだ。" }
   ],
   "next": "ch05_08"
 }

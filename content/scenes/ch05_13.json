@@ -36,7 +36,17 @@
     { "type": "narration", "text": "答えたら、この人はきっと止めてしまう。" },
     { "type": "narration", "text": "裂け目の向こうから、幾何学的な光が伸びてきた。" },
     { "type": "narration", "text": "外環の光だ。この世界の色とは、明らかに違っていた。" },
-    { "type": "narration", "text": "足を、踏み出した。" }
+    { "type": "narration", "text": "足を、踏み出した。" },
+    { "type": "narration", "text": "踏み出す直前に、一度だけ振り返った。" },
+    { "type": "narration", "text": "白い空間の向こうに、崩れた街が見えた。もう、崩れたままではなくなっていた。" },
+    { "type": "narration", "text": "三年前で止まっていた時計が、ようやく次の一分へ進もうとしている。" },
+    { "type": "narration", "text": "そこに、四人ぶんの気配があった。" },
+    { "type": "narration", "text": "怒鳴り声と、気取った笑い方と、伸びた語尾と、小さな手。" },
+    { "type": "narration", "text": "全部、そのまま残る。僕が持っていかないからだ。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "……行ってきます" },
+    { "type": "narration", "text": "返事は、なかった。届く距離ではなかったと思う。" },
+    { "type": "narration", "text": "それでもいい。" },
+    { "type": "narration", "text": "行ってきます、というのは、返事を待つ言葉ではない。" }
   ],
   "next": "ch05_14"
 }

@@ -38,7 +38,20 @@
     { "type": "narration", "text": "──それでも、朝が来た。" },
     { "type": "narration", "text": "明日も、たぶん来る。" },
     { "type": "narration", "text": "劇的な救いはなかった。" },
-    { "type": "narration", "text": "続いている、という一点だけが、僕たちの手に残った。" }
+    { "type": "narration", "text": "続いている、という一点だけが、僕たちの手に残った。" },
+    { "type": "narration", "text": "夕方、屋上に上がった。" },
+    { "type": "narration", "text": "ゲルが先にいた。フェンスにもたれて、街を見ている。" },
+    { "type": "narration", "text": "以前と、同じ立ち方だった。" },
+    { "type": "narration", "text": "違うのは、こちらが上がってきても、彼女が場所を半分空けることだ。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "……今日は、静かだな" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "うん" },
+    { "type": "narration", "text": "それだけの会話だった。" },
+    { "type": "narration", "text": "三ヶ月前なら、間が持たなくて何か喋っていたと思う。" },
+    { "type": "narration", "text": "いまは、黙っていられる。" },
+    { "type": "narration", "text": "黙っていられる相手というのは、たぶん、そう多くない。" },
+    { "type": "narration", "text": "海のほうが、白くなってきた。" },
+    { "type": "narration", "text": "明日も、たぶん裂け目が開く。" },
+    { "type": "narration", "text": "──それでも、今日はもう終わりでいい。" }
   ],
   "next": null
 }

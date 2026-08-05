@@ -39,7 +39,17 @@
     { "type": "narration", "text": "どの声でも、同じことだった。" },
     { "type": "narration", "text": "刃を向けてきた人には、必ず理由があった。" },
     { "type": "narration", "text": "僕は最後まで、それを一度も訊かなかった。" },
-    { "type": "narration", "text": "訊けば必ず答えるものが、この物語にはずっと二つあったのに。" }
+    { "type": "narration", "text": "訊けば必ず答えるものが、この物語にはずっと二つあったのに。" },
+    { "type": "narration", "text": "ひとつは、白い巻貝を背負った生き物だ。" },
+    { "type": "narration", "text": "もうひとつは、目の前に立っている人間だった。" },
+    { "type": "narration", "text": "どちらも、訊けば答えた。" },
+    { "type": "narration", "text": "訊かなかったのは、答えを聞いたら手が止まると分かっていたからだ。" },
+    { "type": "narration", "text": "止まってよかったのだ。" },
+    { "type": "narration", "text": "止まるべきだったのだ。" },
+    { "type": "narration", "text": "──三年前、瓦礫の上で誰かが漏らした独り言も、そういう類のものだった。" },
+    { "type": "narration", "text": "誰も聞いていないと思って口に出した言葉を、たったひとつだけ、拾ってしまったものがいた。" },
+    { "type": "narration", "text": "拾われた言葉は、五人を作り、三年をかけて、この結末まで来た。" },
+    { "type": "narration", "text": "聞くというのは、そういうことだったのだ。" }
   ],
   "next": null
 }

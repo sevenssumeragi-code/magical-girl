@@ -40,7 +40,17 @@
     { "type": "narration", "text": "上も下もない、ただの虚空。" },
     { "type": "narration", "text": "──目が覚めた最初の夜に、僕が落ちたあの場所と、同じものに。" },
     { "type": "sfx", "asset": "se_shatter" },
-    { "type": "narration", "text": "そこまで考えて、考えるための場所が、無くなった。" }
+    { "type": "narration", "text": "そこまで考えて、考えるための場所が、無くなった。" },
+    { "type": "narration", "text": "──後日。" },
+    { "type": "narration", "text": "汐灘の丘の上に、裂け目がひとつ開いた。" },
+    { "type": "narration", "text": "中は、何もない虚空だった。上も下もない。形を結ぶ未練すらない。" },
+    { "type": "narration", "text": "残った灯守たちは、それを潰しに入って、そして気づいた。" },
+    { "type": "narration", "text": "その翳界は、誰も襲ってこなかった。" },
+    { "type": "narration", "text": "ただ、四人が入ってきたぶんだけ、少し狭くなった。" },
+    { "type": "narration", "text": "詰めるように、寄せるように。" },
+    { "type": "narration", "text": "──独りにならないでいるための場所を、作ろうとしているみたいに。" },
+    { "type": "narration", "text": "誰も、剣を抜かなかった。" },
+    { "type": "narration", "text": "抜けなかったのだと思う。" }
   ],
   "next": null
 }

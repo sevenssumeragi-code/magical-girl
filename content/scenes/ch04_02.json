@@ -65,6 +65,9 @@
     { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "……シェル" },
     { "type": "narration", "text": "ゲルが、前に出た。" },
     { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "訊く。これ以上ないくらい、はっきり訊く" },
+    { "type": "narration", "text": "ゲルの声は、震えていなかった。" },
+    { "type": "narration", "text": "この人は、答えを聞くのが怖いときほど、はっきり喋る。" },
+    { "type": "narration", "text": "三年ぶんの、癖だった。" },
     { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "三年前、私は何を願った" },
     { "type": "narration", "text": "シェルは、背中の巻貝を、ゆっくりと光らせた。" },
     { "type": "dialogue", "speaker": "shell", "expression": "glow", "text": "《お見せしましょう》" }

@@ -14,6 +14,14 @@
     { "type": "narration", "text": "七人だ、と言い直すのに彼女が使った、あの少しの間。" },
     { "type": "narration", "text": "全部、数え切れなかった。" },
     { "type": "narration", "text": "空だった器に入るには、多すぎたのだ。" },
+    { "type": "narration", "text": "三ヶ月前、僕は崩れた道で目を覚まして、自分の名前だけを持っていた。" },
+    { "type": "narration", "text": "怖くなかった。惜しむ相手がいなかったからだ。" },
+    { "type": "narration", "text": "──いまは、怖い。" },
+    { "type": "narration", "text": "それが、僕がこの三ヶ月で手に入れたもののうち、いちばん確かなものだった。" },
+    { "type": "narration", "text": "光が、遠ざかっていく。" },
+    { "type": "narration", "text": "あるいは、近づいてきているのかもしれない。もう、どちらとも判断がつかない。" },
+    { "type": "narration", "text": "誰かが、僕の名前を呼んでいる。" },
+    { "type": "narration", "text": "それが誰の声なのか──そこから先は、僕がどう選んだかによる。" },
     { "type": "resolveEnding" }
   ],
   "next": null

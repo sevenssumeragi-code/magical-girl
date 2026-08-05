@@ -40,7 +40,18 @@
     { "type": "dialogue", "speaker": "geru", "expression": "special", "text": "……お前だけは、私の記憶のどこにもいないんだ" },
     { "type": "narration", "text": "夜が明けはじめていた。" },
     { "type": "narration", "text": "保健室の窓から、白い光が入ってきて、床の上の黒い珠を照らした。" },
-    { "type": "narration", "text": "光は、その中を、まったく通らなかった。" }
+    { "type": "narration", "text": "光は、その中を、まったく通らなかった。" },
+    { "type": "narration", "text": "扉の外で、四人が立ち尽くしていた。" },
+    { "type": "narration", "text": "誰も、部屋に入ってこない。" },
+    { "type": "narration", "text": "入れないのだ。入れば、あの人がもう自分たちの知っている形をしていないことを、認めることになる。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "……なあ。まだ間に合うんだよな" },
+    { "type": "narration", "text": "誰も答えなかった。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "間に合うって言えよ、誰か" },
+    { "type": "narration", "text": "ヒュウが、口を開きかけて、やめた。" },
+    { "type": "narration", "text": "この人は、嘘をつかない代わりに、黙ることを選ぶ。" },
+    { "type": "narration", "text": "──シェルと、同じやり方だった。" },
+    { "type": "narration", "text": "廊下の窓が、白くなっていく。" },
+    { "type": "narration", "text": "六十時間の、最初の一時間が終わろうとしていた。" }
   ],
   "next": "ch05_01"
 }

@@ -138,10 +138,36 @@ describe('運命判定・エンディング判定の設置', () => {
   });
 });
 
-describe('規模の計測', () => {
-  it('総文字数を報告する（フェーズ3完了時に60,000字以上が要件）', () => {
+describe('規模の要件', () => {
+  it('総文字数が 60,000〜80,000 字に収まる', () => {
     const total = scenes.reduce((sum, s) => sum + sceneTextLength(s), 0);
     console.log(`  総文字数: ${total.toLocaleString()} 字 / 目標 60,000〜80,000 字`);
-    expect(total).toBeGreaterThan(0);
+    expect(total).toBeGreaterThanOrEqual(60_000);
+    expect(total).toBeLessThanOrEqual(80_000);
+  });
+
+  it('未執筆のプレースホルダが残っていない', () => {
+    const remaining: string[] = [];
+    for (const scene of scenes) {
+      for (const line of scene.lines) {
+        const body =
+          line.type === 'narration' || line.type === 'dialogue'
+            ? line.text
+            : line.type === 'choice'
+              ? line.prompt
+              : null;
+        if (body?.startsWith('（未執筆')) remaining.push(scene.id);
+      }
+    }
+    expect(remaining).toEqual([]);
+  });
+
+  it('選択肢が仕様どおり30〜40個ある', () => {
+    const choices = scenes.reduce(
+      (sum, s) => sum + s.lines.filter((l) => l.type === 'choice').length,
+      0,
+    );
+    expect(choices).toBeGreaterThanOrEqual(30);
+    expect(choices).toBeLessThanOrEqual(40);
   });
 });
