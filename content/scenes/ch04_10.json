@@ -4,22 +4,98 @@
   "background": "bg_town_slope_night",
   "bgm": "bgm_jinpachi",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: ジンパチの素材＝名も知らぬ誰か。「名前がねえのかよ、俺には」）"
-    },
+    { "type": "narration", "text": "ジンパチは、外にいた。" },
+    { "type": "narration", "text": "坂の途中の、ガードレールに腰かけて。海のほうを見ていた。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "normal", "text": "……聞いたぜ。もう" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "normal", "text": "あの貝、俺が訊く前に喋りやがった" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……何て" },
+    { "type": "narration", "text": "ジンパチは、笑った。乾いた笑い方だった。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "三年前、崩れた家からゲルを引きずり出したやつがいるんだとよ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "近所の人間か、通りすがりか、分かんねえ。ゲルも顔を覚えてねえ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "引きずり出して、そのまま二回目の崩落に巻き込まれて死んだ" },
+    { "type": "narration", "text": "海から風が上がってきた。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "……名前がねえんだよ、俺には" },
+    { "type": "narration", "text": "そう言った。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "ムニもレニィも、弟だ。ヒュウは先輩だ。ちゃんと元がある" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "俺は、名前も知らねえ誰かだ。ゲルの記憶の中でも、顔がねえ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "だからだろうな。俺だけ、あいつの中で一番ぼんやりしてんだ" },
+    { "type": "narration", "text": "この人が、なぜあれほど怒鳴っていたのか。" },
+    { "type": "narration", "text": "なぜ、自分の名前を呼んでくれと頼んだのか。" },
+    { "type": "narration", "text": "全部、いま繋がってしまった。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "ジンパチってのも、ゲルが適当につけたんだとさ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "俺の名前、俺のじゃねえんだよ" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C29）",
+      "prompt": "この人に、いま渡せるものがあるとしたら。",
       "options": [
         {
-          "text": "（未執筆: C29 選択肢A）"
+          "text": "「ジンパチは、ジンパチだ」と名前を返す",
+          "bond": { "jinpachi": 10, "geru": 3 },
+          "flags": { "named_jinpachi": true }
         },
         {
-          "text": "（未執筆: C29 選択肢B）"
+          "text": "「名前なんて、後からでいい」と言う",
+          "bond": { "jinpachi": -3 },
+          "flags": { "named_jinpachi": false }
         }
       ]
-    }
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチは、長いこと黙っていた。",
+      "requires": { "flags": { "named_jinpachi": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "surprised",
+      "text": "……そりゃ、理屈になってねえだろ",
+      "requires": { "flags": { "named_jinpachi": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "うん。なってない",
+      "requires": { "flags": { "named_jinpachi": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "でも僕は、三ヶ月ずっと、あなたのことをジンパチだと思って呼んできた",
+      "requires": { "flags": { "named_jinpachi": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "つけた人が誰でも、それはもう、あなたの名前だ",
+      "requires": { "flags": { "named_jinpachi": true } }
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチは、顔を伏せた。",
+      "requires": { "flags": { "named_jinpachi": true } }
+    },
+    {
+      "type": "narration",
+      "text": "泣いたのかどうかは、分からない。海を見ていたから。",
+      "requires": { "flags": { "named_jinpachi": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "sad",
+      "text": "……後、か。後ってのは、あるのかね",
+      "requires": { "flags": { "named_jinpachi": false } }
+    },
+    { "type": "narration", "text": "しばらくして、彼はガードレールから降りた。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "normal", "text": "……なあ。ひとつ言っとくぞ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "俺は、自分が何なのかで悩んで動けなくなるやつが、世界で一番嫌いだ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "だから、悩まねえ。何だろうが、俺は前に出る" },
+    { "type": "narration", "text": "強がりだった。" },
+    { "type": "narration", "text": "強がりだと分かるのに、僕はそれに、確かに救われていた。" }
   ],
   "next": "ch04_11"
 }

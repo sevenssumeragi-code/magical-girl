@@ -4,33 +4,117 @@
   "background": "bg_school_corridor",
   "bgm": "bgm_sad",
   "lines": [
+    { "type": "narration", "text": "廊下に出た。" },
+    { "type": "narration", "text": "あの部屋にいられなかったからではない。訊きたいことを、二人きりで訊きたかったからだ。" },
+    { "type": "narration", "text": "シェルは、ついてきた。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "……僕の素材は" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《ございません》" },
+    { "type": "narration", "text": "月が、割れた窓から入っていた。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……ない?" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《はい。あなたに対応する記憶は、契約者の中に一つもありません》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《あの願いは「独りで戦いたくない」というものでした》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《ですので、席を用意する必要がありました。誰かが座るための、空いた席を》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《あなたは、その空席そのものです》" },
+    { "type": "narration", "text": "灯核を出した。" },
+    { "type": "narration", "text": "透明だった。月の光が、そのまま通り抜けて、廊下の床に落ちた。" },
+    { "type": "narration", "text": "ほかの五人は、ゲルの記憶の色に染まっている。" },
+    { "type": "narration", "text": "僕には、染めるものがない。" },
+    { "type": "narration", "text": "だから、色がない。" },
+    { "type": "narration", "text": "ネオの剣が届かなかったのも、同じ理由だ。" },
+    { "type": "narration", "text": "当たらないのではない。当てる対象がないのだ。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "……じゃあ、僕は" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "誰の代わりでもないんだ" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《はい》" },
+    { "type": "narration", "text": "ムニは、弟の代わりだ。レニィは、生きていた場合の弟の代わりだ。" },
+    { "type": "narration", "text": "ヒュウにも、ジンパチにも、元になった誰かがいる。" },
+    { "type": "narration", "text": "五人のうち四人には、還る先がある。" },
+    { "type": "narration", "text": "僕にはない。" },
+    { "type": "narration", "text": "僕がいなくなっても、誰も、誰かを思い出さない。" },
+    { "type": "sfx", "asset": "se_wind" },
     {
-      "type": "narration",
-      "text": "（未執筆: **伏線B回収**：ハルの灯核が無色な理由。素材のない空白の器）"
+      "type": "choice",
+      "prompt": "空席。僕は、そういうものらしい。",
+      "options": [
+        {
+          "text": "「……それでも、僕はここにいる」と受け入れる",
+          "bond": { "renny": 3, "hyu": 3, "jinpachi": 3, "muni": 3, "geru": 3, "neo": 3 },
+          "flags": { "accepted_self": true }
+        },
+        {
+          "text": "「じゃあ、僕は誰でもいいってことじゃないか」と拒む",
+          "bond": { "renny": -3, "hyu": -3, "jinpachi": -3, "muni": -3, "geru": -3 },
+          "flags": { "accepted_self": false },
+          "taint": 10
+        },
+        {
+          "text": "何も言わない",
+          "flags": { "accepted_self": false },
+          "taint": 5
+        }
+      ]
     },
     {
       "type": "flag",
-      "set": {
-        "truth_haru_blank": true
-      },
-      "requires": {
-        "flags": {
-          "accepted_self": true
-        }
-      }
+      "set": { "truth_haru_blank": true },
+      "requires": { "flags": { "accepted_self": true } }
     },
     {
-      "type": "choice",
-      "prompt": "（未執筆: C27）",
-      "options": [
-        {
-          "text": "（未執筆: C27 選択肢A）"
-        },
-        {
-          "text": "（未執筆: C27 選択肢B）"
-        }
-      ]
-    }
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "tilt",
+      "text": "《……興味深い反応です》",
+      "requires": { "flags": { "accepted_self": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《ひとつ、申し上げます。訊かれておりませんが、申し上げます》",
+      "requires": { "flags": { "accepted_self": true } }
+    },
+    {
+      "type": "narration",
+      "text": "この生き物が、訊かれていないことを言おうとしている。",
+      "requires": { "flags": { "accepted_self": true } }
+    },
+    {
+      "type": "narration",
+      "text": "三年で、初めてのことだった。",
+      "requires": { "flags": { "accepted_self": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "glow",
+      "text": "《ほかの四名は、契約者の願いに縛られています。願いの形が、そのまま彼らの形です》",
+      "requires": { "flags": { "accepted_self": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "glow",
+      "text": "《あなたには、その縛りがありません》",
+      "requires": { "flags": { "accepted_self": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《この件において、自分で選べるのは、あなただけです》",
+      "requires": { "flags": { "accepted_self": true } }
+    },
+    {
+      "type": "narration",
+      "text": "シェルは、それきり黙った。",
+      "requires": { "flags": { "accepted_self": false } }
+    },
+    {
+      "type": "narration",
+      "text": "訊かなかったから、答えなかった。いつもどおりだった。",
+      "requires": { "flags": { "accepted_self": false } }
+    },
+    { "type": "narration", "text": "廊下の奥から、ムニの泣き声が聞こえてきた。" },
+    { "type": "narration", "text": "それでようやく、僕は自分の足を動かすことができた。" }
   ],
   "next": "ch04_08"
 }

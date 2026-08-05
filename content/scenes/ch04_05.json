@@ -4,14 +4,45 @@
   "background": "bg_eikai_void",
   "bgm": "bgm_shock",
   "lines": [
-    {
-      "type": "cg",
-      "asset": "cg_11_manifestation"
-    },
-    {
-      "type": "narration",
-      "text": "（未執筆: 願いの成就の仕方。翳から5体が実体化した記録）"
-    }
+    { "type": "cg", "asset": "cg_11_manifestation" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "……待て" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "願いは一回きりだと言った。できないと言った" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《はい。二度目の契約はできません》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《ですが、あなたはもう契約済みでした。契約者の願いは、叶えるのが私の役目です》" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "……独り言だと言っただろう" },
+    { "type": "dialogue", "speaker": "shell", "expression": "tilt", "text": "《願いに、形式は必要ありません》" },
+    { "type": "narration", "text": "褪せた街が消えて、代わりに、翳界の虚空が広がった。" },
+    { "type": "narration", "text": "上も下もない。紫と緑の層のあいだを、黒い澱が流れている。" },
+    { "type": "narration", "text": "その中心に、紫の灯核が浮かんでいた。ゲルのものだ。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《もう二度と、独りで戦いたくない》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《この願いを叶える方法は、二つございました》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《一つは、他の街から灯守を連れてくること。ですが、灯守は数が少なく、連れてきても契約は動かせません》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《もう一つは、この街で新たな契約者を探すこと。ですが、条件を満たす少女がおりませんでした》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《どちらも、費用が高すぎました》" },
+    { "type": "narration", "text": "費用。" },
+    { "type": "narration", "text": "この生き物は、その言葉を、まったく普通の意味で使っていた。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "glow", "text": "《ですので、三つ目の方法を採りました》" },
+    { "type": "sfx", "asset": "se_core_pulse" },
+    { "type": "narration", "text": "紫の灯核から、黒い澱が溢れた。" },
+    { "type": "narration", "text": "彼女が三年ぶんため込んだ翳ではない。三日ぶんの翳だ。" },
+    { "type": "narration", "text": "家族を全部失った少女が、三日で溜めた黒。" },
+    { "type": "narration", "text": "その澱が、渦を巻いて、形をとりはじめた。" },
+    { "type": "narration", "text": "五つ。" },
+    { "type": "narration", "text": "人の形をした影が、五つ。" },
+    { "type": "narration", "text": "一つ目は、緑の髪をしていた。" },
+    { "type": "narration", "text": "二つ目は、茶色の髪をしていた。" },
+    { "type": "narration", "text": "三つ目は、青い髪の、小さな子だった。" },
+    { "type": "narration", "text": "四つ目も、青い髪だった。三つ目より、ずっと背が高い。" },
+    { "type": "narration", "text": "そして、五つ目は──" },
+    { "type": "narration", "text": "輪郭が、なかった。" },
+    { "type": "narration", "text": "色も、形も、髪も、身長も。何ひとつ決まっていない、ただの空白が、そこに浮かんでいた。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《あなたの記憶から、失われた者を素材にしました》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《それが、いちばん安価だったからです》" },
+    { "type": "narration", "text": "教室に、色が戻った。" },
+    { "type": "narration", "text": "裸電球の下に、六人が立っていた。" },
+    { "type": "narration", "text": "ヒュウの緑。ジンパチの茶。ムニの青。レニィの青。" },
+    { "type": "narration", "text": "そして、僕。" },
+    { "type": "narration", "text": "──ぴったり、五つだった。" }
   ],
   "next": "ch04_06"
 }

@@ -4,20 +4,49 @@
   "background": "bg_flashback_ruin",
   "bgm": "bgm_geru_theme",
   "lines": [
-    {
-      "type": "cg",
-      "asset": "cg_10_geru_wish"
-    },
-    {
-      "type": "narration",
-      "text": "（未執筆: 回想：願い「もう二度と、独りで戦いたくない」）"
-    },
-    {
-      "type": "flag",
-      "set": {
-        "truth_wish": true
-      }
-    }
+    { "type": "cg", "asset": "cg_10_geru_wish" },
+    { "type": "narration", "text": "三日目の夜。" },
+    { "type": "narration", "text": "十三歳のゲルは、瓦礫の上に座っていた。" },
+    { "type": "narration", "text": "膝を抱えているのではない。ただ、座っていた。背中も伸びていた。" },
+    { "type": "narration", "text": "泣いていなかった。" },
+    { "type": "narration", "text": "その隣に、白い巻貝が現れた。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《ご無事で何よりです》" },
+    { "type": "narration", "text": "三年前のシェルの声は、今とまったく同じだった。" },
+    { "type": "narration", "text": "同じ抑揚。同じ丁寧さ。同じ、感情のなさ。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "……なあ" },
+    { "type": "narration", "text": "十三歳の彼女の声を、僕は初めて聞いた。" },
+    { "type": "narration", "text": "今より高い。それだけだ。話し方は、もう今と同じだった。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "願いは、一回きりなんだよな" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《はい。あなたはすでに使われました》" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "……何を願ったんだったかな" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《弟さんの、熱が下がりますように》" },
+    { "type": "narration", "text": "息が、止まった。" },
+    { "type": "narration", "text": "この人の最初の願いは、それだったのだ。" },
+    { "type": "narration", "text": "熱が下がりますように。" },
+    { "type": "narration", "text": "その三日後に、街が崩れた。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "……叶ったな。ちゃんと" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《はい。確かに下がりました》" },
+    { "type": "narration", "text": "誰かが、後ろで嗚咽を漏らした。ジンパチだったと思う。" },
+    { "type": "narration", "text": "十三歳のゲルは、しばらく夜空を見ていた。" },
+    { "type": "narration", "text": "それから、こう言った。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "なあ。もう一回だけ、願わせてくれないか" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《できません》" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "……そうか" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "じゃあ、独り言だ。聞かなくていい" },
+    { "type": "narration", "text": "そして彼女は、瓦礫の上で、誰にともなく言った。" },
+    { "type": "sfx", "asset": "se_wind" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "……もう二度と、独りで戦いたくない" },
+    { "type": "narration", "text": "それだけだった。" },
+    { "type": "narration", "text": "叫んだのでもない。祈ったのでもない。" },
+    { "type": "narration", "text": "疲れきった人間が、誰にも届かないと思って漏らした、ただの独り言だった。" },
+    { "type": "narration", "text": "白い巻貝が、光った。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "glow", "text": "《承りました》" },
+    { "type": "dialogue", "speaker": "geru", "expression": "surprised", "text": "……は?" },
+    { "type": "narration", "text": "十三歳の彼女は、その光の意味を分かっていなかった。" },
+    { "type": "narration", "text": "十六歳の彼女は、僕の隣で、それを見ていた。" },
+    { "type": "flag", "set": { "truth_wish": true } },
+    { "type": "narration", "text": "音がしなかった。" },
+    { "type": "narration", "text": "この部屋の誰も、息をしていなかったからだ。" }
   ],
   "next": "ch04_05"
 }

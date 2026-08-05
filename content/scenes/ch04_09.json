@@ -4,22 +4,72 @@
   "background": "bg_school_classroom",
   "bgm": "bgm_tension",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: ヒュウの素材＝墜化した先輩。彼が最も墜化に近い）"
-    },
+    { "type": "narration", "text": "ヒュウは、教室で待っていた。" },
+    { "type": "narration", "text": "自分の番が来るのを、律儀に待っていたのだと思う。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "special", "text": "では、私の番ですね" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《あなたの素材は、灯守でした》" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "surprised", "text": "……灯守?" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《この街に、契約者より二年早く契約なさった方がおりました》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《その方は、崩落の夜、契約者を庇って墜化なさいました》" },
+    { "type": "narration", "text": "ヒュウは、動かなかった。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《契約者にとって、初めて自分より強い誰かでした。憧れであり、恩人であり、失った先達です》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《あなたは、その記憶から生まれています》" },
+    { "type": "dialogue", "speaker": "geru", "expression": "surprised", "text": "……待て" },
+    { "type": "dialogue", "speaker": "geru", "expression": "surprised", "text": "あの人は、女だった" },
+    { "type": "dialogue", "speaker": "shell", "expression": "tilt", "text": "《はい。ですが、写したのは姿ではありません》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《あなたがその方をどう覚えていたか、を写しました》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《高くて、遠くて、綺麗で、決して自分のところまで降りてこない。そういう形です》" },
+    { "type": "narration", "text": "ヒュウが、笑った。" },
+    { "type": "narration", "text": "自嘲ではなかった。妙に納得した顔だった。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "……なるほど。道理で、鏡が好きなわけです" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "美しくあらねば、存在の理由がなくなりますからね" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "……ふざけんな。そんな理由で" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "ジンパチくん。ふざけてはおりません" },
+    { "type": "narration", "text": "ヒュウは、自分の灯核を机に置いた。" },
+    { "type": "narration", "text": "黒い。緑の名残が、縁に少しあるだけだ。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《ひとつ、申し上げておきます》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《素材となった方は、墜化なさっています》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《墜ちた者の記憶から生まれた存在は、墜化への親和が高くなります》" },
+    { "type": "narration", "text": "部屋の温度が、下がった。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "special", "text": "……つまり、私はいずれ墜ちる、ということですね" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《いずれ、ではありません。あなたが最も近い、というだけです》" },
+    { "type": "narration", "text": "ヒュウは、自分の灯核を見つめていた。" },
+    { "type": "narration", "text": "九つ隠して、一つも使わなかった人の灯核を。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C28）",
+      "prompt": "この人を、どうすればいい。",
       "options": [
         {
-          "text": "（未執筆: C28 選択肢A）"
+          "text": "「戦線から外れてくれ」と告げる",
+          "bond": { "hyu": -6, "geru": 6 },
+          "flags": { "hyu_watched": true }
         },
         {
-          "text": "（未執筆: C28 選択肢B）"
+          "text": "「あなたが決めていい」と任せる",
+          "bond": { "hyu": 10, "geru": -3 },
+          "flags": { "hyu_watched": false }
         }
       ]
-    }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "sad",
+      "text": "……あなたに外されるのは、存外にこたえますね",
+      "requires": { "flags": { "hyu_watched": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "smile",
+      "text": "……ええ。では、私が決めます。最後まで",
+      "requires": { "flags": { "hyu_watched": false } }
+    },
+    { "type": "narration", "text": "彼は前髪を下ろした。" },
+    { "type": "narration", "text": "赤い目が、また片方だけになった。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "こちらのほうが、見慣れているでしょう" },
+    { "type": "narration", "text": "そう言って笑った顔は、いつものヒュウだった。" },
+    { "type": "narration", "text": "だから僕は、少し安心してしまったのだ。" }
   ],
   "next": "ch04_10"
 }

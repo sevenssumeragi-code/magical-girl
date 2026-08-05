@@ -5,29 +5,56 @@
   "background": "bg_ruin_street_night",
   "bgm": "bgm_shock",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: ネオの断言の余波。全員が動揺）"
-    },
-    {
-      "type": "flag",
-      "set": {
-        "truth_neo_origin": true,
-        "neo_identity_revealed": true
-      }
-    },
+    { "type": "narration", "text": "誰も、すぐには動かなかった。" },
+    { "type": "narration", "text": "人間ではない、と言われて、まず出てくる言葉は「そんなわけがない」のはずだ。" },
+    { "type": "narration", "text": "誰も、それを言わなかった。" },
+    { "type": "narration", "text": "それが、いちばん怖かった。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "……根拠を言え" },
+    { "type": "narration", "text": "ようやく立ち上がったジンパチの声は、掠れていた。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "三つ挙げよう" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "一つ。貴様ら四人は、誰ひとり自分の願いを覚えておらぬ" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "契約は魂に刻まれる。忘れることはない。忘れているのは、初めから刻まれておらぬからだ" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "二つ。貴様らには、三年前より以前の記憶が一片もない" },
+    { "type": "narration", "text": "レニィが、顔を上げた。" },
+    { "type": "narration", "text": "困らないから誰にも言わなかった、と彼は言っていた。ジンパチも同じだった。" },
+    { "type": "narration", "text": "四人とも、三年前で切れている。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "三つ。灯守は、少女にしか成立せぬ" },
+    { "type": "narration", "text": "何を言われたのか、一拍遅れて分かった。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "surprised", "text": "……なんですって" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "契約が結べるのは、魂の輪郭がまだ定まらぬ者のみだ" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "この世界において、それに当たるのは思春期の少女だけだ。例外はない" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "──ただの一度も、ない" },
+    { "type": "narration", "text": "この街に、灯守が六人いる。" },
+    { "type": "narration", "text": "そのうち、少女はひとりだ。" },
+    { "type": "narration", "text": "僕たちは、それを最初から知っていた。ゲル自身が、屋上で僕に言った。" },
+    { "type": "narration", "text": "灯守は普通、街にひとりかふたりだ、と。" },
+    { "type": "narration", "text": "──ひとりだったのだ。ずっと。" },
+    { "type": "flag", "set": { "truth_neo_origin": true, "neo_identity_revealed": true } },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "……ネオ" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "お前は、外から来たと言ったな" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "言った" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "……なら訊く。私が願ったことを、お前は知っているんだな" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "知っている" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C26）",
+      "prompt": "ここで止めることも、できたはずだった。",
       "options": [
         {
-          "text": "（未執筆: C26 選択肢A）"
+          "text": "「言うな」とネオを遮る",
+          "bond": { "neo": -6, "geru": 6 }
         },
         {
-          "text": "（未執筆: C26 選択肢B）"
+          "text": "何も言わない。ゲルに決めさせる",
+          "bond": { "neo": 6, "geru": -6 }
         }
       ]
-    }
+    },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "言え" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "……私からは言わぬ" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "貴様らには、訊くべき相手がいるはずだ" },
+    { "type": "narration", "text": "ネオの視線が、僕たちの頭上へ向いた。" },
+    { "type": "narration", "text": "壊れた街灯の上に、白い巻貝が座っていた。" },
+    { "type": "narration", "text": "いつからそこにいたのか、誰も分からなかった。" }
   ],
   "next": "ch04_02"
 }

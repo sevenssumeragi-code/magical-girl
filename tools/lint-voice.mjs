@@ -126,19 +126,19 @@ function check(file, sceneId, index, line) {
     violations.push({ file, sceneId, index, speaker: 'hyu', rule: '敬語でない台詞', text });
   }
 
-  // 台詞は話者名を別枠で表示するため、本文に鉤括弧を含めない規約。
-  // 執筆時の閉じ括弧の書き残しをここで検出する。
-  for (const bracket of ['「', '」']) {
-    if (text.includes(bracket)) {
-      violations.push({
-        file,
-        sceneId,
-        index,
-        speaker: line.speaker,
-        rule: `台詞本文に鉤括弧「${bracket}」が混入しています`,
-        text,
-      });
-    }
+  // 台詞中の引用（「〜」）は正当だが、対になっていない鉤括弧は
+  // 執筆時の書き残しである。数が合わない場合だけを検出する。
+  const open = (text.match(/「/g) ?? []).length;
+  const close = (text.match(/」/g) ?? []).length;
+  if (open !== close) {
+    violations.push({
+      file,
+      sceneId,
+      index,
+      speaker: line.speaker,
+      rule: `鉤括弧が対になっていません（「×${open} / 」×${close}）`,
+      text,
+    });
   }
 
   if (line.speaker === 'muni' && text.includes('僕')) {
