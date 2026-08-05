@@ -37,10 +37,11 @@ describe('resolveEnding — 全8分岐', () => {
     expect(resolveEnding(state)).toBe('end_bad_c');
   });
 
-  it('BAD A: 絆値が -1 以下かつ裏切りが成立', () => {
+  it('BAD A: 裏切った当人との絆が -1 以下かつ裏切りが成立', () => {
     let state = withBonds(6, 100);
     state = withTruths(state, 4);
     state.bond.hyu = -1;
+    state.betrayer = 'hyu';
     state.flags.betrayal_completed = true;
     expect(resolveEnding(state)).toBe('end_bad_a');
   });
@@ -49,6 +50,26 @@ describe('resolveEnding — 全8分岐', () => {
     let state = withBonds(6, 100);
     state = withTruths(state, 4);
     state.bond.hyu = -1;
+    state.betrayer = 'hyu';
+    expect(resolveEnding(state)).not.toBe('end_bad_a');
+  });
+
+  it('BAD A: 絆がマイナスでも、その相手が裏切っていなければ該当しない', () => {
+    // 旧仕様（誰か1人でも -1 以下）では、ほぼ全周回がここに落ちていた。
+    let state = withBonds(6, 100);
+    state = withTruths(state, 4);
+    state.bond.hyu = -1;
+    state.betrayer = 'jinpachi';
+    state.flags.betrayal_completed = true;
+    expect(resolveEnding(state)).not.toBe('end_bad_a');
+  });
+
+  it('BAD A: 裏切り者が確定していなければ該当しない', () => {
+    let state = withBonds(6, 100);
+    state = withTruths(state, 4);
+    state.bond.hyu = -1;
+    state.flags.betrayal_completed = true;
+    expect(state.betrayer).toBeNull();
     expect(resolveEnding(state)).not.toBe('end_bad_a');
   });
 

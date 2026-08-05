@@ -4,230 +4,344 @@
   "background": "bg_town_park",
   "bgm": "bgm_sad",
   "lines": [
-    { "type": "narration", "text": "翌朝、公園に集まった。" },
-    { "type": "narration", "text": "拠点にはいられなかった。あの部屋には、もう六人ぶんの場所がなかった。" },
-    { "type": "resolveFate", "what": "departed" },
-
+    {
+      "type": "narration",
+      "text": "翌朝、公園に集まった。"
+    },
+    {
+      "type": "narration",
+      "text": "拠点にはいられなかった。あの部屋には、もう六人ぶんの場所がなかった。"
+    },
+    {
+      "type": "resolveFate",
+      "what": "departed"
+    },
     {
       "type": "cg",
       "asset": "cg_13_farewell",
       "variant": "muni",
-      "requires": { "departedIs": "muni" }
+      "requires": {
+        "departedIs": "muni"
+      }
     },
     {
       "type": "narration",
       "text": "ムニは、ブランコに座れなくなっていた。",
-      "requires": { "departedIs": "muni" }
+      "requires": {
+        "departedIs": "muni"
+      }
     },
     {
       "type": "narration",
       "text": "座面をすり抜けるのではない。座ろうとすると、身体のほうが薄くなるのだ。",
-      "requires": { "departedIs": "muni" }
+      "requires": {
+        "departedIs": "muni"
+      }
     },
     {
       "type": "dialogue",
       "speaker": "muni",
       "expression": "special",
       "text": "……おにいちゃん",
-      "requires": { "departedIs": "muni" }
+      "requires": {
+        "departedIs": "muni"
+      }
     },
     {
       "type": "dialogue",
       "speaker": "muni",
       "expression": "special",
       "text": "ぼく、きえるの?",
-      "requires": { "departedIs": "muni" }
+      "requires": {
+        "departedIs": "muni"
+      }
     },
     {
       "type": "narration",
       "text": "答えられなかった。",
-      "requires": { "departedIs": "muni" }
+      "requires": {
+        "departedIs": "muni"
+      }
     },
     {
       "type": "dialogue",
       "speaker": "shell",
       "expression": "normal",
       "text": "《この子は、亡くなった時点の姿を写しています。三年ぶん、無理がありました》",
-      "requires": { "departedIs": "muni" }
+      "requires": {
+        "departedIs": "muni"
+      }
     },
     {
       "type": "dialogue",
       "speaker": "shell",
       "expression": "normal",
       "text": "《五歳の姿は、五歳より先に進めません。ですから、後ろへ戻るしかないのです》",
-      "requires": { "departedIs": "muni" }
+      "requires": {
+        "departedIs": "muni"
+      }
     },
     {
       "type": "narration",
       "text": "小さくなっていたのではない。戻っていたのだ。",
-      "requires": { "departedIs": "muni" }
+      "requires": {
+        "departedIs": "muni"
+      }
     },
     {
       "type": "narration",
       "text": "戻りきった先にあるのは、生まれる前だ。",
-      "requires": { "departedIs": "muni" }
+      "requires": {
+        "departedIs": "muni"
+      }
     },
-
     {
       "type": "cg",
       "asset": "cg_13_farewell",
       "variant": "renny",
-      "requires": { "departedIs": "renny" }
+      "requires": {
+        "departedIs": "renny"
+      }
     },
     {
       "type": "narration",
       "text": "レニィは、砂場の縁に座っていた。",
-      "requires": { "departedIs": "renny" }
+      "requires": {
+        "departedIs": "renny"
+      }
     },
     {
       "type": "narration",
       "text": "眠っていなかった。もう三日、一度も眠っていない。",
-      "requires": { "departedIs": "renny" }
+      "requires": {
+        "departedIs": "renny"
+      }
     },
     {
       "type": "dialogue",
       "speaker": "renny",
       "expression": "special",
       "text": "決めたよ、僕",
-      "requires": { "departedIs": "renny" }
+      "requires": {
+        "departedIs": "renny"
+      }
     },
     {
       "type": "dialogue",
       "speaker": "renny",
       "expression": "special",
       "text": "ムニと僕は、同じ人から出てるんだ。だったら、二人ぶんの負担をかけてることになる",
-      "requires": { "departedIs": "renny" }
+      "requires": {
+        "departedIs": "renny"
+      }
     },
     {
       "type": "dialogue",
       "speaker": "renny",
       "expression": "special",
       "text": "……僕のほうは、いなくてもいいほうだよ",
-      "requires": { "departedIs": "renny" }
+      "requires": {
+        "departedIs": "renny"
+      }
     },
     {
       "type": "dialogue",
       "speaker": "haru",
       "expression": "angry",
       "text": "そんなわけないだろ",
-      "requires": { "departedIs": "renny" }
+      "requires": {
+        "departedIs": "renny"
+      }
     },
     {
       "type": "dialogue",
       "speaker": "renny",
       "expression": "special",
       "text": "あのね。ムニは、ほんとにいた子なんだ",
-      "requires": { "departedIs": "renny" }
+      "requires": {
+        "departedIs": "renny"
+      }
     },
     {
       "type": "dialogue",
       "speaker": "renny",
       "expression": "special",
       "text": "僕は、いなかった子だよ。いたかもしれない、っていうだけ",
-      "requires": { "departedIs": "renny" }
+      "requires": {
+        "departedIs": "renny"
+      }
     },
-
     {
       "type": "cg",
       "asset": "cg_13_farewell",
       "variant": "geru",
-      "requires": { "departedIs": "geru" }
+      "requires": {
+        "departedIs": "geru"
+      }
     },
     {
       "type": "narration",
       "text": "ゲルは、公園には来なかった。",
-      "requires": { "departedIs": "geru" }
+      "requires": {
+        "departedIs": "geru"
+      }
     },
     {
       "type": "narration",
       "text": "来たのは、置き手紙だけだった。",
-      "requires": { "departedIs": "geru" }
+      "requires": {
+        "departedIs": "geru"
+      }
     },
     {
       "type": "narration",
       "text": "紙に、五行だけ書いてあった。",
-      "requires": { "departedIs": "geru" }
+      "requires": {
+        "departedIs": "geru"
+      }
     },
     {
       "type": "narration",
       "text": "──私は墜ちる。それは止められない。",
-      "requires": { "departedIs": "geru" }
+      "requires": {
+        "departedIs": "geru"
+      }
     },
     {
       "type": "narration",
       "text": "──街から離れた場所で墜ちれば、被害は出ない。",
-      "requires": { "departedIs": "geru" }
+      "requires": {
+        "departedIs": "geru"
+      }
     },
     {
       "type": "narration",
       "text": "──お前たちも、たぶん同時に消える。すまない。",
-      "requires": { "departedIs": "geru" }
+      "requires": {
+        "departedIs": "geru"
+      }
     },
     {
       "type": "narration",
       "text": "──三年、独りじゃなかった。",
-      "requires": { "departedIs": "geru" }
+      "requires": {
+        "departedIs": "geru"
+      }
     },
     {
       "type": "narration",
       "text": "──それで十分だ。",
-      "requires": { "departedIs": "geru" }
+      "requires": {
+        "departedIs": "geru"
+      }
     },
     {
       "type": "narration",
       "text": "字が、途中から乱れていた。書きながら手が痺れていたのだと思う。",
-      "requires": { "departedIs": "geru" }
+      "requires": {
+        "departedIs": "geru"
+      }
     },
-
     {
       "type": "choice",
       "prompt": "追いかけて、引き止めることはできる。たぶん、できる。",
       "options": [
         {
           "text": "引き止める。「勝手に決めるな」",
-          "bond": { "renny": 10, "muni": 10, "geru": 10, "hyu": -3, "jinpachi": -3, "neo": -3 },
-          "flags": { "held_back_departed": true }
+          "bond": {
+            "renny": 10,
+            "muni": 10,
+            "geru": 10,
+            "hyu": -3,
+            "jinpachi": -3,
+            "neo": -3
+          },
+          "flags": {
+            "held_back_departed": true
+          }
         },
         {
           "text": "送り出す。「決めたなら、止めない」",
-          "bond": { "renny": -3, "muni": -3, "geru": -3, "hyu": 6, "jinpachi": 6, "neo": 6 },
-          "flags": { "held_back_departed": false }
+          "bond": {
+            "renny": -3,
+            "muni": -3,
+            "geru": -3,
+            "hyu": 6,
+            "jinpachi": 6,
+            "neo": 10
+          },
+          "flags": {
+            "held_back_departed": false
+          }
         }
       ]
     },
     {
       "type": "narration",
       "text": "引き止めた。腕を掴んで、みっともないくらい必死に。",
-      "requires": { "flags": { "held_back_departed": true } }
+      "requires": {
+        "flags": {
+          "held_back_departed": true
+        }
+      }
     },
     {
       "type": "narration",
       "text": "掴めた。まだ掴めた。",
-      "requires": { "flags": { "held_back_departed": true } }
+      "requires": {
+        "flags": {
+          "held_back_departed": true
+        }
+      }
     },
     {
       "type": "narration",
       "text": "──それでも、この先に何があるかは、何ひとつ変わっていなかった。",
-      "requires": { "flags": { "held_back_departed": true } }
+      "requires": {
+        "flags": {
+          "held_back_departed": true
+        }
+      }
     },
     {
       "type": "narration",
       "text": "止めなかった。",
-      "requires": { "flags": { "held_back_departed": false } }
+      "requires": {
+        "flags": {
+          "held_back_departed": false
+        }
+      }
     },
     {
       "type": "narration",
       "text": "自分で決めた人を止めるのは、その決断を軽く扱うことだと思ったからだ。",
-      "requires": { "flags": { "held_back_departed": false } }
+      "requires": {
+        "flags": {
+          "held_back_departed": false
+        }
+      }
     },
     {
       "type": "narration",
       "text": "──ずいぶん立派な理屈だ。今でもそう思う。",
-      "requires": { "flags": { "held_back_departed": false } }
+      "requires": {
+        "flags": {
+          "held_back_departed": false
+        }
+      }
     },
-    { "type": "narration", "text": "公園を出るとき、猫の足跡が砂場に残っていた。" },
-    { "type": "narration", "text": "前に来たときと、まったく同じ場所についていた。" },
-    { "type": "narration", "text": "世界のほうは、何も変わっていなかった。" }
+    {
+      "type": "narration",
+      "text": "公園を出るとき、猫の足跡が砂場に残っていた。"
+    },
+    {
+      "type": "narration",
+      "text": "前に来たときと、まったく同じ場所についていた。"
+    },
+    {
+      "type": "narration",
+      "text": "世界のほうは、何も変わっていなかった。"
+    }
   ],
   "next": "ch04_13"
 }

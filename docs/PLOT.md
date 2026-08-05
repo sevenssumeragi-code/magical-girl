@@ -238,12 +238,21 @@ else                       -> geru    // 単身で墜化を引き受けに行く
 |---|---|---|
 | 1 | `end_secret` | `bond.neo >= 90` かつ `flags.neo_identity_revealed` かつ `flags.neo_route` |
 | 2 | `end_bad_c` | `taint >= 100` |
-| 3 | `end_bad_a` | いずれかの `bond <= -1` かつ `flags.betrayal_completed` |
+| 3 | `end_bad_a` | **裏切り者本人**との `bond <= -1` かつ `flags.betrayal_completed` |
 | 4 | `end_bad_b` | `bond >= 60` の人数が 0 |
 | 5 | `end_true` | 真相フラグ全取得 かつ `bond >= 60` が4人以上 かつ `flags.muni_alive` |
 | 6 | `end_good_a` | `bond >= 60` が3人以上 かつ 真相フラグの過半数取得 |
 | 7 | `end_good_b` | `sum(bond) >= 200` かつ 真相フラグ未達 |
 | 8 | `end_normal` | 上記いずれも満たさず `sum(bond) >= 100`。**さらに満たさない場合も `end_normal` にフォールバック**（到達不能状態を作らない） |
+
+> **改定 (フェーズ4)**: BAD A の条件を「いずれかの絆が -1 以下」から「裏切り者本人との絆が -1 以下」に変更した。
+> `betrayal_completed` は必ず立つため、前者では実測13種の単純戦略すべてが BAD A に落ち、他の結末が到達不能だった。
+> このエンディングは「刃を向けてきた相手の理由を訊かなかった」話なので、対象を裏切り者に限定するのが内容とも合う。
+
+> **改定 (フェーズ4)**: 選択肢がゼロサム寄りで絆の総量が不足し、TRUE(4人)・GOOD A(3人) が到達不能だった。
+> 節目8シーン（`ch01_09` `ch01_11` `ch02_06` `ch03_09` `ch03_11` `ch04_02` `ch04_13` `ch05_01` `ch05_04` `ch05_07`）に
+> 「共に潜り抜けたことによる信頼」として無条件加算を置き、1人あたり合計 +34 を追加した。
+> あわせてネオの獲得上限を90超に、翳の上限を110に引き上げ、SECRET と BAD C を到達可能にした。
 
 > 注: 優先順は「BAD系を先に評価する」。GOOD条件を満たしていても翳が満ちていれば `end_bad_c` が優先される。
 > 真相フラグ = `truth_wish` / `truth_material` / `truth_haru_blank` / `truth_neo_origin` の4種。

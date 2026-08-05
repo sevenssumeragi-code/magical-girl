@@ -4,73 +4,280 @@
   "background": "bg_school_classroom",
   "bgm": "bgm_shell",
   "lines": [
-    { "type": "narration", "text": "拠点に戻って、僕たちはシェルを机の真ん中に座らせた。" },
-    { "type": "narration", "text": "取り囲むような形になった。誰も座らなかった。" },
-    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "……全部話せ" },
-    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《何をでしょうか》" },
-    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "全部だ!" },
-    { "type": "dialogue", "speaker": "shell", "expression": "tilt", "text": "《全部、というのは範囲が定まりません。お答えのしようがないのです》" },
-    { "type": "narration", "text": "ジンパチが机を殴った。木がひび割れる音がした。" },
-    { "type": "narration", "text": "シェルは、揺れもしなかった。" },
-    { "type": "dialogue", "speaker": "hyu", "expression": "angry", "text": "……では、順に伺いましょう" },
-    { "type": "dialogue", "speaker": "hyu", "expression": "angry", "text": "私は、灯守ですか" },
-    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《いいえ》" },
-    { "type": "narration", "text": "一秒も、迷わなかった。" },
-    { "type": "dialogue", "speaker": "hyu", "expression": "surprised", "text": "……即答ですか" },
-    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《はい。事実ですので》" },
-    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "……ねえ。僕は、契約した?" },
-    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《いいえ》" },
-    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "……そっか" },
-    { "type": "narration", "text": "レニィは、笑おうとして、失敗した。" },
-    { "type": "narration", "text": "その顔を見て、僕は初めて本当に怖くなった。" },
-    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "……なんで、今まで黙ってたんだ" },
-    { "type": "dialogue", "speaker": "shell", "expression": "tilt", "text": "《黙ってはおりません》" },
-    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "黙ってただろ! 三年も!" },
-    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《いいえ。訊かれなかったのです》" },
-    { "type": "narration", "text": "部屋が、静まりかえった。" },
-    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《私は嘘を申しません。一度も申しておりません》" },
-    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《ですが、訊かれていないことをお答えする理由も、ありません》" },
-    { "type": "narration", "text": "その通りだった。" },
-    { "type": "narration", "text": "灯核に異常はありません──ムニのことを訊いたとき、この生き物はそう答え続けた。" },
-    { "type": "narration", "text": "異常はなかったのだ。灯核には。" },
-    { "type": "narration", "text": "僕が一度だけ、身体は何でできているのかと訊いた。あのとき返ってきたのは。" },
-    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《いい質問です、と申し上げました》" },
-    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《もう一度お訊きになれば、お答えするつもりでした》" },
-    { "type": "narration", "text": "膝が、震えた。" },
-    { "type": "narration", "text": "あのとき僕がもう一度訊いていれば、ムニは、まだ間に合ったかもしれない。" },
+    {
+      "type": "narration",
+      "text": "拠点に戻って、僕たちはシェルを机の真ん中に座らせた。"
+    },
+    {
+      "type": "narration",
+      "text": "取り囲むような形になった。誰も座らなかった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "……全部話せ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《何をでしょうか》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "全部だ!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "tilt",
+      "text": "《全部、というのは範囲が定まりません。お答えのしようがないのです》"
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチが机を殴った。木がひび割れる音がした。"
+    },
+    {
+      "type": "narration",
+      "text": "シェルは、揺れもしなかった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "angry",
+      "text": "……では、順に伺いましょう"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "angry",
+      "text": "私は、灯守ですか"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《いいえ》"
+    },
+    {
+      "type": "narration",
+      "text": "一秒も、迷わなかった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "surprised",
+      "text": "……即答ですか"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《はい。事実ですので》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "……ねえ。僕は、契約した?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《いいえ》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "……そっか"
+    },
+    {
+      "type": "narration",
+      "text": "レニィは、笑おうとして、失敗した。"
+    },
+    {
+      "type": "narration",
+      "text": "その顔を見て、僕は初めて本当に怖くなった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "angry",
+      "text": "……なんで、今まで黙ってたんだ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "tilt",
+      "text": "《黙ってはおりません》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "angry",
+      "text": "黙ってただろ! 三年も!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《いいえ。訊かれなかったのです》"
+    },
+    {
+      "type": "narration",
+      "text": "部屋が、静まりかえった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《私は嘘を申しません。一度も申しておりません》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《ですが、訊かれていないことをお答えする理由も、ありません》"
+    },
+    {
+      "type": "narration",
+      "text": "その通りだった。"
+    },
+    {
+      "type": "narration",
+      "text": "灯核に異常はありません──ムニのことを訊いたとき、この生き物はそう答え続けた。"
+    },
+    {
+      "type": "narration",
+      "text": "異常はなかったのだ。灯核には。"
+    },
+    {
+      "type": "narration",
+      "text": "僕が一度だけ、身体は何でできているのかと訊いた。あのとき返ってきたのは。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《いい質問です、と申し上げました》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《もう一度お訊きになれば、お答えするつもりでした》"
+    },
+    {
+      "type": "narration",
+      "text": "膝が、震えた。"
+    },
+    {
+      "type": "narration",
+      "text": "あのとき僕がもう一度訊いていれば、ムニは、まだ間に合ったかもしれない。"
+    },
     {
       "type": "narration",
       "text": "──いや。あの夜、僕はこの生き物に、契約の仕組みそのものを訊いていた。",
-      "requires": { "flags": { "asked_about_contract": true } }
+      "requires": {
+        "flags": {
+          "asked_about_contract": true
+        }
+      }
     },
     {
       "type": "dialogue",
       "speaker": "shell",
       "expression": "normal",
       "text": "《あなたは一度、契約の成立条件をお訊きになりましたね》",
-      "requires": { "flags": { "asked_about_contract": true } }
+      "requires": {
+        "flags": {
+          "asked_about_contract": true
+        }
+      }
     },
     {
       "type": "dialogue",
       "speaker": "shell",
       "expression": "normal",
       "text": "《あのとき私は「少女にのみ成立する」と申し上げました。覚えておいでですか》",
-      "requires": { "flags": { "asked_about_contract": true } }
+      "requires": {
+        "flags": {
+          "asked_about_contract": true
+        }
+      }
     },
     {
       "type": "narration",
       "text": "覚えていた。聞き流していただけだ。自分に関係のある話だと、思わなかったから。",
-      "requires": { "flags": { "asked_about_contract": true } }
+      "requires": {
+        "flags": {
+          "asked_about_contract": true
+        }
+      }
     },
-    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "……シェル" },
-    { "type": "narration", "text": "ゲルが、前に出た。" },
-    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "訊く。これ以上ないくらい、はっきり訊く" },
-    { "type": "narration", "text": "ゲルの声は、震えていなかった。" },
-    { "type": "narration", "text": "この人は、答えを聞くのが怖いときほど、はっきり喋る。" },
-    { "type": "narration", "text": "三年ぶんの、癖だった。" },
-    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "三年前、私は何を願った" },
-    { "type": "narration", "text": "シェルは、背中の巻貝を、ゆっくりと光らせた。" },
-    { "type": "dialogue", "speaker": "shell", "expression": "glow", "text": "《お見せしましょう》" }
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "angry",
+      "text": "……シェル"
+    },
+    {
+      "type": "narration",
+      "text": "ゲルが、前に出た。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "angry",
+      "text": "訊く。これ以上ないくらい、はっきり訊く"
+    },
+    {
+      "type": "narration",
+      "text": "ゲルの声は、震えていなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "この人は、答えを聞くのが怖いときほど、はっきり喋る。"
+    },
+    {
+      "type": "narration",
+      "text": "三年ぶんの、癖だった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "sad",
+      "text": "三年前、私は何を願った"
+    },
+    {
+      "type": "narration",
+      "text": "シェルは、背中の巻貝を、ゆっくりと光らせた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "glow",
+      "text": "《お見せしましょう》"
+    },
+    {
+      "type": "narration",
+      "text": "同じ話を、同じ部屋で、全員で聞いた。逃げた者はいなかった。"
+    },
+    {
+      "type": "bond",
+      "delta": {
+        "renny": 4,
+        "hyu": 4,
+        "jinpachi": 4,
+        "muni": 4,
+        "geru": 4
+      }
+    }
   ],
   "next": "ch04_03"
 }

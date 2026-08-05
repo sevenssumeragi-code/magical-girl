@@ -4,40 +4,172 @@
   "background": "bg_eikai_garden",
   "bgm": "bgm_battle_01",
   "lines": [
-    { "type": "cg", "asset": "cg_02_first_battle" },
-    { "type": "narration", "text": "裂け目は、川沿いの遊歩道に開いた。" },
-    { "type": "narration", "text": "六人が並んで飛び込む。誰も何も言わない。手順が身体に染みついている集団の動き方だった。" },
-    { "type": "narration", "text": "中は、花壇だった。" },
-    { "type": "narration", "text": "見渡す限り、造花が敷き詰められている。プラスチックの花びらが、地平線の向こうまで整然と並んでいた。" },
-    { "type": "narration", "text": "枯れない花。手入れも要らない花。それが、どこまでも、どこまでも続いている。" },
-    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "……この人、ずっと誰かに世話してほしかったんだね" },
-    { "type": "narration", "text": "レニィの声は、いつもと違って眠そうではなかった。" },
-    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "喋るな。散開しろ" },
-    { "type": "narration", "text": "六人の灯守形態を、僕はこのとき初めてまともに見た。" },
-    { "type": "narration", "text": "ゲルは紫と銀。飾りが一切ない、実用一辺倒の軽装。" },
-    { "type": "narration", "text": "ヒュウは深緑と黒。長い外套の裾が、動くたびに滑らかに流れる。" },
-    { "type": "narration", "text": "ジンパチは赤と橙。両腕の籠手が、光を弾いて鈍く光る。" },
-    { "type": "narration", "text": "レニィは水色と白。輪郭がやわらかくて、戦うための格好にはとても見えない。" },
-    { "type": "narration", "text": "ムニは淡い水色のポンチョ。裾が地面に届きそうだ。" },
-    { "type": "narration", "text": "そして僕は、白。" },
-    { "type": "narration", "text": "誰よりも色が薄い。並ぶと、自分だけが下描きのまま連れてこられたみたいに見えた。" },
-    { "type": "sfx", "asset": "se_core_pulse" },
-    { "type": "narration", "text": "花壇の中央が盛り上がった。造花が渦を巻いて、その中心から、腕が何本も生えてくる。" },
-    { "type": "narration", "text": "墜者だ。" },
-    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "俺が前に出る! ヒュウ、右!" },
-    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "承知しました" },
-    { "type": "narration", "text": "連携に、迷いがない。" },
-    { "type": "narration", "text": "ジンパチが正面から殴りつけて注意を引き、ヒュウが外側から削る。レニィが後ろで数を減らし、ムニが──" },
-    { "type": "narration", "text": "ムニは、何もしていなかった。" },
-    { "type": "narration", "text": "いや、違う。彼が立っている場所の周りだけ、造花の動きが止まっている。" },
-    { "type": "dialogue", "speaker": "muni", "expression": "normal", "text": "……とまって" },
-    { "type": "narration", "text": "小さな声だった。それだけで、彼を中心に半径十メートルほどの世界が、しんと静かになった。" },
-    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……すごい" },
-    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "ムニの領分だ。あの子がいると誰も死なない" },
-    { "type": "narration", "text": "ゲルは短くそう言って、腰を落とした。" },
-    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "行くぞ。{name}、ついてこい" },
-    { "type": "narration", "text": "初めての、六人の戦いだった。" },
-    { "type": "narration", "text": "このときの僕は、これがずっと続くものだと思っていた。" }
+    {
+      "type": "cg",
+      "asset": "cg_02_first_battle"
+    },
+    {
+      "type": "narration",
+      "text": "裂け目は、川沿いの遊歩道に開いた。"
+    },
+    {
+      "type": "narration",
+      "text": "六人が並んで飛び込む。誰も何も言わない。手順が身体に染みついている集団の動き方だった。"
+    },
+    {
+      "type": "narration",
+      "text": "中は、花壇だった。"
+    },
+    {
+      "type": "narration",
+      "text": "見渡す限り、造花が敷き詰められている。プラスチックの花びらが、地平線の向こうまで整然と並んでいた。"
+    },
+    {
+      "type": "narration",
+      "text": "枯れない花。手入れも要らない花。それが、どこまでも、どこまでも続いている。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "……この人、ずっと誰かに世話してほしかったんだね"
+    },
+    {
+      "type": "narration",
+      "text": "レニィの声は、いつもと違って眠そうではなかった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "normal",
+      "text": "喋るな。散開しろ"
+    },
+    {
+      "type": "narration",
+      "text": "六人の灯守形態を、僕はこのとき初めてまともに見た。"
+    },
+    {
+      "type": "narration",
+      "text": "ゲルは紫と銀。飾りが一切ない、実用一辺倒の軽装。"
+    },
+    {
+      "type": "narration",
+      "text": "ヒュウは深緑と黒。長い外套の裾が、動くたびに滑らかに流れる。"
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチは赤と橙。両腕の籠手が、光を弾いて鈍く光る。"
+    },
+    {
+      "type": "narration",
+      "text": "レニィは水色と白。輪郭がやわらかくて、戦うための格好にはとても見えない。"
+    },
+    {
+      "type": "narration",
+      "text": "ムニは淡い水色のポンチョ。裾が地面に届きそうだ。"
+    },
+    {
+      "type": "narration",
+      "text": "そして僕は、白。"
+    },
+    {
+      "type": "narration",
+      "text": "誰よりも色が薄い。並ぶと、自分だけが下描きのまま連れてこられたみたいに見えた。"
+    },
+    {
+      "type": "sfx",
+      "asset": "se_core_pulse"
+    },
+    {
+      "type": "narration",
+      "text": "花壇の中央が盛り上がった。造花が渦を巻いて、その中心から、腕が何本も生えてくる。"
+    },
+    {
+      "type": "narration",
+      "text": "墜者だ。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "俺が前に出る! ヒュウ、右!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "normal",
+      "text": "承知しました"
+    },
+    {
+      "type": "narration",
+      "text": "連携に、迷いがない。"
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチが正面から殴りつけて注意を引き、ヒュウが外側から削る。レニィが後ろで数を減らし、ムニが──"
+    },
+    {
+      "type": "narration",
+      "text": "ムニは、何もしていなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "いや、違う。彼が立っている場所の周りだけ、造花の動きが止まっている。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "muni",
+      "expression": "normal",
+      "text": "……とまって"
+    },
+    {
+      "type": "narration",
+      "text": "小さな声だった。それだけで、彼を中心に半径十メートルほどの世界が、しんと静かになった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "surprised",
+      "text": "……すごい"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "normal",
+      "text": "ムニの領分だ。あの子がいると誰も死なない"
+    },
+    {
+      "type": "narration",
+      "text": "ゲルは短くそう言って、腰を落とした。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "angry",
+      "text": "行くぞ。{name}、ついてこい"
+    },
+    {
+      "type": "narration",
+      "text": "初めての、六人の戦いだった。"
+    },
+    {
+      "type": "narration",
+      "text": "このときの僕は、これがずっと続くものだと思っていた。"
+    },
+    {
+      "type": "narration",
+      "text": "初めて六人で戦った。連携は僕が足を引っ張ったけれど、誰もそれを言わなかった。"
+    },
+    {
+      "type": "bond",
+      "delta": {
+        "renny": 3,
+        "hyu": 3,
+        "jinpachi": 3,
+        "muni": 3,
+        "geru": 3
+      }
+    }
   ],
   "next": "ch01_10"
 }

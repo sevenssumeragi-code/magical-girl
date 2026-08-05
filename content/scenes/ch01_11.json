@@ -4,40 +4,186 @@
   "background": "bg_school_classroom",
   "bgm": "bgm_quiet",
   "lines": [
-    { "type": "cg", "asset": "cg_03_six_cores" },
-    { "type": "narration", "text": "帰ってきた拠点で、全員が灯核を出して机に並べた。" },
-    { "type": "narration", "text": "戦った後は必ずこうするのだと、ヒュウが教えてくれた。翳の溜まり具合を、互いに確認するためだ。" },
-    { "type": "narration", "text": "六つの珠が、裸電球の下に並ぶ。" },
-    { "type": "narration", "text": "ジンパチの琥珀。ヒュウの深緑。レニィの水色。ムニの淡い青。ゲルの紫。" },
-    { "type": "narration", "text": "どれも、綺麗な色をしていた。" },
-    { "type": "narration", "text": "そして、その隣に僕のがある。" },
-    { "type": "narration", "text": "無色。透明。電球の光が、そのまま向こうへ抜けて、机の木目を映している。" },
-    { "type": "dialogue", "speaker": "jinpachi", "expression": "surprised", "text": "……お前のそれ、やっぱ変だな" },
-    { "type": "dialogue", "speaker": "renny", "expression": "normal", "text": "ほんとだ。色がないねぇ" },
-    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "これって、そんなに珍しいの" },
-    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "灯核の色は、契約のときの願いで決まると聞いています" },
-    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "ジンパチくんが橙なのは、たぶんそういう願いだったからでしょう" },
-    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "……余計なこと言うな" },
-    { "type": "narration", "text": "ジンパチは自分の灯核を掴んで、さっさとポケットに戻した。" },
-    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "じゃあ、色がないっていうのは" },
-    { "type": "narration", "text": "誰も、すぐには答えなかった。" },
-    { "type": "narration", "text": "答えを知らなかったからだ。──今なら、そう分かる。" },
-    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《珍しいですね》" },
-    { "type": "narration", "text": "窓枠の上に、いつのまにかシェルが座っていた。" },
-    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "シェル。これ、どういう意味なの" },
-    { "type": "dialogue", "speaker": "shell", "expression": "tilt", "text": "《色が無い、という意味です》" },
-    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "答えになってねえんだよ!" },
-    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《申し訳ありません。ですが、嘘は申し上げられませんので》" },
-    { "type": "narration", "text": "穏やかで、丁寧で、まったく取りつく島がない。" },
-    { "type": "narration", "text": "レニィがあくびをして、話は終わった。" },
-    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "まあ、珍しいってことは、いいことだよ。たぶん" },
-    { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "……たぶんって" },
-    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "たぶんだよぉ" },
-    { "type": "narration", "text": "笑って、それきりになった。" },
-    { "type": "narration", "text": "僕も笑った。だからこの夜のことを、僕はしばらく忘れていた。" },
-    { "type": "narration", "text": "六つ並んだうちの、ひとつだけが透きとおっていたこと。" },
-    { "type": "narration", "text": "それが何を意味するのか、この部屋の誰も知らなかったということ。" },
-    { "type": "narration", "text": "──あるいは、この部屋にいなかった誰かだけが、知っていたということ。" }
+    {
+      "type": "cg",
+      "asset": "cg_03_six_cores"
+    },
+    {
+      "type": "narration",
+      "text": "帰ってきた拠点で、全員が灯核を出して机に並べた。"
+    },
+    {
+      "type": "narration",
+      "text": "戦った後は必ずこうするのだと、ヒュウが教えてくれた。翳の溜まり具合を、互いに確認するためだ。"
+    },
+    {
+      "type": "narration",
+      "text": "六つの珠が、裸電球の下に並ぶ。"
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチの琥珀。ヒュウの深緑。レニィの水色。ムニの淡い青。ゲルの紫。"
+    },
+    {
+      "type": "narration",
+      "text": "どれも、綺麗な色をしていた。"
+    },
+    {
+      "type": "narration",
+      "text": "そして、その隣に僕のがある。"
+    },
+    {
+      "type": "narration",
+      "text": "無色。透明。電球の光が、そのまま向こうへ抜けて、机の木目を映している。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "surprised",
+      "text": "……お前のそれ、やっぱ変だな"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "normal",
+      "text": "ほんとだ。色がないねぇ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "これって、そんなに珍しいの"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "normal",
+      "text": "灯核の色は、契約のときの願いで決まると聞いています"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "normal",
+      "text": "ジンパチくんが橙なのは、たぶんそういう願いだったからでしょう"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "……余計なこと言うな"
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチは自分の灯核を掴んで、さっさとポケットに戻した。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "じゃあ、色がないっていうのは"
+    },
+    {
+      "type": "narration",
+      "text": "誰も、すぐには答えなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "答えを知らなかったからだ。──今なら、そう分かる。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《珍しいですね》"
+    },
+    {
+      "type": "narration",
+      "text": "窓枠の上に、いつのまにかシェルが座っていた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "シェル。これ、どういう意味なの"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "tilt",
+      "text": "《色が無い、という意味です》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "答えになってねえんだよ!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《申し訳ありません。ですが、嘘は申し上げられませんので》"
+    },
+    {
+      "type": "narration",
+      "text": "穏やかで、丁寧で、まったく取りつく島がない。"
+    },
+    {
+      "type": "narration",
+      "text": "レニィがあくびをして、話は終わった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "smile",
+      "text": "まあ、珍しいってことは、いいことだよ。たぶん"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "smile",
+      "text": "……たぶんって"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "smile",
+      "text": "たぶんだよぉ"
+    },
+    {
+      "type": "narration",
+      "text": "笑って、それきりになった。"
+    },
+    {
+      "type": "narration",
+      "text": "僕も笑った。だからこの夜のことを、僕はしばらく忘れていた。"
+    },
+    {
+      "type": "narration",
+      "text": "六つ並んだうちの、ひとつだけが透きとおっていたこと。"
+    },
+    {
+      "type": "narration",
+      "text": "それが何を意味するのか、この部屋の誰も知らなかったということ。"
+    },
+    {
+      "type": "narration",
+      "text": "──あるいは、この部屋にいなかった誰かだけが、知っていたということ。"
+    },
+    {
+      "type": "narration",
+      "text": "六つの灯核が、同じ机の上に並んでいる。それを当たり前だと思える程度には、僕はもうこの部屋の一部だった。"
+    },
+    {
+      "type": "bond",
+      "delta": {
+        "renny": 4,
+        "hyu": 4,
+        "jinpachi": 4,
+        "muni": 4,
+        "geru": 4
+      }
+    }
   ],
   "next": "ch01_12"
 }

@@ -42,8 +42,17 @@ export function resolveEnding(state: GameState): EndingId {
   // 2. BAD C: 翳が満ちた（墜化）
   if (state.taint >= 100) return 'end_bad_c';
 
-  // 3. BAD A: 誰かとの絆が決裂した状態で裏切りが実行された
-  if (BOND_IDS.some((id) => state.bond[id] <= -1) && state.flags.betrayal_completed) {
+  // 3. BAD A: 裏切った当人との絆が決裂したまま、裏切りが実行された
+  //
+  // 「誰か一人でも -1 以下」で判定すると、betrayal_completed が必ず立つ以上
+  // ほぼ全ての周回がここに落ちる（実測: 単純戦略13種すべてが BAD A）。
+  // このエンディングは「刃を向けてきた相手の理由を最後まで訊かなかった」話なので、
+  // 裏切り者本人との絆に限定する。
+  if (
+    state.betrayer !== null &&
+    state.bond[state.betrayer] <= -1 &&
+    state.flags.betrayal_completed
+  ) {
     return 'end_bad_a';
   }
 
