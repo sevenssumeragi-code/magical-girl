@@ -4,22 +4,106 @@
   "background": "bg_town_slope_night",
   "bgm": "bgm_neo",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: ネオとの決着（戦う／説得する））"
-    },
+    { "type": "narration", "text": "ネオは、坂の途中で待っていた。" },
+    { "type": "narration", "text": "三度目だ。この人は、いつも同じ街灯の下にいる。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "……来ると思っていた" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "訊きたいことがある" },
+    { "type": "dialogue", "speaker": "neo", "expression": "smile", "text": "貴様はいつもそれだな。剣より先に口が出る" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……あなたは、なんで三日待ったんだ" },
+    { "type": "narration", "text": "ネオの表情が、止まった。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "任務なら、初日に僕たちを消せばよかった。あなたなら簡単だった" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "待つ理由なんて、外環の側には何もないはずだ" },
+    { "type": "narration", "text": "長い沈黙があった。" },
+    { "type": "narration", "text": "坂の下から、終電の音が上がってきた。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "……私は、これを七度やっている" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "七度" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "歪んだ願いの産物を消す。別の世界で、六度。この世界で、七度目だ" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "一度目は、何も感じなかった。二度目もだ" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "三度目のとき、消される側が私に礼を言った" },
+    { "type": "narration", "text": "礼。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "生まれてはならぬものとして生まれ、そのことを知って、終わらせてくれる者に礼を言った" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "……以来、私は高圧的にしている" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "見下しておらねば、剣を持てぬからだ" },
+    { "type": "narration", "text": "この人の、あの喋り方。" },
+    { "type": "narration", "text": "貴様、と呼ぶこと。愚かな、と切り捨てること。" },
+    { "type": "narration", "text": "全部、自分を守るための鎧だったのだ。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C33）",
+      "prompt": "この人と、どう終わるか。",
       "options": [
         {
-          "text": "（未執筆: C33 選択肢A）"
+          "text": "戦う。「僕たちは、消される側でいるつもりはない」",
+          "bond": { "neo": -10, "jinpachi": 6 },
+          "taint": 10,
+          "flags": { "neo_ally": false, "neo_route": false }
         },
         {
-          "text": "（未執筆: C33 選択肢B）"
+          "text": "説得する。「一緒に、八度目を作らない方法を探してほしい」",
+          "bond": { "neo": 10, "hyu": 3 },
+          "flags": { "neo_ally": true, "neo_route": false }
+        },
+        {
+          "text": "「終わったら、あなたと外環へ行く」と申し出る",
+          "bond": { "neo": 20, "geru": -6 },
+          "requires": { "bondAtLeast": { "neo": 40 } },
+          "flags": { "neo_ally": true, "neo_route": true }
         }
       ]
-    }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "angry",
+      "text": "……よかろう。ならば、そのつもりで来るがいい",
+      "requires": { "flags": { "neo_ally": false } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "surprised",
+      "text": "……八度目を、作らぬ方法だと",
+      "requires": { "flags": { "neo_ally": true, "neo_route": false } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "sad",
+      "text": "……そのようなものを、私は七度探して、七度見つけられなかった",
+      "requires": { "flags": { "neo_ally": true, "neo_route": false } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "surprised",
+      "text": "……貴様、正気か",
+      "requires": { "flags": { "neo_route": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "正気だよ。僕は、この世界に還る先がない",
+      "requires": { "flags": { "neo_route": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "あなたも、七度ぶん、ひとりで背負ってるだろ",
+      "requires": { "flags": { "neo_route": true } }
+    },
+    {
+      "type": "narration",
+      "text": "ネオは、剣の柄から手を離した。",
+      "requires": { "flags": { "neo_route": true } }
+    },
+    {
+      "type": "narration",
+      "text": "この人が、僕の前で武器から手を離したのは、それが初めてだった。",
+      "requires": { "flags": { "neo_route": true } }
+    },
+    { "type": "narration", "text": "坂の上で、空が白みはじめていた。" },
+    { "type": "narration", "text": "六十時間のうち、十二時間が過ぎていた。" }
   ],
   "next": "ch05_03"
 }

@@ -6,8 +6,40 @@
   "lines": [
     {
       "type": "narration",
-      "text": "（未執筆: 選択の実行（分岐集約点B：絶望系））"
-    }
+      "text": "願いを、終わらせることにした。",
+      "requires": { "flags": { "final_choice": true } }
+    },
+    { "type": "narration", "text": "五人ぶんの実体を支えているのは、たったひとつの独り言だ。" },
+    { "type": "narration", "text": "もう二度と、独りで戦いたくない。" },
+    { "type": "narration", "text": "それを取り消せば、全部が止まる。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "special", "text": "……何をするつもりだ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "あなたの願いを、返す" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "待て。それをやったら、お前たちは" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "うん" },
+    { "type": "narration", "text": "白と紫の空間で、僕は瓦礫の上の女の子に手を伸ばした。" },
+    { "type": "narration", "text": "十三歳のゲルは、逃げなかった。" },
+    { "type": "narration", "text": "逃げる気力が、もう残っていなかったのだと思う。" },
+    { "type": "sfx", "asset": "se_core_pulse" },
+    { "type": "narration", "text": "灯核の中心の、光の点に触れた。" },
+    { "type": "narration", "text": "そこに、あの夜の独り言が畳まれていた。" },
+    { "type": "narration", "text": "言葉というより、しみのようなものだった。三日ぶん泣かなかった人間の、乾いた跡。" },
+    { "type": "narration", "text": "指先で、それをほどいた。" },
+    { "type": "narration", "text": "ほどけた瞬間、身体の輪郭が薄くなるのが分かった。" },
+    { "type": "narration", "text": "痛くはなかった。レニィに、痛くないといいね、と言われていた。" },
+    { "type": "narration", "text": "──痛くなかったよ、と言ってやりたかった。" },
+    { "type": "narration", "text": "言う相手は、たぶんもういない。" },
+    { "type": "narration", "text": "崩れていく街の中で、ゲルが何か叫んでいた。" },
+    { "type": "narration", "text": "聞こえなかった。音を拾う耳が、先に薄くなっていたからだ。" },
+    { "type": "narration", "text": "最後に見えたのは、瓦礫から立ち上がった十三歳の背中だった。" },
+    { "type": "narration", "text": "その背中は、三日目の夜から、確かに一歩だけ前に出ていた。" },
+    { "type": "narration", "text": "──それで、十分だと思った。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《願いは、無効になりました》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《翳の生成は停止します。契約者は、墜化を免れます》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "tilt", "text": "《……ひとつ、記録しておきます》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《この結末は、私の計算には含まれておりませんでした》" },
+    { "type": "narration", "text": "そう言った声に、感情はなかった。" },
+    { "type": "narration", "text": "けれど、この生き物が「記録しておく」と言ったのは、三年で一度きりだった。" },
+    { "type": "narration", "text": "光が、落ちた。" }
   ],
-  "next": "ch05_13"
+  "next": "ch05_14"
 }

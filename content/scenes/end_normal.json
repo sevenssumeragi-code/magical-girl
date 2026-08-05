@@ -1,15 +1,44 @@
 {
   "id": "end_normal",
   "chapter": 5,
-  "chapterTitle": "続く朝",
+  "chapterTitle": "NORMAL END ─ 続く朝",
   "background": "bg_school_classroom",
   "bgm": "bgm_daily_01",
+  "ending": "end_normal",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: NORMAL 続く朝）"
-    }
+    { "type": "narration", "text": "終わった、という実感が、しばらく来なかった。" },
+    { "type": "narration", "text": "何かが劇的に解決したわけではない。" },
+    { "type": "narration", "text": "ゲルは墜ちなかった。それだけが、確かなことだった。" },
+    { "type": "narration", "text": "灯核の中心の光は、消えずに残った。かろうじて、というのが正しい。" },
+    { "type": "narration", "text": "翳の生成も、止まってはいない。ただ、少し遅くなった。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《原因は特定できません》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "tilt", "text": "《強いて申し上げれば、負荷の分散でしょうか》" },
+    { "type": "narration", "text": "分散。" },
+    { "type": "narration", "text": "つまり、みんなが少しずつ持つようになった、ということだ。" },
+    { "type": "narration", "text": "前は、ゲルが全部持っていた。" },
+    { "type": "narration", "text": "いまは、誰かが前に出れば、別の誰かが後ろで数を減らす。燼核の順番も、話し合って決める。" },
+    { "type": "narration", "text": "劇的ではない。地味だ。" },
+    { "type": "narration", "text": "けれど、地味なことが毎日続くのは、本当はとても難しい。" },
+    { "type": "narration", "text": "教室は、あまり変わっていない。" },
+    { "type": "narration", "text": "机を寄せた作業台。丸めた寝袋。飲みかけのペットボトル。棚に並んだ灯核。" },
+    { "type": "narration", "text": "違うのは、黒板の隅に、当番表が書かれるようになったことくらいだ。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "本日の見張りは、ジンパチくんですね" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "知ってる。書いたの俺だ" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "僕は明日だっけ" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "一昨日でした。二日続けて忘れておいでです" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "……ええ" },
+    { "type": "narration", "text": "ゲルは、机の端で燼核の数を数えていた。" },
+    { "type": "narration", "text": "数えるのは、この人の癖だ。三年やってきたことは、そう簡単には抜けない。" },
+    { "type": "narration", "text": "ただ、数え終わったあとに、顔を上げるようになった。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "五つある。三日は保つ" },
+    { "type": "narration", "text": "報告だ。以前は、報告もしなかった。" },
+    { "type": "narration", "text": "夜になれば、また裂け目が開く。" },
+    { "type": "narration", "text": "翳は溜まり、燼核は減り、いつかまた足りなくなる。" },
+    { "type": "narration", "text": "根本のところは、何ひとつ解決していない。" },
+    { "type": "narration", "text": "──それでも、朝が来た。" },
+    { "type": "narration", "text": "明日も、たぶん来る。" },
+    { "type": "narration", "text": "劇的な救いはなかった。" },
+    { "type": "narration", "text": "続いている、という一点だけが、僕たちの手に残った。" }
   ],
-  "next": null,
-  "ending": "end_normal"
+  "next": null
 }

@@ -4,10 +4,75 @@
   "background": "bg_eikai_final",
   "bgm": "bgm_despair",
   "lines": [
+    { "type": "narration", "text": "街の終わりに、影が立ち上がった。" },
+    { "type": "narration", "text": "高い。廃校の校舎より高い。" },
+    { "type": "narration", "text": "形はまだ定まっていない。人のようでもあり、家のようでもあり、掘り返された地面のようでもあった。" },
+    { "type": "narration", "text": "ただ、輪郭の中に、紫がひとすじだけ残っていた。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《墜化まで、あとわずかです》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《形が定まれば、内側には二度と入れません》" },
+    { "type": "narration", "text": "黒い雨が、槍になって降ってきた。" },
+    { "type": "sfx", "asset": "se_impact" },
     {
       "type": "narration",
-      "text": "（未執筆: 最終戦・後半。墜化の兆候）"
-    }
+      "text": "レニィが、天まで光を立てた。",
+      "requires": { "flags": { "renny_alive": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "special",
+      "text": "行って。ここは持たせるから",
+      "requires": { "flags": { "renny_alive": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "angry",
+      "text": "レニィ、それを使ったら",
+      "requires": { "flags": { "renny_alive": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "smile",
+      "text": "三日眠るだけだよ。だいじょうぶだよぉ",
+      "requires": { "flags": { "renny_alive": true } }
+    },
+    {
+      "type": "narration",
+      "text": "嘘だ。",
+      "requires": { "flags": { "renny_alive": true } }
+    },
+    {
+      "type": "narration",
+      "text": "三日眠る先が、もうないことを、この人は知っている。",
+      "requires": { "flags": { "renny_alive": true } }
+    },
+    {
+      "type": "narration",
+      "text": "知っていて、語尾を伸ばした。最後まで、いつもの喋り方で。",
+      "requires": { "flags": { "renny_alive": true } }
+    },
+    { "type": "narration", "text": "黒い雨のなかを、走った。" },
+    { "type": "narration", "text": "背中で、光が上がるのが分かった。振り返らなかった。" },
+    { "type": "narration", "text": "見ててよ、と言われたのに。" },
+    { "type": "narration", "text": "──それだけは、守れなかった。" },
+    { "type": "narration", "text": "影の足元に、亀裂があった。" },
+    { "type": "narration", "text": "三年前、道の真ん中に開いた、あの亀裂だ。" },
+    { "type": "narration", "text": "そこが、内側への入口だった。" },
+    { "type": "narration", "text": "飛び込む直前に、後ろでもう一度、音がした。" },
+    { "type": "sfx", "asset": "se_shatter" },
+    { "type": "narration", "text": "灯核が割れる音を、僕はもう知っていた。" },
+    { "type": "narration", "text": "誰のものかは、確かめなかった。" },
+    { "type": "narration", "text": "確かめたら、戻ってしまう。" },
+    { "type": "narration", "text": "亀裂に、身体を落とした。" },
+    { "type": "narration", "text": "落ちながら、思っていたのは、ずいぶん間の抜けたことだった。" },
+    { "type": "narration", "text": "──僕は、名前しか持っていなかった。" },
+    { "type": "narration", "text": "目が覚めたあの夜、引き出しの底に落ちていたのは、それだけだった。" },
+    { "type": "narration", "text": "いま、そこに何が入っているだろう。" },
+    { "type": "narration", "text": "ジンパチの怒鳴り声。ヒュウの笑い方。レニィの伸びた語尾。ムニの、二本だけ握る手。" },
+    { "type": "narration", "text": "ゲルが、七人だと言い直すのに使った、あの少しの間。" },
+    { "type": "narration", "text": "──空だったのは、三ヶ月前までの話だ。" }
   ],
   "next": "ch05_10"
 }

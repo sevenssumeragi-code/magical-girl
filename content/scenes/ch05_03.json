@@ -4,10 +4,108 @@
   "background": "bg_eikai_void",
   "bgm": "bgm_battle_03",
   "lines": [
+    { "type": "narration", "text": "裂け目は、廃校の真上に開いた。" },
+    { "type": "narration", "text": "こんな場所に開くのは、初めてだった。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《契約者の灯核が、近くの翳を引き寄せています》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《墜化が近い者は、周囲の翳界を招きます》" },
+    { "type": "narration", "text": "中に入った。虚空だった。何の形も結んでいない、いちばん質の悪い翳界。" },
     {
       "type": "narration",
-      "text": "（未執筆: ネオ戦 or ネオとの共闘（C33により分岐））"
-    }
+      "text": "そして、その中心にネオが立っていた。",
+      "requires": { "flags": { "neo_ally": false } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "special",
+      "text": "……ここで決める。異存はあるまい",
+      "requires": { "flags": { "neo_ally": false } }
+    },
+    {
+      "type": "narration",
+      "text": "戦いは、短かった。",
+      "requires": { "flags": { "neo_ally": false } }
+    },
+    {
+      "type": "sfx",
+      "asset": "se_sword",
+      "requires": { "flags": { "neo_ally": false } }
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチが正面から出て、ヒュウが影を取り、レニィが天井まで光を立ち上げた。",
+      "requires": { "flags": { "neo_ally": false } }
+    },
+    {
+      "type": "narration",
+      "text": "全部、届かなかった。",
+      "requires": { "flags": { "neo_ally": false } }
+    },
+    {
+      "type": "narration",
+      "text": "届かないのに、ネオも僕たちを消せなかった。",
+      "requires": { "flags": { "neo_ally": false } }
+    },
+    {
+      "type": "narration",
+      "text": "この人は、剣を振るたびに、一拍遅れていた。",
+      "requires": { "flags": { "neo_ally": false } }
+    },
+    {
+      "type": "narration",
+      "text": "七度ぶんの一拍だった。",
+      "requires": { "flags": { "neo_ally": false } }
+    },
+    {
+      "type": "narration",
+      "text": "そして、その中心に立っていたのは墜者だった。",
+      "requires": { "flags": { "neo_ally": true } }
+    },
+    {
+      "type": "narration",
+      "text": "ネオが、僕たちの隣に降りてきた。",
+      "requires": { "flags": { "neo_ally": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "……言っておくが、これは共闘ではない",
+      "requires": { "flags": { "neo_ally": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "smile",
+      "text": "はいはい。分かってるっつーの",
+      "requires": { "flags": { "neo_ally": true } }
+    },
+    {
+      "type": "narration",
+      "text": "外環の剣は、翳界の中では別物だった。",
+      "requires": { "flags": { "neo_ally": true } }
+    },
+    {
+      "type": "narration",
+      "text": "振れば澱が割れる。割れた先から、消える。",
+      "requires": { "flags": { "neo_ally": true } }
+    },
+    {
+      "type": "narration",
+      "text": "この人が本気で振ったら、僕たちは初日に終わっていた。",
+      "requires": { "flags": { "neo_ally": true } }
+    },
+    { "type": "sfx", "asset": "se_shatter" },
+    { "type": "narration", "text": "虚空が崩れて、僕たちは廃校の屋上に落ちた。" },
+    { "type": "narration", "text": "燼核が、ひとつ転がっていた。" },
+    { "type": "narration", "text": "六十時間ぶりの、ひとつ。" },
+    { "type": "narration", "text": "誰も、それを拾わなかった。" },
+    { "type": "narration", "text": "拾えば、また誰に使うかを決めなければならない。" },
+    { "type": "narration", "text": "そして、いま答えは決まりきっていた。ゲルに使う。それしかない。" },
+    { "type": "narration", "text": "使ったところで、三十分ぶんも延びない。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "……三十分。それでも、三十分です" },
+    { "type": "narration", "text": "ヒュウが拾って、保健室へ持っていった。" },
+    { "type": "narration", "text": "残った四十時間を、僕たちはどう使うか、まだ決めていなかった。" }
   ],
   "next": "ch05_04"
 }

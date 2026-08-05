@@ -4,10 +4,39 @@
   "background": "bg_eikai_core",
   "bgm": "bgm_neo_theme",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: 選択の実行（分岐集約点C：外環系））"
-    }
+    { "type": "narration", "text": "白い空間に、こことは違う音階の音が鳴った。" },
+    { "type": "narration", "text": "この世界のどの楽器とも違う。聞いたことのない和音だった。" },
+    { "type": "narration", "text": "空間が縦に裂けて、そこにネオが立っていた。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "special", "text": "……本気か" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "本気だよ" },
+    { "type": "narration", "text": "外環へ持っていく、というのは、こういうことだ。" },
+    { "type": "narration", "text": "歪んだ願いを、この世界から切り離して、外側で保管する。" },
+    { "type": "narration", "text": "願いは消えない。だから五人も消えない。" },
+    { "type": "narration", "text": "ただし、この世界には戻れない。因果ごと外へ出るからだ。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "……七度、私はこの手を考えた" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "七度とも、持っていく側の器が保たなかった" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "願いの産物は、その世界の因果に縛られている。外へ出れば、ほどけて消える" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……僕は、縛られてない" },
+    { "type": "narration", "text": "ネオが、目を見開いた。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "誰の記憶にも属してない。願いの外側にある席だ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "だから、外に出ても、ほどけない" },
+    { "type": "dialogue", "speaker": "shell", "expression": "tilt", "text": "《……理論上は、そのとおりです》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《八度目にして、条件を満たす器が現れた、ということになります》" },
+    { "type": "narration", "text": "ネオが、剣を鞘に納めた。" },
+    { "type": "narration", "text": "そして、初めて僕に向かって頭を下げた。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "special", "text": "……七度、私は消してきた" },
+    { "type": "dialogue", "speaker": "neo", "expression": "special", "text": "八度目にして、持ち帰る" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "……礼を言われるのは、これで最後にしたい" },
+    { "type": "narration", "text": "十三歳のゲルが、瓦礫の上でこちらを見ていた。" },
+    { "type": "narration", "text": "何かを言おうとして、言えずにいる顔だった。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "……独りにはしない" },
+    { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "四人はここに残る。僕が外に出るだけだ" },
+    { "type": "dialogue", "speaker": "geru", "expression": "special", "text": "……それは、お前が独りになるということだろう" },
+    { "type": "narration", "text": "答えなかった。" },
+    { "type": "narration", "text": "答えたら、この人はきっと止めてしまう。" },
+    { "type": "narration", "text": "裂け目の向こうから、幾何学的な光が伸びてきた。" },
+    { "type": "narration", "text": "外環の光だ。この世界の色とは、明らかに違っていた。" },
+    { "type": "narration", "text": "足を、踏み出した。" }
   ],
   "next": "ch05_14"
 }

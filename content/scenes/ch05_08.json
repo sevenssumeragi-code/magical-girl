@@ -4,10 +4,184 @@
   "background": "bg_eikai_final",
   "bgm": "bgm_battle_03",
   "lines": [
+    { "type": "narration", "text": "街の中心で、待っている者がいた。" },
+
     {
       "type": "narration",
-      "text": "（未執筆: 最終戦・中盤。裏切り者との対峙）"
-    }
+      "text": "ヒュウだった。",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "narration",
+      "text": "先に来ていた。前髪は上げたままで、両目とも黒く濁っている。",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "special",
+      "text": "……通しません",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "special",
+      "text": "あの方を、あなたに助けさせるわけには参りません",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "angry",
+      "text": "……なんで",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "special",
+      "text": "私が助けたかったからです",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "narration",
+      "text": "それが、この人の全部だった。",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "narration",
+      "text": "計算も、独占も、自傷的な戦い方も、全部そこから出ていた。",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "narration",
+      "text": "美しくあらねば存在の理由がない、と彼は言った。",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "narration",
+      "text": "本当は、あの人の役に立てなければ理由がない、だったのだ。",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "narration",
+      "text": "──前の夜、僕は彼に戦線を外れてくれと言った。",
+      "requires": { "betrayerIs": "hyu", "flags": { "hyu_watched": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "sad",
+      "text": "……外しておいて、いまさら通せと。勝手な方ですね",
+      "requires": { "betrayerIs": "hyu", "flags": { "hyu_watched": true } }
+    },
+
+    {
+      "type": "narration",
+      "text": "ジンパチだった。",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "narration",
+      "text": "籠手を構えて、道の真ん中に立っていた。",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "special",
+      "text": "……悪いな。ここは通せねえ",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "special",
+      "text": "俺たちが消えりゃ、それで終わるんだ。余計なことすんな",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "angry",
+      "text": "──ジンパチ",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "narration",
+      "text": "名前を呼んだ。",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "narration",
+      "text": "俺が俺じゃなくなったら、名前を呼んでくれ。そう頼まれていた。",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "narration",
+      "text": "籠手が、下がった。",
+      "requires": { "betrayerIs": "jinpachi", "flags": { "named_jinpachi": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "sad",
+      "text": "……卑怯だぞ、お前",
+      "requires": { "betrayerIs": "jinpachi", "flags": { "named_jinpachi": true } }
+    },
+
+    {
+      "type": "narration",
+      "text": "ネオだった。",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "narration",
+      "text": "抜き身の剣を提げて、黒い雨の中に立っていた。",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "special",
+      "text": "……ここから先は、外環の管轄だ",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "special",
+      "text": "歪んだ願いを、内側から書き換えることは許されぬ",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "angry",
+      "text": "許されない? 誰にだ",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "narration",
+      "text": "ネオは、答えなかった。",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "narration",
+      "text": "答えられなかったのだと思う。七度、同じことを言ってきたのだろう。",
+      "requires": { "betrayerIs": "neo" }
+    },
+
+    { "type": "sfx", "asset": "se_impact" },
+    { "type": "narration", "text": "戦った。" },
+    { "type": "narration", "text": "仲間だった相手と、灯核の内側で、黒い雨に降られながら。" },
+    { "type": "narration", "text": "誰も、本気ではなかったと思う。" },
+    { "type": "narration", "text": "本気だったら、僕はとっくに終わっていた。" },
+    { "type": "narration", "text": "その人は、最後に道を空けた。" },
+    { "type": "narration", "text": "膝をついて、雨に打たれながら、僕が通り過ぎるのを見ていた。" },
+    { "type": "narration", "text": "何か言われた気がする。聞き取れなかった。" },
+    { "type": "narration", "text": "──聞き返しに戻る時間は、もうなかった。" }
   ],
   "next": "ch05_09"
 }

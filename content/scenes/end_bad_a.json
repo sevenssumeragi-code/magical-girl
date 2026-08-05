@@ -1,15 +1,45 @@
 {
   "id": "end_bad_a",
   "chapter": 5,
-  "chapterTitle": "刃の理由",
+  "chapterTitle": "BAD END ─ 刃の理由",
   "background": "bg_eikai_core",
   "bgm": "bgm_despair",
+  "ending": "end_bad_a",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: BAD A 刃の理由）"
-    }
+    { "type": "narration", "text": "最後まで、その人の言い分を聞かなかった。" },
+    { "type": "narration", "text": "聞く時間はあった。何度もあった。" },
+    { "type": "narration", "text": "聞かなかったのは、聞けば止まってしまうと思ったからだ。" },
+    { "type": "narration", "text": "灯核の内側で、僕はその人と向かい合っていた。" },
+    { "type": "narration", "text": "白と紫の空間で、瓦礫がひとつだけあって、その上に十三歳の女の子が座っている。" },
+    { "type": "narration", "text": "その手前で、僕たちは互いに武器を構えていた。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "……どいてくれ" },
+    { "type": "narration", "text": "返事はなかった。" },
+    { "type": "narration", "text": "その人はもう、僕の声を言葉として受け取っていなかった。" },
+    { "type": "narration", "text": "そこまで追い詰めたのが誰かは、考えるまでもない。" },
+    { "type": "sfx", "asset": "se_impact" },
+    { "type": "narration", "text": "戦った。今度は、本気だった。両方とも。" },
+    { "type": "narration", "text": "白い空間に、黒い澱が滲みはじめる。" },
+    { "type": "narration", "text": "戦えば翳が溜まる。翳が溜まれば、灯核が黒くなる。" },
+    { "type": "narration", "text": "灯核の内側で戦うということは、彼女の灯核を、内側から汚すということだった。" },
+    { "type": "narration", "text": "気づいたときには、遅かった。" },
+    { "type": "sfx", "asset": "se_shatter" },
+    { "type": "narration", "text": "瓦礫の上の光が、消えた。" },
+    { "type": "narration", "text": "十三歳の女の子は、最後まで何も言わなかった。" },
+    { "type": "narration", "text": "止めようともしなかった。" },
+    { "type": "narration", "text": "たぶん、この人にとっては、これも見慣れた光景だったのだ。" },
+    { "type": "narration", "text": "自分のせいで誰かが誰かを傷つけるところを、三年、ずっと見てきたのだから。" },
+    { "type": "narration", "text": "白い空間が崩れた。" },
+    { "type": "narration", "text": "僕たちも、崩れた。" },
+    { "type": "narration", "text": "消える直前、その人が何か言った。" },
+    { "type": "narration", "text": "今度は、聞こえた。" },
+    { "type": "narration", "text": "──あなたを、助けたかったのです。" },
+    { "type": "narration", "text": "──俺だって、守りたかったんだよ。" },
+    { "type": "narration", "text": "──私とて、好きでやっていたわけではない。" },
+    { "type": "narration", "text": "誰の声だったのかは、書かない。" },
+    { "type": "narration", "text": "どの声でも、同じことだった。" },
+    { "type": "narration", "text": "刃を向けてきた人には、必ず理由があった。" },
+    { "type": "narration", "text": "僕は最後まで、それを一度も訊かなかった。" },
+    { "type": "narration", "text": "訊けば必ず答えるものが、この物語にはずっと二つあったのに。" }
   ],
-  "next": null,
-  "ending": "end_bad_a"
+  "next": null
 }

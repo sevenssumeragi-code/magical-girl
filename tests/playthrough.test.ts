@@ -60,11 +60,23 @@ describe('通し再生', () => {
     expect(ENDING_IDS).toContain(result.ending);
   });
 
-  it('プロローグから第5章まで全80シーンを通過する', () => {
+  it('一周で本編70シーンを通過する（最終選択で分岐する2シーンを除く）', () => {
     const result = playthrough((frame) => frame.options[0]!.index);
-    // エンディングシーンを除く72シーンが本編の一本道。
-    const mainRoute = result.visited.filter((id) => !id.startsWith('end_'));
-    expect(new Set(mainRoute).size).toBe(72);
+    // 本編は72シーン。うち ch05_11 / ch05_12 / ch05_13 は最終選択(C36)で
+    // どれか1つだけを通るため、一周で到達するのは 72 - 2 = 70。
+    const mainRoute = new Set(result.visited.filter((id) => !id.startsWith('end_')));
+    expect(mainRoute.size).toBe(70);
+    const convergence = ['ch05_11', 'ch05_12', 'ch05_13'].filter((id) => mainRoute.has(id));
+    expect(convergence).toHaveLength(1);
+  });
+
+  it('最終選択の分岐先が、選び方を変えると入れ替わる', () => {
+    const first = playthrough((frame) => frame.options[0]!.index);
+    const last = playthrough((frame) => frame.options[frame.options.length - 1]!.index);
+    const pick = (r: Result) =>
+      ['ch05_11', 'ch05_12', 'ch05_13'].find((id) => r.visited.includes(id));
+    expect(pick(first)).toBe('ch05_11');
+    expect(pick(last)).not.toBe('ch05_11');
   });
 
   it('裏切り者と決別者が必ず1人ずつ確定する', () => {

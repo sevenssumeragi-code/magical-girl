@@ -1,15 +1,46 @@
 {
   "id": "end_bad_c",
   "chapter": 5,
-  "chapterTitle": "墜ちる",
+  "chapterTitle": "BAD END ─ 墜ちる",
   "background": "bg_eikai_void",
   "bgm": "bgm_horror",
+  "ending": "end_bad_c",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: BAD C 墜ちる）"
-    }
+    { "type": "narration", "text": "自分の灯核を、最後に見たのはいつだっただろう。" },
+    { "type": "narration", "text": "無色だから、濁っても分かりにくい。そう思っていた。" },
+    { "type": "narration", "text": "違った。無色だからこそ、汚れは誰よりもよく見えたはずだ。" },
+    { "type": "narration", "text": "見なかっただけだ。" },
+    { "type": "narration", "text": "戦うたびに、翳は溜まる。" },
+    { "type": "narration", "text": "誰かを庇うたびに、誰かを疑うたびに、自分は空っぽだと思うたびに。" },
+    { "type": "narration", "text": "溜まる。ずっと。" },
+    { "type": "narration", "text": "燼核は、いつも誰かに回した。" },
+    { "type": "narration", "text": "自分は色がないから大丈夫だと、どこかで思っていた。" },
+    { "type": "narration", "text": "──ゲルと、同じ理屈だ。" },
+    { "type": "sfx", "asset": "se_core_pulse" },
+    { "type": "narration", "text": "手のひらの上で、透明だったものが、内側から黒くなっていく。" },
+    { "type": "narration", "text": "色がない器に翳が満ちると、それはただの黒い珠になる。" },
+    { "type": "narration", "text": "混ざるものが何もないから、まっすぐに黒くなる。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《墜化が始まっています》" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "……止められる?" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《いいえ》" },
+    { "type": "narration", "text": "一度も迷わない。この生き物のそういうところに、僕はずっと救われていた。" },
+    { "type": "narration", "text": "誰かが名前を呼んでいる。" },
+    { "type": "narration", "text": "ジンパチだろうか。ゲルだろうか。" },
+    { "type": "narration", "text": "聞き分けられなかった。もう、音を音として受け取れなくなっている。" },
+    { "type": "narration", "text": "身体が、輪郭からほどけていく。" },
+    { "type": "narration", "text": "痛くはなかった。ここだけは、レニィに言われたとおりだった。" },
+    { "type": "narration", "text": "ほどけながら、ひとつだけ考えていた。" },
+    { "type": "narration", "text": "墜者の翳界は、その人の未練でできている。" },
+    { "type": "narration", "text": "花壇の人は、世話をされたかった。" },
+    { "type": "narration", "text": "時計の人は、三時十四分から先へ進めなかった。" },
+    { "type": "narration", "text": "劇場の人は、誰にも見られなかった。" },
+    { "type": "narration", "text": "──では、僕の中には、何が広がるんだろう。" },
+    { "type": "narration", "text": "素材のない器に、未練なんてあるだろうか。" },
+    { "type": "narration", "text": "何もない翳界になるのかもしれない。" },
+    { "type": "narration", "text": "上も下もない、ただの虚空。" },
+    { "type": "narration", "text": "──目が覚めた最初の夜に、僕が落ちたあの場所と、同じものに。" },
+    { "type": "sfx", "asset": "se_shatter" },
+    { "type": "narration", "text": "そこまで考えて、考えるための場所が、無くなった。" }
   ],
-  "next": null,
-  "ending": "end_bad_c"
+  "next": null
 }

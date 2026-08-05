@@ -5,22 +5,59 @@
   "background": "bg_school_classroom",
   "bgm": "bgm_tension",
   "lines": [
+    { "type": "narration", "text": "三日。" },
+    { "type": "narration", "text": "その数字を、ヒュウが黒板に書いた。" },
+    { "type": "narration", "text": "割れた黒板に、白いチョークで、大きく。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "正確には、七十二時間より短いでしょう。誤差を見て、六十時間と考えます" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "……で、六十時間で何ができる" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "何も、というのが正直なところです" },
+    { "type": "narration", "text": "燼核は使い切った。九つあったものを、ゲル一人に全部注いだ。" },
+    { "type": "narration", "text": "結果は、灯核の中心にある光の点が、少しだけ大きくなった。それだけだった。" },
+    { "type": "narration", "text": "抜いても抜いても、五人ぶんが作られ続けている。バケツの底が抜けている。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《翳の生成を止める方法は、二つございます》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《一つは、五名が消えること。もう一つは、契約者が墜化すること》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《どちらでも、生成は止まります》" },
+    { "type": "narration", "text": "止まる。この生き物にとっては、どちらでも同じ結果なのだ。" },
+    { "type": "narration", "text": "六十時間で、僕たちは選ばなければならない。" },
+    { "type": "narration", "text": "誰が消えるかを。" },
+    { "type": "narration", "text": "ゲルは、保健室から出てこられなくなっていた。" },
+    { "type": "narration", "text": "立てないのではない。立つと、灯核が保たないのだ。" },
     {
       "type": "narration",
-      "text": "（未執筆: 残された時間の計算。ゲルの墜化まであと僅か）"
+      "text": "──あの人は、もういない。置き手紙を残して、街の外へ行った。",
+      "requires": { "flags": { "geru_departed": true } }
+    },
+    {
+      "type": "narration",
+      "text": "──いま、あの部屋にいるのは、ゲルの身体だけだ。中身がどのくらい残っているのか、僕には分からない。",
+      "requires": { "flags": { "geru_departed": false } }
     },
     {
       "type": "choice",
-      "prompt": "（未執筆: C32）",
+      "prompt": "六十時間。何に使う。",
       "options": [
         {
-          "text": "（未執筆: C32 選択肢A）"
+          "text": "ネオを探す。あの人だけが、外側の理屈を知っている",
+          "bond": { "neo": 6, "jinpachi": -3 }
         },
         {
-          "text": "（未執筆: C32 選択肢B）"
+          "text": "シェルを問い詰める。抜け道があるはずだ",
+          "bond": { "hyu": 6, "neo": -3 }
+        },
+        {
+          "text": "みんなで、ゲルのそばにいる",
+          "bond": { "renny": 6, "muni": 6, "geru": 6, "jinpachi": 3, "hyu": 3, "neo": -6 }
         }
       ]
-    }
+    },
+    { "type": "narration", "text": "黒板の三日という文字を、誰も消さなかった。" },
+    { "type": "narration", "text": "消したら、時間が進まなくなる気がしたのだと思う。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "……ねえ、{name}" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "僕たち、消えるとき、痛いのかなあ" },
+    { "type": "narration", "text": "分からない、と答えた。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "痛くないといいねぇ" },
+    { "type": "narration", "text": "笑った。語尾が伸びていた。いつもの、抜けた喋り方で。" },
+    { "type": "narration", "text": "この人は、最後まで、僕たちの前でそうしているつもりなのだ。" }
   ],
   "next": "ch05_02"
 }

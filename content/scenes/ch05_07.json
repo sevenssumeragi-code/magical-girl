@@ -4,10 +4,64 @@
   "background": "bg_eikai_final",
   "bgm": "bgm_battle_03",
   "lines": [
+    { "type": "narration", "text": "灯核の内側は、街だった。" },
+    { "type": "narration", "text": "三年前の汐灘が、割れた紫の結晶の中に閉じ込められている。" },
+    { "type": "narration", "text": "崩れた家。倒れた電柱。道の真ん中の亀裂。" },
+    { "type": "narration", "text": "全部、あの夜のままだった。" },
+    { "type": "narration", "text": "この人は、三年ずっと、ここにいたのだ。" },
+    { "type": "narration", "text": "外でどれだけ淡々と指示を出していても、内側はこの夜から一歩も進んでいなかった。" },
+    { "type": "sfx", "asset": "se_core_pulse" },
+    { "type": "narration", "text": "空から、黒い澱が降ってきた。" },
+    { "type": "narration", "text": "雨のように、途切れなく。地面に触れたそばから、瓦礫が黒く塗り潰されていく。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "……墜化が始まっています。急ぎましょう" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "道は俺が作る! ついてこい!" },
+    { "type": "narration", "text": "ジンパチが前に出た。籠手が橙に光る。" },
+    { "type": "narration", "text": "黒い雨を殴って、殴って、殴り続けて、進む道を作る。" },
+    { "type": "narration", "text": "殴るたびに、彼の灯核が濁っていくのが分かった。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "ジンパチ、それ以上は" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "smile", "text": "うるせえ! こういうときのために俺がいるんだろうが!" },
+    { "type": "narration", "text": "笑っていた。この人は、いつも、こういうときだけ笑う。" },
+    { "type": "narration", "text": "崩れた家の前を通った。" },
+    { "type": "narration", "text": "看板がまだ読めた。表札だった。" },
+    { "type": "narration", "text": "そこに書かれていた名字を、僕は読まなかった。読んではいけない気がした。" },
     {
       "type": "narration",
-      "text": "（未執筆: 最終戦・前半。ゲルの灯核に潜る）"
-    }
+      "text": "ムニが、僕の手を握っていた。",
+      "requires": { "flags": { "muni_alive": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "muni",
+      "expression": "normal",
+      "text": "……ここ、しってる",
+      "requires": { "flags": { "muni_alive": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "muni",
+      "expression": "smile",
+      "text": "ぼくのおうち",
+      "requires": { "flags": { "muni_alive": true } }
+    },
+    {
+      "type": "narration",
+      "text": "そう言って、この子は少しだけ嬉しそうにした。",
+      "requires": { "flags": { "muni_alive": true } }
+    },
+    {
+      "type": "narration",
+      "text": "何も分からないまま、それでも自分の家だけは覚えていた。",
+      "requires": { "flags": { "muni_alive": true } }
+    },
+    { "type": "narration", "text": "黒い雨が、強くなった。" },
+    { "type": "narration", "text": "街の向こうに、大きな影が立ち上がろうとしている。" },
+    { "type": "narration", "text": "まだ形になっていない。形になったら、それはもうゲルではない。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "special", "text": "……来るな" },
+    { "type": "narration", "text": "声が、街全体から響いた。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "special", "text": "来るなと言っている。ここで終わりでいい" },
+    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "真っ先に来いって言ったのは、あなただ" },
+    { "type": "narration", "text": "返事は、なかった。" },
+    { "type": "narration", "text": "その代わり、黒い雨が、ほんの少しだけ弱まった。" }
   ],
   "next": "ch05_08"
 }

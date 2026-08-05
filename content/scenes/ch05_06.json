@@ -4,22 +4,65 @@
   "background": "bg_school_gate_night",
   "bgm": "bgm_tension",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: **善意→最悪③**：ゲルを救う行為が5人の消滅条件を満たすと判明）"
-    },
+    { "type": "narration", "text": "方法は、あった。" },
+    { "type": "narration", "text": "考えついたのは僕ではない。ヒュウが、六十時間ずっと計算していたのだ。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "翳の生成が止まらないのは、五人ぶんの実体を支え続けているからです" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "ならば、その負荷を別の場所に移せばよろしい" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "normal", "text": "……別の場所って、どこだよ" },
+    { "type": "narration", "text": "ヒュウが、僕を見た。" },
+    { "type": "narration", "text": "全員が、僕を見た。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "……空の器が、ひとつあります" },
+    { "type": "narration", "text": "無色の灯核。誰の記憶にも属さない、五つ目の席。" },
+    { "type": "narration", "text": "そこに、四人ぶんの負荷を移す。" },
+    { "type": "narration", "text": "ゲルの灯核は、それ以上黒くならない。四人も消えない。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《理論上は、成立します》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《ただし、器が耐えられる保証はありません》" },
+    { "type": "narration", "text": "そうだろうな、と思った。" },
+    { "type": "narration", "text": "三年ぶんの翳を、ゲルは持ちこたえた。それは、彼女が三年かけて少しずつ受けたからだ。" },
+    { "type": "narration", "text": "僕は、それを一度に受けることになる。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "angry", "text": "だめだよ。それ、絶対だめだ" },
+    { "type": "dialogue", "speaker": "renny", "expression": "angry", "text": "{name}が墜ちるだけじゃないか" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "……ええ。そうなります" },
+    { "type": "narration", "text": "そこで、シェルが口をはさんだ。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《ひとつ、訂正がございます》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《負荷を移すには、契約者の灯核に直接触れる必要があります》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《つまり、灯核の内側に入ることになります》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《その際、契約者の願いは一度、無効になります》" },
+    { "type": "narration", "text": "願いが、無効になる。" },
+    { "type": "narration", "text": "その意味を理解するのに、数秒かかった。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "surprised", "text": "……待て。願いが消えたら、俺たちは" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《四名は、そこで消えます》" },
+    { "type": "narration", "text": "──ゲルを助けようとする、その行為そのものが。" },
+    { "type": "narration", "text": "四人を消す条件だった。" },
+    { "type": "narration", "text": "助けようとしなければ、ゲルが墜ちて、やはり四人は消える。" },
+    { "type": "narration", "text": "どちらでも、四人は消える。" },
+    { "type": "narration", "text": "違うのは、ゲルが生き残るかどうか、それだけだった。" },
+    { "type": "sfx", "asset": "se_heartbeat" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C35）",
+      "prompt": "六時間。もう、時間はない。",
       "options": [
         {
-          "text": "（未執筆: C35 選択肢A）"
+          "text": "ゲルを助ける。四人が消えることを承知で",
+          "bond": { "geru": 10, "renny": -6, "muni": -6, "hyu": 6, "jinpachi": 6 },
+          "flags": { "chose_geru": true }
         },
         {
-          "text": "（未執筆: C35 選択肢B）"
+          "text": "四人を守る。ゲルが墜ちるのを受け入れる",
+          "bond": { "renny": 10, "muni": 10, "geru": -10, "hyu": -6, "jinpachi": -6 },
+          "flags": { "chose_geru": false },
+          "taint": 15
         }
       ]
-    }
+    },
+    { "type": "narration", "text": "誰も、僕を責めなかった。" },
+    { "type": "narration", "text": "責める資格が誰にもないことを、全員が知っていたからだ。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "special", "text": "……ねえ、{name}" },
+    { "type": "dialogue", "speaker": "renny", "expression": "special", "text": "ひとつだけ、お願いしてもいい?" },
+    { "type": "dialogue", "speaker": "renny", "expression": "special", "text": "消えるとき、ちゃんと見ててよ" },
+    { "type": "dialogue", "speaker": "renny", "expression": "special", "text": "誰にも見られないで消えるのは、ちょっとさびしいから" },
+    { "type": "narration", "text": "門の外は、もう夜だった。" },
+    { "type": "narration", "text": "六人で、廃校を出た。" }
   ],
   "next": "ch05_07"
 }
