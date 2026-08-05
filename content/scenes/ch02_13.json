@@ -4,14 +4,44 @@
   "background": "bg_school_infirmary",
   "bgm": "bgm_horror",
   "lines": [
-    {
-      "type": "cg",
-      "asset": "cg_06_muni_transparent"
-    },
-    {
-      "type": "narration",
-      "text": "（未執筆: ムニの手が、一瞬だけ背後の景色を透かす **章末**）"
-    }
+    { "type": "cg", "asset": "cg_06_muni_transparent" },
+    { "type": "narration", "text": "夜半に、ムニが僕の部屋に来た。" },
+    { "type": "narration", "text": "怖い夢を見たのだと言う。何の夢かは覚えていないらしい。" },
+    { "type": "narration", "text": "保健室まで送っていって、布団に入るまで付き添った。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "sad", "text": "……{name}おにいちゃん" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "うん" },
+    { "type": "dialogue", "speaker": "muni", "expression": "sad", "text": "ぼく、きのうのこと、おぼえてないんだ" },
+    { "type": "narration", "text": "知っている。朝、みんなの前で分かったことだ。" },
+    { "type": "narration", "text": "でも、この子はそれを、自分の言葉で言った。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "sad", "text": "こわいのは、わすれたことじゃないの" },
+    { "type": "dialogue", "speaker": "muni", "expression": "sad", "text": "こわいのはね、みんながおぼえてることを、ぼくだけおぼえてないこと" },
+    { "type": "dialogue", "speaker": "muni", "expression": "sad", "text": "そうすると、ぼくだけ、そこにいなかったみたいでしょ" },
+    { "type": "narration", "text": "喉の奥が、詰まった。" },
+    { "type": "narration", "text": "五歳の子が、それを言葉にできてしまうということ。" },
+    { "type": "narration", "text": "つまりこの子は、もう長いこと、それを考え続けてきたということだ。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "ムニはここにいるよ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "僕が覚えてる。今日のことも、昨日のことも、全部" },
+    { "type": "dialogue", "speaker": "muni", "expression": "smile", "text": "……ほんと?" },
+    { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "ほんと" },
+    { "type": "narration", "text": "ムニは笑って、布団から手を出した。" },
+    { "type": "narration", "text": "指切りをしようとしたのだと思う。" },
+    { "type": "narration", "text": "その手を、僕は掴もうとした。" },
+    { "type": "sfx", "asset": "se_heartbeat" },
+    { "type": "narration", "text": "──掴めなかった。" },
+    { "type": "narration", "text": "指が、通り抜けたのではない。触れた。ちゃんと触れた。" },
+    { "type": "narration", "text": "そうではなくて。" },
+    { "type": "narration", "text": "枕元の明かりの下で、その小さな手の輪郭が、うすく、透けていた。" },
+    { "type": "narration", "text": "手のひらの向こうに、保健室のカーテンの柄が見えた。" },
+    { "type": "narration", "text": "白と、水色の、格子の柄が。" },
+    { "type": "narration", "text": "一瞬だった。まばたきひとつぶんの、ほんの一瞬。" },
+    { "type": "narration", "text": "次の瞬間には、ただの子供の手に戻っていた。温かくて、少し汗ばんだ、ふつうの手に。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "normal", "text": "……どうしたの?" },
+    { "type": "narration", "text": "この子は、気づいていない。" },
+    { "type": "narration", "text": "自分の手が、いま、世界の側にちゃんと固定されていなかったことに。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……なんでもない" },
+    { "type": "narration", "text": "指を絡めて、指切りをした。" },
+    { "type": "narration", "text": "小指は、ちゃんとそこにあった。" },
+    { "type": "narration", "text": "あるのに、僕はもう、それを信じられなくなっていた。" }
   ],
   "next": "ch03_01"
 }

@@ -39,11 +39,41 @@ const POLITE = /(です|でし|ます|まし|ませ|でしょ|ください|ご�
 /** 短い感嘆・相槌は敬体判定の対象外にする。 */
 const POLITE_EXEMPT_LENGTH = 8;
 
+/** フェーズ3で本文に差し替える骨格。検査対象から外し、残数だけ数える。 */
+const PLACEHOLDER = /^（未執筆[:：]/;
+
 const violations = [];
 let dialogueCount = 0;
+let placeholderCount = 0;
 const rennyStats = { total: 0, stretched: 0 };
 
 function check(file, sceneId, index, line) {
+  // 画面に出る本文（地の文・台詞・選択肢のプロンプト）を一様に検査する。
+  const body =
+    line.type === 'narration' || line.type === 'dialogue'
+      ? line.text
+      : line.type === 'choice'
+        ? line.prompt
+        : null;
+  if (body === null) return;
+
+  if (PLACEHOLDER.test(body)) {
+    placeholderCount += 1;
+    return;
+  }
+
+  // 本文はそのまま画面に出るため、Markdown記法が残っていると露出する。
+  if (/\*\*|__/.test(body)) {
+    violations.push({
+      file,
+      sceneId,
+      index,
+      speaker: line.type === 'dialogue' ? line.speaker : '(地の文)',
+      rule: 'Markdown記法が残っています',
+      text: body,
+    });
+  }
+
   if (line.type !== 'dialogue') return;
   dialogueCount += 1;
 
@@ -152,4 +182,7 @@ if (violations.length) {
   console.error(`\nlint:voice 失敗 — ${violations.length} 件の違反 / 台詞 ${dialogueCount} 行`);
   process.exit(1);
 }
-console.log(`lint:voice OK — 違反 0 件 / 台詞 ${dialogueCount} 行 / シーン ${files.length} 件`);
+console.log(
+  `lint:voice OK — 違反 0 件 / 台詞 ${dialogueCount} 行 / シーン ${files.length} 件` +
+    (placeholderCount ? ` / 未執筆 ${placeholderCount} 行` : ' / 未執筆なし'),
+);

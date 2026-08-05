@@ -4,22 +4,68 @@
   "background": "bg_school_corridor",
   "bgm": "bgm_jinpachi",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: ジンパチが激昂。単独でネオを狩ると言い出す）"
-    },
+    { "type": "narration", "text": "ジンパチは、黒板に叩きつけられた背中を三日引きずった。" },
+    { "type": "narration", "text": "灯核が無事なら傷は治る。それでも、負けた記憶は治らない。" },
+    { "type": "narration", "text": "廊下の壁を、彼は籠手のない拳で殴っていた。何度も。壁のほうが先に欠けた。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "……一発も入らなかった" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "ジンパチ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "一発もだ。俺は前衛だぞ。前衛が一発も入れられねえで、何のためにいるんだよ" },
+    { "type": "narration", "text": "拳の皮が破れて、壁に赤いものがついていた。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "……次に来たら、俺が行く。ひとりで行く" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……本気で言ってる?" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "全員でかかって全滅すんのと、どっちがマシだ" },
+    { "type": "narration", "text": "理屈になっていない。それは彼自身も分かっているはずだった。" },
+    { "type": "narration", "text": "それでも言うのは、言わないと立っていられないからだ。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "……なあ、{name}" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "俺、何のためにここにいるんだろうな" },
+    { "type": "narration", "text": "初めて聞く声だった。" },
+    { "type": "narration", "text": "怒鳴らないジンパチの声を、僕はこのとき初めて聞いた。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "ゲルは強い。ヒュウは頭が回る。レニィはあれで一番火力がある。ムニは……ムニにしかできねえことがある" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "俺は? 俺は前に出て殴るだけだ。それしかできねえ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "その一個ができなかったら、俺には何も残らねえんだよ" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C15）",
+      "prompt": "何か、言わなければいけないと思った。",
       "options": [
         {
-          "text": "（未執筆: C15 選択肢A）"
+          "text": "「ひとりで行くのはやめてくれ」と正面から止める",
+          "bond": { "jinpachi": 6, "geru": -6 },
+          "flags": { "stopped_jinpachi": true }
         },
         {
-          "text": "（未執筆: C15 選択肢B）"
+          "text": "「行くなら、僕も行く」と並ぶ",
+          "bond": { "jinpachi": -6, "geru": 6 },
+          "flags": { "stopped_jinpachi": false }
         }
       ]
-    }
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチは舌打ちをして、返事をしなかった。それは、聞いたということだった。",
+      "requires": { "flags": { "stopped_jinpachi": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "surprised",
+      "text": "……お前、馬鹿か",
+      "requires": { "flags": { "stopped_jinpachi": false } }
+    },
+    {
+      "type": "narration",
+      "text": "馬鹿だと言われた。それでも、彼はもう壁を殴らなかった。",
+      "requires": { "flags": { "stopped_jinpachi": false } }
+    },
+    { "type": "narration", "text": "廊下の向こうから、ヒュウが顔を出した。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "ジンパチくん。壁は殴っても謝りませんよ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "うるせえ" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "その調子です。落ち込んだあなたは、見ていて張り合いがない" },
+    { "type": "narration", "text": "ヒュウは、それだけ言って引っ込んだ。" },
+    { "type": "narration", "text": "ジンパチは、しばらくその方向を睨んでいた。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "normal", "text": "……あいつ、ああ見えて、いつも一番よく見てんだよな" },
+    { "type": "narration", "text": "見ている、と彼は言った。" },
+    { "type": "narration", "text": "そのとおりだ。ヒュウはいつも見ている。" },
+    { "type": "narration", "text": "そして、見ている人間ほど、ひとりで抱え込むものだということを、僕はまだ知らなかった。" }
   ],
   "next": "ch02_10"
 }

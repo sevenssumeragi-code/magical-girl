@@ -4,22 +4,55 @@
   "background": "bg_eikai_void",
   "bgm": "bgm_battle_02",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: ジンパチ単独行動の顛末。追うか止めるか）"
-    },
+    { "type": "narration", "text": "ジンパチは、結局ひとりで出た。" },
+    { "type": "narration", "text": "夜明け前だった。書き置きも何もない。ただ、彼の寝袋が畳まれていなかった。" },
+    { "type": "narration", "text": "ネオを探しに行ったのではない。裂け目を探しに行ったのだ。" },
+    { "type": "narration", "text": "燼核を奪われた。だから取り返す。彼の理屈は、いつもそれくらい単純だった。" },
+    { "type": "narration", "text": "見つけたときには、もう中にいた。" },
+    { "type": "narration", "text": "何もない翳界だった。上下の分からない虚空に、黒い澱が糸になって漂っているだけ。" },
+    { "type": "narration", "text": "未練の形すら結べなかった墜者。それは、いちばん厄介な相手だった。" },
+    { "type": "sfx", "asset": "se_impact" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "来んな! 俺の獲物だ!" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "angry", "text": "獲物という言い方は感心しませんね。獲られているのはあなたのほうです" },
+    { "type": "narration", "text": "ジンパチの籠手は、半分が砕けていた。" },
+    { "type": "narration", "text": "澱が四方から巻きついて、そのたびに引き剥がしている。剥がすたびに、こちらの翳が増える。" },
+    { "type": "narration", "text": "──分かった。この墜者は、倒す相手じゃない。抜け出す相手だ。" },
+    { "type": "narration", "text": "そして、抜け出すには、誰かが最後まで残って道をこじ開けなければならない。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C16）",
+      "prompt": "残るのは、誰だ。",
       "options": [
         {
-          "text": "（未執筆: C16 選択肢A）"
+          "text": "ジンパチを掴んで先に出す。僕が殿を務める",
+          "bond": { "jinpachi": 6, "hyu": -3 },
+          "taint": 8
         },
         {
-          "text": "（未執筆: C16 選択肢B）"
+          "text": "ヒュウに殿を任せ、二人で抜ける",
+          "bond": { "hyu": 6, "jinpachi": -3 },
+          "taint": 3
         }
       ]
-    }
+    },
+    { "type": "narration", "text": "外に出たとき、空が白み始めていた。" },
+    { "type": "narration", "text": "三人とも無事だった。無事、という言葉が正しければ。" },
+    { "type": "narration", "text": "灯核を出して並べる。三つとも、はっきり濁っていた。" },
+    { "type": "narration", "text": "拠点に残っていた燼核は、二つ。" },
+    { "type": "narration", "text": "三人を綺麗にするには、足りない。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "……二つを、三人で分けることはできません" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "俺はいい。俺が勝手に出たんだ" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "そういう問題ではないでしょう" },
+    { "type": "narration", "text": "揉めているところに、ゲルが来た。" },
+    { "type": "narration", "text": "彼女は何も言わずに二つとも取り上げて、ジンパチと僕に使った。" },
+    { "type": "sfx", "asset": "se_core_pulse" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "surprised", "text": "……ゲル。私は" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "お前は保つ。ジンパチは保たない。それだけの話だ" },
+    { "type": "narration", "text": "ヒュウは、何か言おうとして、やめた。" },
+    { "type": "narration", "text": "そして、静かに笑った。いつもの気取った笑い方だった。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "……ええ。私は保ちますとも" },
+    { "type": "narration", "text": "その笑い方を、僕はあとで何度も思い出すことになる。" },
+    { "type": "narration", "text": "この夜だ。" },
+    { "type": "narration", "text": "ヒュウがひとりで何かを決めたのは、たぶん、この夜だった。" }
   ],
   "next": "ch02_11"
 }

@@ -4,14 +4,45 @@
   "background": "bg_school_classroom",
   "bgm": "bgm_tension",
   "lines": [
-    {
-      "type": "cg",
-      "asset": "cg_07_neo_appear"
-    },
-    {
-      "type": "narration",
-      "text": "（未執筆: **ネオ初登場**。燼核を奪い、6人を一蹴して去る）"
-    }
+    { "type": "cg", "asset": "cg_07_neo_appear" },
+    { "type": "narration", "text": "その夜、扉が開く音はしなかった。" },
+    { "type": "narration", "text": "気づいたときには、教室の真ん中に人が立っていた。" },
+    { "type": "narration", "text": "金色の髪が、腰まで流れている。着ているのは外套だ。この街のどの店にも売っていない意匠の、深い色の外套。" },
+    { "type": "narration", "text": "腰に、細身の長剣を吊っている。" },
+    { "type": "narration", "text": "制服でも、灯守形態でもない。この部屋の何とも噛み合わない姿だった。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "ネオ……!" },
+    { "type": "narration", "text": "その名前を、僕はこの部屋で一度だけ聞いていた。初日に、ジンパチが吐き捨てた二文字。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "騒ぐな。取りに来ただけだ" },
+    { "type": "narration", "text": "声は、思っていたよりずっと若かった。それなのに、話し方が古い。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "そこの棚だな。貴様らが集めた燼核は" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "……渡すと思うか" },
+    { "type": "dialogue", "speaker": "neo", "expression": "smile", "text": "思わぬ。だから来た" },
+    { "type": "sfx", "asset": "se_sword" },
+    { "type": "narration", "text": "抜いた、と認識した時には終わっていた。" },
+    { "type": "narration", "text": "ジンパチが吹き飛ぶ。籠手ごと。壁の黒板に叩きつけられて、チョークの粉が舞った。" },
+    { "type": "narration", "text": "ヒュウが動く。外套の裾が影に溶けて、背後を取る。" },
+    { "type": "narration", "text": "取ったはずだった。" },
+    { "type": "sfx", "asset": "se_impact" },
+    { "type": "narration", "text": "ヒュウが膝をついた。何をされたのか、僕には見えなかった。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "surprised", "text": "……っ、これは" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "速さは悪くない。だが、貴様の間合いは私の三歩内側だ。覚えておくがいい" },
+    { "type": "narration", "text": "レニィが前に出た。眠そうな顔のまま、水色の光を組み上げていく。" },
+    { "type": "narration", "text": "ネオの目が、そこで初めて動いた。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "surprised", "text": "……ほう" },
+    { "type": "narration", "text": "そして、剣を鞘に納めた。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "貴様は後だ。順番がある" },
+    { "type": "narration", "text": "棚から燼核を掴み取ると、彼は窓のほうへ歩き出した。" },
+    { "type": "narration", "text": "誰も止められなかった。ゲルだけが立ち塞がって、そして──押しのけられた。" },
+    { "type": "narration", "text": "斬られたのではない。押しのけられたのだ。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "……契約者。貴様は斬らぬ。安心するがいい" },
+    { "type": "dialogue", "speaker": "geru", "expression": "surprised", "text": "……何だと" },
+    { "type": "narration", "text": "契約者。そう呼んだ。" },
+    { "type": "narration", "text": "この部屋に七人いるのに、ひとりだけを指して、そう呼んだ。" },
+    { "type": "narration", "text": "窓枠に足をかけて、ネオは一度だけ振り返った。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "五つだ。数は合っている" },
+    { "type": "narration", "text": "そして、いなくなった。" },
+    { "type": "narration", "text": "残されたのは、割れた黒板と、倒れた机と、燼核の消えた棚と──" },
+    { "type": "narration", "text": "五つ、という言葉だけだった。" }
   ],
   "next": "ch02_08"
 }

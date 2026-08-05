@@ -4,22 +4,68 @@
   "background": "bg_school_infirmary",
   "bgm": "bgm_sad",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: ムニが眠り続ける。原因不明）"
-    },
+    { "type": "narration", "text": "ムニは、三日眠り続けた。" },
+    { "type": "narration", "text": "呼吸はある。脈もある。汗もかく。痛みには反応する。" },
+    { "type": "narration", "text": "それなのに、起きない。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《灯核に異常はありません》" },
+    { "type": "narration", "text": "シェルは、ムニの枕元で三日とも同じことを言った。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "異常がねえのに起きねえのかよ! じゃあ何なんだ、これは" },
+    { "type": "dialogue", "speaker": "shell", "expression": "tilt", "text": "《異常ではない、というだけです》" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "同じだろうが!" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《いいえ。まったく違います》" },
+    { "type": "narration", "text": "その一言に、部屋の全員が黙った。" },
+    { "type": "narration", "text": "違う。異常ではないが、正常でもない。──だとしたら、これは何なんだ。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "シェル。ムニは、どうなってるの" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《眠っています》" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "……そういうことじゃなくて" },
+    { "type": "narration", "text": "また同じだ。この生き物は、こちらの言葉の輪郭ぴったりにしか答えない。" },
+    { "type": "narration", "text": "ゲルは、その夜も裂け目を探しに出ようとしていた。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "私は出る。燼核が足りない" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "ゲル。三日連続です。少しは休まれては" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "休んで増えるならそうする" },
+    { "type": "narration", "text": "反論のしようがない。彼女の言うことは、いつも正しい。" },
+    { "type": "narration", "text": "正しいから、誰も止められない。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C11）",
+      "prompt": "僕は、どちらに行くべきなんだろう。",
       "options": [
         {
-          "text": "（未執筆: C11 選択肢A）"
+          "text": "ムニに付き添う",
+          "bond": { "muni": 6, "geru": -6 },
+          "flags": { "stayed_with_muni": true }
         },
         {
-          "text": "（未執筆: C11 選択肢B）"
+          "text": "ゲルについて狩りに出る",
+          "bond": { "muni": -6, "geru": 6 },
+          "flags": { "stayed_with_muni": false },
+          "taint": 5
         }
       ]
-    }
+    },
+    {
+      "type": "narration",
+      "text": "椅子を引き寄せて、枕元に座った。することは何もない。ただ、いる。",
+      "requires": { "flags": { "stayed_with_muni": true } }
+    },
+    {
+      "type": "narration",
+      "text": "夜通し歩いて、裂け目をひとつ潰した。燼核がひとつ増えた。腕が二本、増えたわけではなかった。",
+      "requires": { "flags": { "stayed_with_muni": false } }
+    },
+    { "type": "narration", "text": "四日目の明け方、レニィが保健室に来た。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "……交代するよ。少し寝なよ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "レニィこそ、ずっと起きてるだろ" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "僕はね、寝てないほうが調子いいときがあるんだ" },
+    { "type": "narration", "text": "よく寝る人が言うことじゃない。そう言おうとして、やめた。" },
+    { "type": "narration", "text": "レニィの目の下に、影があった。" },
+    { "type": "narration", "text": "この人がこんな顔をするのを、僕は初めて見た。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "normal", "text": "ねえ、{name}" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "この子が眠ってるあいだ、僕、すごく眠いんだ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……え" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "ううん、なんでもない。変なこと言ったねぇ" },
+    { "type": "narration", "text": "笑って、彼はムニの布団を直した。" },
+    { "type": "narration", "text": "そのとき、二人の手が重なった。" },
+    { "type": "narration", "text": "同じ形の指だった。大きさだけが、違っていた。" }
   ],
   "next": "ch02_04"
 }

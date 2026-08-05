@@ -4,22 +4,81 @@
   "background": "bg_school_rooftop_night",
   "bgm": "bgm_geru",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: ゲルがムニの異変に何かを察している素振り）"
-    },
+    { "type": "narration", "text": "その夜、ゲルは屋上にいなかった。" },
+    { "type": "narration", "text": "階段の踊り場で見つけた。座り込んで、膝に額を乗せていた。" },
+    { "type": "narration", "text": "近づく足音で顔を上げたときには、もういつもの顔に戻っていた。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "何か用か" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "ムニのことだ" },
+    { "type": "narration", "text": "彼女の肩が、わずかに落ちた。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "……ああ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "ゲルは、驚いてなかった" },
+    { "type": "narration", "text": "朝の保健室で、全員が動けなくなったなかで、ひとりだけ。" },
+    { "type": "narration", "text": "ゲルは、驚いた顔をしていなかった。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "……前にもあった" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "え" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "去年の冬だ。三日ぶん、まるごと消えた" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "その前は、二年前の夏。一日だけだった" },
+    { "type": "narration", "text": "少しずつ、間隔が短くなっている。少しずつ、量が増えている。" },
+    { "type": "narration", "text": "そして彼女は、それを一人で数えていた。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "……なんで、誰にも言わないんだ" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "言ってどうなる" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "治せるのか。止められるのか。原因が分かるのか" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "何もできないことを教えるのは、ただ怖がらせるだけだ" },
+    { "type": "narration", "text": "この人は、ずっとそうやってきたのだ。" },
+    { "type": "narration", "text": "怖いことを全部自分のところで止めて、外に出さない。三年間、ひとりで。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C17）",
+      "prompt": "ここで引き下がったら、この人はまた一人になる。",
       "options": [
         {
-          "text": "（未執筆: C17 選択肢A）"
+          "text": "「ほかにも隠してることがあるだろ」と踏み込む",
+          "bond": { "geru": -6, "hyu": 3 },
+          "flags": { "pressed_geru": true }
         },
         {
-          "text": "（未執筆: C17 選択肢B）"
+          "text": "「今度からは、一緒に数える」と隣に座る",
+          "bond": { "geru": 6, "hyu": -3 },
+          "flags": { "pressed_geru": false }
         }
       ]
-    }
+    },
+    {
+      "type": "narration",
+      "text": "ゲルは立ち上がった。話は終わりだ、という背中だった。",
+      "requires": { "flags": { "pressed_geru": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "angry",
+      "text": "……お前には関係ない",
+      "requires": { "flags": { "pressed_geru": true } }
+    },
+    {
+      "type": "narration",
+      "text": "関係ない、と言った。その言い方が、あまりに慣れていた。何度も使ってきた言葉なのだ。",
+      "requires": { "flags": { "pressed_geru": true } }
+    },
+    {
+      "type": "narration",
+      "text": "隣に腰を下ろした。ゲルは動かなかった。追い払いもしなかった。",
+      "requires": { "flags": { "pressed_geru": false } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "sad",
+      "text": "……好きにしろ",
+      "requires": { "flags": { "pressed_geru": false } }
+    },
+    { "type": "narration", "text": "階段の窓から、街の灯りが見えた。" },
+    { "type": "narration", "text": "崩れた区画のあたりだけ、やっぱり真っ暗だった。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "……あの子には、何もしてやれない" },
+    { "type": "narration", "text": "ひとりごとみたいだった。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "私は、あの子に何かをしてやれた記憶が、一度もない" },
+    { "type": "narration", "text": "記憶が、ない。" },
+    { "type": "narration", "text": "変な言い方だと思った。三年一緒にいるのに。" },
+    { "type": "narration", "text": "そのとき僕は、それを言い間違いだと思った。" }
   ],
   "next": "ch02_13"
 }

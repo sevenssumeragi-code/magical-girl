@@ -4,22 +4,76 @@
   "background": "bg_school_rooftop_day",
   "bgm": "bgm_renny",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: レニィがムニに付き添う。二人が並ぶ絵の違和感）"
-    },
+    { "type": "narration", "text": "五日目に、ムニを屋上へ連れ出した。" },
+    { "type": "narration", "text": "眠ったままでも、日に当てたほうがいいとヒュウが言ったからだ。根拠はないらしい。それでも誰も反対しなかった。" },
+    { "type": "narration", "text": "レニィが背負って階段を上がった。危なっかしいので下から支えたけれど、彼は一度もよろけなかった。" },
+    { "type": "narration", "text": "昼の屋上は、夜とはまるで違う場所だった。" },
+    { "type": "narration", "text": "フェンスの錆が茶色くはっきり見えて、その向こうの海が、思っていたよりずっと明るい。" },
+    { "type": "narration", "text": "毛布を敷いて、そこにムニを寝かせる。レニィがその隣に寝転んだ。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "こうしてると、昼寝してるだけみたいだねぇ" },
+    { "type": "narration", "text": "青い髪がふたつ、並んで日に晒されている。" },
+    { "type": "narration", "text": "夜の枕元の明かりでは分からなかったことが、この光の下では、どうしようもなくはっきりしていた。" },
+    { "type": "narration", "text": "同じ色だ。" },
+    { "type": "narration", "text": "似ているのではない。染めたなら分かる。血が繋がっているなら、それも分かる。" },
+    { "type": "narration", "text": "そうではなくて──同じ絵の具から出てきたみたいに、同じなのだ。" },
+    { "type": "narration", "text": "髪だけじゃない。瞳の青も同じ。指の形も。爪の生え際の丸みも。" },
+    { "type": "narration", "text": "十歳ぶんの差だけが、二人のあいだにある。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C12）",
+      "prompt": "訊いてしまえば、何かが変わる気がした。",
       "options": [
         {
-          "text": "（未執筆: C12 選択肢A）"
+          "text": "「レニィとムニって、似てるよね」",
+          "bond": { "renny": -6, "muni": 3 },
+          "flags": { "noticed_hair_color": true }
         },
         {
-          "text": "（未執筆: C12 選択肢B）"
+          "text": "何も言わず、隣に座る",
+          "bond": { "renny": 6 },
+          "flags": { "noticed_hair_color": false }
         }
       ]
-    }
+    },
+    {
+      "type": "narration",
+      "text": "レニィは、しばらく空を見たままだった。",
+      "requires": { "flags": { "noticed_hair_color": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "normal",
+      "text": "……そうかなあ",
+      "requires": { "flags": { "noticed_hair_color": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "そうだね。似てる。僕もね、たまにそう思うよ",
+      "requires": { "flags": { "noticed_hair_color": true } }
+    },
+    {
+      "type": "narration",
+      "text": "何も言わずに、僕も毛布の端に座った。三人ぶんの影が、コンクリートに並んだ。",
+      "requires": { "flags": { "noticed_hair_color": false } }
+    },
+    { "type": "narration", "text": "しばらく、風の音しかしなかった。" },
+    { "type": "sfx", "asset": "se_wind" },
+    { "type": "dialogue", "speaker": "renny", "expression": "normal", "text": "ねえ。僕ね、自分の昔のこと、あんまり覚えてないんだ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……レニィも?" },
+    { "type": "dialogue", "speaker": "renny", "expression": "normal", "text": "うん。学校のこととか、家のこととか。あるはずなのに、思い出そうとすると、手前で止まっちゃう" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "でもさ、困らないんだよ。困らないから、誰にも言わなかったんだ" },
+    { "type": "narration", "text": "困らない。" },
+    { "type": "narration", "text": "──記憶が無いのに困らないというのは、本当は、ずいぶん恐ろしいことなんじゃないだろうか。" },
+    { "type": "narration", "text": "困るというのは、失ったものを覚えているから困るのだ。" },
+    { "type": "narration", "text": "僕がそうだ。僕は何も惜しくない。惜しむ相手がいないから。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "ムニも、たぶん同じだよ" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "だからあの子、いなくなるのが怖いんだと思う" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "……自分が、ちゃんとここにいるって、たしかめられないから" },
+    { "type": "narration", "text": "毛布の上で、ムニの指がわずかに動いた。" },
+    { "type": "narration", "text": "その手を、レニィが握った。" },
+    { "type": "narration", "text": "同じ形の手が、重なって、ひとつの塊になった。" }
   ],
   "next": "ch02_05"
 }

@@ -5,22 +5,61 @@
   "background": "bg_school_classroom",
   "bgm": "bgm_daily_01",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: 燼核の残量が乏しいと判明。狩り場の割り当て）"
-    },
+    { "type": "narration", "text": "机の真ん中に、黒い粒が七つ置かれた。" },
+    { "type": "narration", "text": "燼核だ。墜者を倒したときだけ落ちる、翳を吸い出すための消耗品。" },
+    { "type": "narration", "text": "七つ。それが、この拠点にある全部だった。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "surprised", "text": "……先月は二十あったよな" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "ああ" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "減りが早すぎますね。裂け目の数自体は増えていないというのに" },
+    { "type": "narration", "text": "ヒュウが指を折って数えていく。この二週間で潜った翳界は六つ。倒した墜者は六体。落ちた燼核も六つ。" },
+    { "type": "narration", "text": "収支は合っている。合っているのに、減っている。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……使う量が増えてるってこと?" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "そういうことになります。誰かの翳の溜まりが、以前より速いのでしょう" },
+    { "type": "narration", "text": "誰も、その先を言わなかった。" },
+    { "type": "narration", "text": "言えば、灯核を全部並べて確かめることになる。そして、誰かひとりを名指しすることになる。" },
+    { "type": "narration", "text": "僕は、廊下の窓辺のことを思い出していた。紫の底に沈んでいた、薄い黒のことを。" },
+    { "type": "narration", "text": "言うべきだったのかもしれない。" },
+    { "type": "narration", "text": "でも、ゲルは僕を見ていなかった。見られていないのに勝手に暴くのは、違う気がした。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "分けるぞ。使う順番を決める" },
+    { "type": "narration", "text": "話を切ったのはゲルだった。いつもそうだ。空気が重くなる前に、彼女が先に手順の話にしてしまう。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "翳が濃いやつから使う。それだけだ。……{name}、お前が判断しろ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "僕が?" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "一番新しいからな。しがらみがない" },
+    { "type": "narration", "text": "五つの灯核が、順番に机に置かれていく。" },
+    { "type": "narration", "text": "ゲルは、自分のを出さなかった。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C10）",
+      "prompt": "最初の一つを、誰に。",
       "options": [
         {
-          "text": "（未執筆: C10 選択肢A）"
+          "text": "レニィに（一番濃い）",
+          "bond": { "renny": 6, "hyu": -3, "jinpachi": -3 }
         },
         {
-          "text": "（未執筆: C10 選択肢B）"
+          "text": "ジンパチに（前に出る回数が多い）",
+          "bond": { "jinpachi": 6, "renny": -3, "hyu": -3 }
+        },
+        {
+          "text": "ヒュウに（削り役で消耗している）",
+          "bond": { "hyu": 6, "jinpachi": -3, "muni": -3 }
+        },
+        {
+          "text": "ムニに（力の使い方が一番重い）",
+          "bond": { "muni": 6, "renny": -3, "hyu": -3 }
         }
       ]
-    }
+    },
+    { "type": "narration", "text": "選ばれなかった三人は、何も言わなかった。" },
+    { "type": "narration", "text": "文句を言うほど幼くはない。ただ、選ばれた一人が浄化される音を、全員がじっと聞いていた。" },
+    { "type": "sfx", "asset": "se_core_pulse" },
+    { "type": "narration", "text": "これが、あとどれくらい続けられるんだろう。" },
+    { "type": "narration", "text": "六つ。五つ。四つ。……そのあとは。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "だいじょうぶだよ。狩れば増えるんだから" },
+    { "type": "narration", "text": "レニィが、こともなげに言った。" },
+    { "type": "narration", "text": "そのとおりだ。狩れば増える。" },
+    { "type": "narration", "text": "狩れば翳が溜まる。溜まれば燼核が要る。燼核を得るには狩るしかない。" },
+    { "type": "narration", "text": "──輪になっている。どこにも出口のない輪だ。" },
+    { "type": "narration", "text": "誰かがこの輪を設計したのだとしたら、その人はずいぶん、丁寧に閉じたものだと思う。" }
   ],
   "next": "ch02_02"
 }
