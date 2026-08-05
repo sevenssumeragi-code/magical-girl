@@ -4,22 +4,63 @@
   "background": "bg_town_park",
   "bgm": "bgm_muni",
   "lines": [
+    { "type": "narration", "text": "ムニを、また公園へ連れていった。" },
+    { "type": "narration", "text": "拠点にいると、怒鳴り声が聞こえる。それだけの理由だった。" },
+    { "type": "narration", "text": "ブランコに乗せようとして、僕は気づいた。" },
+    { "type": "narration", "text": "背が、縮んでいる。" },
+    { "type": "narration", "text": "気のせいではなかった。ひと月前、この座面に座らせたとき、足は地面についていた。" },
+    { "type": "narration", "text": "今日は、届いていない。" },
     {
       "type": "narration",
-      "text": "（未執筆: ムニとの時間。彼が急速に幼くなっていく）"
+      "text": "留守番をさせるようになってから、この子は外に出る回数が減った。それも関係あるのかもしれない。",
+      "requires": { "flags": { "muni_benched": true } }
     },
+    { "type": "dialogue", "speaker": "muni", "expression": "smile", "text": "おして" },
+    { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "うん" },
+    { "type": "narration", "text": "背中を押す。軽い。ひと月前より、はっきりと軽い。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "smile", "text": "もっと" },
+    { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "危ないよ" },
+    { "type": "dialogue", "speaker": "muni", "expression": "smile", "text": "もっとぉ" },
+    { "type": "narration", "text": "喋り方も変わっていた。" },
+    { "type": "narration", "text": "前は、もっと長い文を話していた。理由を説明したり、条件をつけたりしていた。" },
+    { "type": "narration", "text": "いまは、単語がふたつ並ぶだけだ。" },
+    { "type": "narration", "text": "三歳か、四歳。そのくらいの喋り方に、この子は戻っていっている。" },
+    { "type": "narration", "text": "ブランコを止めて、しゃがんで、目を合わせた。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "ムニ。僕の名前、言える?" },
+    { "type": "dialogue", "speaker": "muni", "expression": "normal", "text": "……おにいちゃん" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "うん。そうじゃなくて、名前" },
+    { "type": "narration", "text": "ムニは、真剣な顔で考えた。" },
+    { "type": "narration", "text": "考えて、考えて、それから困ったように笑った。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "smile", "text": "……わかんない" },
+    { "type": "narration", "text": "怖くなかった。悲しくもなかった。" },
+    { "type": "narration", "text": "ただ、足元が抜けるような感じがした。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C24）",
+      "prompt": "この子に、何を言えばいい。",
       "options": [
         {
-          "text": "（未執筆: C24 選択肢A）"
+          "text": "もう一度、名前を教える",
+          "bond": { "muni": 6, "renny": 3 }
         },
         {
-          "text": "（未執筆: C24 選択肢B）"
+          "text": "「おにいちゃんでいいよ」と笑う",
+          "bond": { "muni": 3, "renny": -3 }
         }
       ]
-    }
+    },
+    { "type": "narration", "text": "帰り道、ムニは僕の指を二本握った。" },
+    { "type": "narration", "text": "──いや、握ろうとして、掴みそこねた。" },
+    { "type": "narration", "text": "二回目でようやく掴めた。" },
+    { "type": "narration", "text": "この子の手は、まだ温かい。爪も、しわも、体温もある。" },
+    { "type": "narration", "text": "それなのに、世界のほうが、この子をだんだん握れなくなっている気がした。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "normal", "text": "……ねえ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "うん" },
+    { "type": "dialogue", "speaker": "muni", "expression": "sad", "text": "ぼく、ちいさくなってる?" },
+    { "type": "narration", "text": "気づいている。" },
+    { "type": "narration", "text": "喋る言葉が減っても、この子は自分に起きていることに気づいている。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "sad", "text": "……もっとちいさくなったら、どうなるのかな" },
+    { "type": "narration", "text": "答えを、僕は持っていなかった。" },
+    { "type": "narration", "text": "持っていないのに、この子は僕の指を離さなかった。" }
   ],
   "next": "ch03_09"
 }

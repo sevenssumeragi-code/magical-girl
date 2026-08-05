@@ -4,22 +4,59 @@
   "background": "bg_school_classroom",
   "bgm": "bgm_sad",
   "lines": [
-    {
-      "type": "narration",
-      "text": "（未執筆: 疑心の連鎖。誰が誰を信じるか）"
-    },
+    { "type": "narration", "text": "その夜から、拠点の空気が変わった。" },
+    { "type": "narration", "text": "喧嘩をしたわけではない。怒鳴り合いもなかった。" },
+    { "type": "narration", "text": "ただ、誰も棚を見なくなった。" },
+    { "type": "narration", "text": "燼核を並べる、あの棚を。見れば数えてしまうからだ。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "……俺は納得してねえからな" },
+    { "type": "narration", "text": "ジンパチは、それを日に三度は言った。誰に言うでもなく。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "ゲルのためだって言えば、何やってもいいのかよ" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "いいとは申しておりません。悪いと分かってやりました" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "それが一番たちが悪いんだよ!" },
+    { "type": "narration", "text": "そのとおりだ。悪いと知らずにやったのなら、教えればいい。" },
+    { "type": "narration", "text": "知っていてやった人には、何を言っても届かない。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "ジンパチ。もうやめようよ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "レニィ、お前は黙ってろ。お前はいつもそうだ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "何も言わねえで、寝てりゃ済むと思ってんだろ" },
+    { "type": "narration", "text": "言ってしまってから、彼は口を閉じた。" },
+    { "type": "narration", "text": "レニィは、怒らなかった。怒らないから、余計にひどく見えた。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "……うん。そうだね" },
+    { "type": "narration", "text": "ムニが、部屋の隅で毛布をかぶっていた。" },
+    { "type": "narration", "text": "怒鳴り声が始まると、いつもそうする。" },
+    { "type": "narration", "text": "六人でひとつだったものが、いま、五つか六つの別々のものになりかけている。" },
+    { "type": "narration", "text": "誰かが何かを言わなければいけなかった。" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C21）",
+      "prompt": "僕は、誰の側に立つんだろう。",
       "options": [
         {
-          "text": "（未執筆: C21 選択肢A）"
+          "text": "ジンパチの側。「隠したことは間違いだ」",
+          "bond": { "jinpachi": 6, "hyu": -6, "renny": -3 }
         },
         {
-          "text": "（未執筆: C21 選択肢B）"
+          "text": "ヒュウの側。「動機は責められない」",
+          "bond": { "hyu": 6, "jinpachi": -6, "geru": -3 }
+        },
+        {
+          "text": "どちらの側にも立たない。「ゲルの話をしよう」",
+          "bond": { "geru": 6, "jinpachi": -6, "hyu": -6 }
         }
       ]
-    }
+    },
+    { "type": "narration", "text": "その夜、ゲルは一度も口を開かなかった。" },
+    { "type": "narration", "text": "みんなが言い合っているあいだ、窓の外を見ていた。" },
+    { "type": "narration", "text": "──後になって思う。" },
+    { "type": "narration", "text": "あのとき彼女が黙っていたのは、怒っていたからでも、呆れていたからでもない。" },
+    { "type": "narration", "text": "自分のせいで六人が割れていく音を、ただ聞いていたのだ。" },
+    { "type": "narration", "text": "そして、その音を止める方法をひとつだけ知っていた。" },
+    { "type": "narration", "text": "自分がいなくなれば、争う理由もなくなる。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《みなさん、お疲れのようですね》" },
+    { "type": "narration", "text": "窓枠のシェルが、誰にともなく言った。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "誰のせいだと思ってんだ" },
+    { "type": "dialogue", "speaker": "shell", "expression": "tilt", "text": "《さあ。私には分かりかねます》" },
+    { "type": "narration", "text": "分かりかねる。" },
+    { "type": "narration", "text": "──それも、嘘ではなかったのだと思う。" },
+    { "type": "narration", "text": "誰のせいか、なんて。あの生き物の勘定には、たぶん入っていない。" }
   ],
   "next": "ch03_06"
 }

@@ -4,10 +4,53 @@
   "background": "bg_school_gate_night",
   "bgm": "bgm_geru",
   "lines": [
+    { "type": "narration", "text": "夜中の三時に、門の音がした。" },
+    { "type": "narration", "text": "錆びた蝶番の、あの音だ。誰かが出ていこうとしている。" },
+    { "type": "narration", "text": "降りていくと、ゲルが荷物を提げて立っていた。" },
+    { "type": "narration", "text": "小さな鞄ひとつ。三年ぶんの荷物にしては、少なすぎた。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……どこに行くんだ" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "別の街だ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "ふざけないでくれ" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "ふざけてない" },
+    { "type": "narration", "text": "本当に、ふざけていなかった。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "私がいると、あいつらが争う" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "ヒュウが隠したのも、ジンパチが怒ったのも、元をたどれば私だ" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "原因が消えれば、あとは元に戻る" },
+    { "type": "narration", "text": "計算が、合っている。彼女の計算はいつも合っている。" },
+    { "type": "narration", "text": "合っているのに、根本のところで何かが抜けている。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "……戻らないよ" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "戻る" },
+    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "戻らない。誰もあなたの代わりに前に出られない" },
+    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "ジンパチが死ぬ。次はヒュウだ。それからレニィだ" },
+    { "type": "narration", "text": "ゲルの手が、鞄の紐を握りしめた。" },
     {
       "type": "narration",
-      "text": "（未執筆: ゲルが単独で街を出ようとしている。引き止めるか）"
-    }
+      "text": "──あの夜、僕は彼女を問い詰めた。踏み込みすぎたのだ。だから今夜、彼女は僕に何も言わずに出ようとした。",
+      "requires": { "flags": { "pressed_geru": true } }
+    },
+    {
+      "type": "narration",
+      "text": "──あの夜、僕は彼女の隣に座った。だからだろうか。彼女は、まだ門を出ていない。",
+      "requires": { "flags": { "pressed_geru": false } }
+    },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "……知ってるか" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "私は、あいつらのことを、家族みたいに思ったことが一度もない" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……え" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "三年一緒にいる。飯も食う。同じ場所で寝る" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "それなのに、ずっと──借りているみたいなんだ" },
+    { "type": "narration", "text": "借りている。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "いつか返さないといけない。そういう感じが、ずっと消えない" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "だから、返しに行く。それだけだ" },
+    { "type": "narration", "text": "門の外へ、彼女は一歩踏み出した。" },
+    { "type": "narration", "text": "その肩を、後ろから小さな手が掴んだ。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "sad", "text": "……いかないで" },
+    { "type": "narration", "text": "ムニだった。裸足で、パーカーのまま、階段を降りてきたらしい。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "sad", "text": "いかないで。ぼく、まってるの、やだ" },
+    { "type": "narration", "text": "ゲルは、動かなくなった。" },
+    { "type": "narration", "text": "振り払えばよかったのだ。この人の腕力なら簡単だ。" },
+    { "type": "narration", "text": "そうしなかった。" },
+    { "type": "narration", "text": "ゲルは鞄を落として、ムニの前にしゃがんだ。" },
+    { "type": "narration", "text": "そして、ずいぶん長いあいだ、その頭に手を置いていた。" }
   ],
   "next": "ch03_12"
 }

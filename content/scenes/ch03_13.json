@@ -4,14 +4,44 @@
   "background": "bg_ruin_street_night",
   "bgm": "bgm_shock",
   "lines": [
-    {
-      "type": "cg",
-      "asset": "cg_09_not_human"
-    },
-    {
-      "type": "narration",
-      "text": "（未執筆: ネオ「貴様らは、人間ではない」 **章末**）"
-    }
+    { "type": "cg", "asset": "cg_09_not_human" },
+    { "type": "narration", "text": "ジンパチが、動いた。" },
+    { "type": "narration", "text": "話が終わらないなら殴る。この人の順序は、いつもそうだ。" },
+    { "type": "sfx", "asset": "se_impact" },
+    { "type": "narration", "text": "籠手が、空を切った。" },
+    { "type": "narration", "text": "ネオは半歩も動いていない。ジンパチの拳の軌道が、届く前に逸れたのだ。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "……やはり届かぬな" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "うるせえ!" },
+    { "type": "narration", "text": "二度、三度。全部同じだった。" },
+    { "type": "narration", "text": "ヒュウが影から回り込む。レニィが光を組む。ゲルが正面から出る。" },
+    { "type": "narration", "text": "そのどれもが、あと一歩のところで届かない。" },
+    { "type": "sfx", "asset": "se_sword" },
+    { "type": "narration", "text": "ネオが、初めて抜いた。" },
+    { "type": "narration", "text": "一閃で、四人が地面に転がった。斬られたわけではない。斬らずに倒したのだ。" },
+    { "type": "narration", "text": "そして彼は、僕の前で止まった。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "normal", "text": "貴様は倒れておらぬな" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……え" },
+    { "type": "narration", "text": "本当だ。四人が倒れて、僕だけが立っていた。" },
+    { "type": "narration", "text": "ネオの剣は、僕のところに来なかった。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "surprised", "text": "……当たらぬ、ではない。当てる対象がない" },
+    { "type": "narration", "text": "彼は自分の剣を見て、それから僕を見た。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "sad", "text": "……そうか。貴様は、そもそも数に入っておらぬのだったな" },
+    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "さっきから何を言ってるんだ!" },
+    { "type": "narration", "text": "ネオは、剣を納めた。" },
+    { "type": "narration", "text": "そして、倒れた四人を順番に見た。" },
+    { "type": "narration", "text": "ジンパチ。ヒュウ。レニィ。ムニ。" },
+    { "type": "narration", "text": "ゲルだけを、見なかった。" },
+    { "type": "sfx", "asset": "se_heartbeat" },
+    { "type": "dialogue", "speaker": "neo", "expression": "special", "text": "──いいだろう。教えてやる" },
+    { "type": "dialogue", "speaker": "neo", "expression": "special", "text": "そこに転がっている四人と、そこに立っている貴様" },
+    { "type": "narration", "text": "崩れた街路の、割れたアスファルトの上で。" },
+    { "type": "narration", "text": "その人は、まったく感情のない声で言った。" },
+    { "type": "dialogue", "speaker": "neo", "expression": "special", "text": "貴様らは、人間ではない" },
+    { "type": "narration", "text": "風が、止まった気がした。" },
+    { "type": "narration", "text": "誰も何も言わなかった。ジンパチが立ち上がりかけて、そのまま止まった。" },
+    { "type": "narration", "text": "ヒュウが、初めて前髪をかき上げた。隠れていたほうの目が、露わになった。" },
+    { "type": "narration", "text": "レニィは、笑わなかった。" },
+    { "type": "narration", "text": "そしてゲルが──ゲルだけが、その言葉に、少しも驚いていなかった。" }
   ],
   "next": "ch04_01"
 }

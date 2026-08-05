@@ -4,32 +4,77 @@
   "background": "bg_school_storage",
   "bgm": "bgm_horror",
   "lines": [
+    { "type": "cg", "asset": "cg_08_hyu_hoard" },
     {
-      "type": "cg",
-      "asset": "cg_08_hyu_hoard"
+      "type": "narration",
+      "text": "裏門から入る道を、僕は覚えていた。ヒュウが遠回りしていた、あの道だ。",
+      "requires": { "flags": { "tailed_hyu": true } }
     },
     {
       "type": "narration",
-      "text": "（未執筆: **善意→最悪②**：ヒュウが燼核を独占していたと露見。動機はゲルの負担軽減）"
+      "text": "見つけたのは、まったくの偶然だった。ムニが用具倉庫で隠れんぼをしたがったのだ。",
+      "requires": { "flags": { "tailed_hyu": false } }
     },
-    {
-      "type": "flag",
-      "set": {
-        "hyu_hoarded": true
-      }
-    },
+    { "type": "narration", "text": "倉庫の扉は、内側から閂がかかっていなかった。" },
+    { "type": "narration", "text": "跳び箱と、割れたバスケットゴールと、丸めたマットの奥。" },
+    { "type": "narration", "text": "床板が一枚、浮いていた。" },
+    { "type": "sfx", "asset": "se_door" },
+    { "type": "narration", "text": "外して、覗き込んだ。" },
+    { "type": "narration", "text": "布に包まれたものが入っていた。開くまでもなく、手触りで分かった。" },
+    { "type": "narration", "text": "──燼核だ。" },
+    { "type": "narration", "text": "数えた。九つあった。" },
+    { "type": "narration", "text": "九つ。この二週間、僕たちが一つを奪い合っていた、その裏で。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "……そこは、暗いでしょう" },
+    { "type": "narration", "text": "扉のところに、ヒュウが立っていた。" },
+    { "type": "narration", "text": "驚いていなかった。いつか見つかると思っていた顔だった。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "……説明して" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "見てのとおりです。隠しておりました" },
+    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "なんで" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "ゲルに使わせるためです" },
+    { "type": "narration", "text": "予想していた答えだった。それなのに、身体の力が抜けた。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "あの方は、順番が回ってくれば必ず後ろに回します。ですから、順番の外に置く必要があった" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "限界が来た日に、有無を言わさず使う。そのための備えです" },
+    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "……そのあいだ、ジンパチが半分黒くなってた" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "存じております" },
+    { "type": "dialogue", "speaker": "haru", "expression": "angry", "text": "ムニの色が減ってた" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "……存じております" },
+    { "type": "narration", "text": "全部知っていて、それでもやったのだ。" },
+    { "type": "narration", "text": "この人は計算ができる。誰が何日保つか、正確に。" },
+    { "type": "narration", "text": "だから、全員をぎりぎりまで削って、その削りしろをゲル一人ぶんの猶予に変えていた。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "ひとつだけ、申し上げておきます" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "私は、自分のぶんを一度も使っていません" },
+    { "type": "narration", "text": "九つの前に立って、彼は自分の灯核を出した。" },
+    { "type": "narration", "text": "黒に近い緑。もう、緑と呼べるかどうかも怪しい。" },
+    { "type": "narration", "text": "──使えばよかったのだ。九つもあったのに。" },
+    { "type": "narration", "text": "使わなかった。ゲルのために取っておくと決めたから。" },
+    { "type": "flag", "set": { "hyu_hoarded": true } },
+    { "type": "narration", "text": "扉のところで、物音がした。" },
+    { "type": "narration", "text": "ジンパチが立っていた。その後ろに、ゲルとレニィがいた。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "……テメー" },
     {
       "type": "choice",
-      "prompt": "（未執筆: C20）",
+      "prompt": "ジンパチの籠手が、光を帯びはじめる。",
       "options": [
         {
-          "text": "（未執筆: C20 選択肢A）"
+          "text": "ヒュウを糾弾する。「これは裏切りだ」",
+          "bond": { "hyu": -10, "jinpachi": 6, "geru": 6 }
         },
         {
-          "text": "（未執筆: C20 選択肢B）"
+          "text": "ヒュウを庇う。「この人は、ゲルを助けようとしただけだ」",
+          "bond": { "hyu": 10, "jinpachi": -6, "geru": -6 }
         }
       ]
-    }
+    },
+    { "type": "narration", "text": "ゲルは、九つの燼核をひとつずつ拾い上げた。" },
+    { "type": "narration", "text": "そして、そのうちのひとつを、ヒュウに向かって投げた。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "使え" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "surprised", "text": "……ゲル、私は" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "使えと言っている" },
+    { "type": "narration", "text": "声が、震えていた。" },
+    { "type": "narration", "text": "この人が声を震わせるのを、僕は初めて見た。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "sad", "text": "……頼むから。私のために、誰も減るな" },
+    { "type": "narration", "text": "誰も減るな。" },
+    { "type": "narration", "text": "そう言ったとき、彼女はもう、僕たちの誰も見ていなかった。" }
   ],
   "next": "ch03_05"
 }
