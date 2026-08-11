@@ -1,0 +1,244 @@
+{
+  "id": "ch04_11",
+  "chapter": 4,
+  "background": "bg_school_storage",
+  "bgm": "bgm_horror",
+  "lines": [
+    { "type": "narration", "text": "その夜、用具倉庫の床板が、また外されていた。" },
+    { "type": "narration", "text": "隠してあった燼核は、もう一つも残っていない。" },
+    { "type": "narration", "text": "誰かが持ち出したのだ。" },
+    { "type": "resolveFate", "what": "betrayer" },
+
+    {
+      "type": "cg",
+      "asset": "cg_12_betrayal",
+      "variant": "hyu",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "narration",
+      "text": "扉のところに、ヒュウが立っていた。",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "narration",
+      "text": "前髪は上げていた。両目とも赤い。片方に、黒いものが滲んでいる。",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "special",
+      "text": "……お待ちしておりました",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "angry",
+      "text": "何をするつもりだ",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "special",
+      "text": "計算をいたしました。何度も、何度も",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "special",
+      "text": "私たち五人が消えれば、ゲルの灯核はもう黒くなりません",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "special",
+      "text": "あの方は助かります。これ以外に、解はありませんでした",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "narration",
+      "text": "彼の手には、燼核ではないものが握られていた。",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "narration",
+      "text": "紫の、半ば黒くなった珠。ゲルの灯核だ。",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "special",
+      "text": "──これを砕けば、私たちは同時に消えます",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "angry",
+      "text": "ゲルも死ぬ! それは助けたことにならない!",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "sad",
+      "text": "……ええ。承知しております",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "sad",
+      "text": "ですが私は、あの方が墜ちるところを見るくらいなら、先に終わらせたいのです",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "narration",
+      "text": "墜化への親和が高い、とシェルは言った。",
+      "requires": { "betrayerIs": "hyu" }
+    },
+    {
+      "type": "narration",
+      "text": "この人はもう、半分そちら側の理屈で喋っている。",
+      "requires": { "betrayerIs": "hyu" }
+    },
+
+    {
+      "type": "cg",
+      "asset": "cg_12_betrayal",
+      "variant": "jinpachi",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "narration",
+      "text": "扉のところに、ジンパチが立っていた。",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "narration",
+      "text": "その隣に、金色の髪がある。",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "special",
+      "text": "……悪いな",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "surprised",
+      "text": "ジンパチ、なんで",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "special",
+      "text": "こいつが言ったんだよ。俺たちを消せば、ゲルは助かるってな",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "sad",
+      "text": "俺は名前もねえ誰かの写しだ。元の人間は、もう三年前に死んでる",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "sad",
+      "text": "……三年、余計に生きた。もう十分だろ",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "angry",
+      "text": "十分じゃない! あなたは前に出るって言った!",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "special",
+      "text": "出てんだよ。これが、俺の前に出るってことだ",
+      "requires": { "betrayerIs": "jinpachi" }
+    },
+
+    {
+      "type": "cg",
+      "asset": "cg_12_betrayal",
+      "variant": "neo",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "narration",
+      "text": "扉のところに、ネオが立っていた。",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "narration",
+      "text": "手に、九つの燼核を持っている。",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "special",
+      "text": "……猶予はやった。決めなかったのは貴様らだ",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "angry",
+      "text": "待つと言っただろう!",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "sad",
+      "text": "待った。そして、貴様らは何も選ばなかった",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "special",
+      "text": "情に流されるくらいなら、初めから来ておらぬ",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "narration",
+      "text": "嘘だ、と思った。",
+      "requires": { "betrayerIs": "neo" }
+    },
+    {
+      "type": "narration",
+      "text": "この人は、三日待った。待つ必要など、本当はなかったのに。",
+      "requires": { "betrayerIs": "neo" }
+    },
+
+    { "type": "sfx", "asset": "se_shatter" },
+    { "type": "narration", "text": "音がした。" },
+    { "type": "narration", "text": "何かが割れる音ではなかった。何かが、割れかけて止まった音だった。" },
+    { "type": "narration", "text": "倉庫の入口に、ゲルが立っていた。" },
+    { "type": "narration", "text": "自分の灯核を取り返して、両手で握りしめていた。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "……勝手に決めるな" },
+    { "type": "dialogue", "speaker": "geru", "expression": "angry", "text": "私の願いのせいだと言うなら、始末をつけるのも私だ" },
+    { "type": "narration", "text": "その手から、黒い筋が漏れていた。" },
+    { "type": "narration", "text": "灯核は、もう握りしめただけで滲むほどになっていた。" }
+  ],
+  "next": "ch04_12"
+}

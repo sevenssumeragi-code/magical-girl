@@ -1,0 +1,212 @@
+{
+  "id": "ch02_08",
+  "chapter": 2,
+  "background": "bg_town_slope_night",
+  "bgm": "bgm_neo",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "追いかけたのは、僕だけだった。"
+    },
+    {
+      "type": "narration",
+      "text": "ほかの全員が動けなかったからだ。倒れた三人を放って追うわけにはいかない。だから僕が出た。"
+    },
+    {
+      "type": "narration",
+      "text": "坂の途中で、彼は待っていた。"
+    },
+    {
+      "type": "narration",
+      "text": "逃げていなかった。街灯の下に立って、こちらを見ていた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "追ってきたか。愚かな"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "……訊きたいことがある"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "smile",
+      "text": "ほう。剣ではなく口か。まあいい、退屈しのぎにはなろう"
+    },
+    {
+      "type": "narration",
+      "text": "見下ろす角度で、彼は僕を眺めた。値踏みしているというより、確認している目だった。"
+    },
+    {
+      "type": "narration",
+      "text": "そして、その目が止まった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "surprised",
+      "text": "……貴様"
+    },
+    {
+      "type": "narration",
+      "text": "彼の視線は、僕の胸のあたりにあった。灯核のある場所だ。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "surprised",
+      "text": "六つ目か。聞いておらぬぞ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "surprised",
+      "text": "……何のこと"
+    },
+    {
+      "type": "narration",
+      "text": "答えは返らなかった。代わりに、彼は自分に向かって呟いた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "……いや。色が無い。ならば、数には入らぬか"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "さっきの五つっていうのは、何なんだ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "答える義理はない"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "sad",
+      "text": "……ゲルのことを、契約者って呼んだ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "sad",
+      "text": "僕たちだって契約者だ。それなのに、あの人だけをそう呼んだ"
+    },
+    {
+      "type": "narration",
+      "text": "ネオの表情から、笑いが消えた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "angry",
+      "text": "……そこまで見ていて、まだ何も分からぬのか"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "angry",
+      "text": "貴様らは、あってはならぬものだ"
+    },
+    {
+      "type": "narration",
+      "text": "風が坂を吹き上げてきた。金色の髪が流れる。"
+    },
+    {
+      "type": "choice",
+      "prompt": "この人は、何かを知っている。",
+      "options": [
+        {
+          "text": "槍を構える。「言え」",
+          "bond": {
+            "neo": -10,
+            "jinpachi": 6
+          },
+          "taint": 5
+        },
+        {
+          "text": "構えを解く。「教えてほしい」",
+          "bond": {
+            "neo": 12,
+            "jinpachi": -6
+          }
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "ネオは、しばらく黙っていた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "……ひとつだけ言っておこう"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "私は、この街の墜者には興味がない。灯守にもだ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "私が来たのは、この街に、あってはならぬ因果が結ばれているからだ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "因果"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "sad",
+      "text": "願いというものは、叶えかたを間違えることがある"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "sad",
+      "text": "間違えて叶えられた願いは、世界に穴を開ける。誰かがそれを塞がねばならぬ"
+    },
+    {
+      "type": "narration",
+      "text": "塞ぐ。そう言ったときの彼の顔を、僕は覚えている。"
+    },
+    {
+      "type": "narration",
+      "text": "高圧的でも、嘲るのでもなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "嫌でたまらないことを、それでもやると決めている人の顔だった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "帰れ。今夜は斬らぬ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "──だが、次はない"
+    }
+  ],
+  "next": "ch02_09"
+}

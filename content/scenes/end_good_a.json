@@ -1,0 +1,199 @@
+{
+  "id": "end_good_a",
+  "chapter": 5,
+  "chapterTitle": "GOOD END ─ 明けの星",
+  "background": "bg_epilogue_dawn",
+  "bgm": "bgm_hope",
+  "ending": "end_good_a",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_25_end_good_a"
+    },
+    {
+      "type": "narration",
+      "text": "夜が明けた。"
+    },
+    {
+      "type": "narration",
+      "text": "全員が揃っているわけではなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "それでも、朝は同じように来た。"
+    },
+    {
+      "type": "narration",
+      "text": "丘の上に立って、僕たちは街を見ていた。"
+    },
+    {
+      "type": "narration",
+      "text": "ゲルの灯核は、紫に戻っていた。完全にではない。底のほうに、まだ薄い黒がある。"
+    },
+    {
+      "type": "narration",
+      "text": "けれど、それは彼女自身の翳だった。誰かを支え続けるための黒ではなかった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "sad",
+      "text": "……全員は、無理だったな"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "sad",
+      "text": "うん"
+    },
+    {
+      "type": "narration",
+      "text": "嘘をつくところではなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "この人に、大丈夫だと言ってはいけない。この人はそういう嘘に、三年ぶんの耐性がある。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "sad",
+      "text": "……私は、これからどうすればいい"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "分からない"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "でも、ひとりで決めるのはやめてほしい"
+    },
+    {
+      "type": "narration",
+      "text": "ゲルは、しばらく黙っていた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "normal",
+      "text": "……努力する"
+    },
+    {
+      "type": "narration",
+      "text": "努力する、と彼女は言った。"
+    },
+    {
+      "type": "narration",
+      "text": "できる、でも、しない、でもなく。"
+    },
+    {
+      "type": "narration",
+      "text": "この人にとって、それはたぶん最大限の譲歩だった。"
+    },
+    {
+      "type": "sfx",
+      "asset": "se_wind"
+    },
+    {
+      "type": "narration",
+      "text": "残った者で、廃校に戻った。"
+    },
+    {
+      "type": "narration",
+      "text": "教室の棚に、灯核を並べる場所がある。"
+    },
+    {
+      "type": "narration",
+      "text": "六つぶんの窪みがあって、いくつかが空いていた。"
+    },
+    {
+      "type": "narration",
+      "text": "誰も、そこを埋めなかった。埋めたら、いなかったことになる気がした。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《翳の生成は、大幅に減少しました》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《この街の灯守は、今後も必要です。ですが、以前ほどではありません》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "……シェル"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "訊いておきたいことがある。訊かないと、答えないんだろ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《はい》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "sad",
+      "text": "消えた人たちは、どこかにいる?"
+    },
+    {
+      "type": "narration",
+      "text": "長い間があった。この生き物が間を空けたのは、初めてだった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "tilt",
+      "text": "《……お答えできません》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《嘘は申しません。ですから、分からないことは分からないと申し上げます》"
+    },
+    {
+      "type": "narration",
+      "text": "それが、この生き物にできる、精一杯の優しさだったのだと思う。"
+    },
+    {
+      "type": "narration",
+      "text": "屋上に上がった。"
+    },
+    {
+      "type": "narration",
+      "text": "ゲルの場所だ。三年、この人がひとりで立っていた場所。"
+    },
+    {
+      "type": "narration",
+      "text": "今日は、何人かで立っている。"
+    },
+    {
+      "type": "narration",
+      "text": "明けの星が、まだ西の空に残っていた。"
+    },
+    {
+      "type": "narration",
+      "text": "夜のいちばん最後まで残って、朝がちゃんと来たのを見届けてから消える星だ。"
+    },
+    {
+      "type": "narration",
+      "text": "──ずいぶん、あの人たちに似ていると思った。"
+    }
+  ],
+  "next": null
+}

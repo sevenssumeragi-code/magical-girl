@@ -1,0 +1,80 @@
+{
+  "id": "ch03_10",
+  "chapter": 3,
+  "background": "bg_school_corridor",
+  "bgm": "bgm_jinpachi",
+  "lines": [
+    { "type": "narration", "text": "ジンパチは、あの廊下にいた。" },
+    { "type": "narration", "text": "壁は殴っていなかった。ただ、座り込んでいた。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "……俺のせいで、ゲルが飛んだ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "ジンパチ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "止まっちまったんだよ。ヒュウのほうが正しいって分かった瞬間に、身体が止まった" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "前衛が止まったら、それだけで人が死ぬ。分かってんのに、止まった" },
+    { "type": "narration", "text": "膝の上で、拳が握られていた。籠手のない、ただの手だ。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "……なあ、{name}" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "俺、何のために熱くなってんだろうな" },
+    { "type": "narration", "text": "廊下の窓から、月が入っていた。割れたガラスの形に切り取られて、床に落ちている。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "俺、契約したときのこと、覚えてねえんだよ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……え" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "願いだよ。何を願ったのか、思い出せねえ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "普通、覚えてるだろ。人生で一個しか叶えられねえ願いだぞ" },
+    { "type": "narration", "text": "レニィと同じだ。ヒュウも、たぶん同じなのだろう。" },
+    { "type": "narration", "text": "誰も、自分の願いを覚えていない。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "だからさ。俺は、たぶん熱いんじゃねえんだ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "熱くしてねえと、中身が空っぽなのがバレるってだけなんだよ" },
+    { "type": "narration", "text": "この人が、こんなふうに自分を分解して見せたのは初めてだった。" },
+    { "type": "narration", "text": "怒鳴るのは、たぶん、いちばん簡単な立ち方だったのだ。" },
+    {
+      "type": "choice",
+      "prompt": "この人に、何を返せばいいんだろう。",
+      "options": [
+        {
+          "text": "「僕も同じだ。中身がない」と並ぶ",
+          "bond": { "jinpachi": 10, "hyu": 3 },
+          "flags": { "jinpachi_bond_deep": true }
+        },
+        {
+          "text": "「熱いから、みんな前に出られるんだよ」と否定する",
+          "bond": { "jinpachi": 6 },
+          "flags": { "jinpachi_bond_deep": false }
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチは、しばらく僕を見ていた。",
+      "requires": { "flags": { "jinpachi_bond_deep": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "surprised",
+      "text": "……お前、慰めるの下手だな",
+      "requires": { "flags": { "jinpachi_bond_deep": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "smile",
+      "text": "……でも、そっちのほうがマシだ。嘘つかれるよりは",
+      "requires": { "flags": { "jinpachi_bond_deep": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "normal",
+      "text": "……そうかよ。だといいけどな",
+      "requires": { "flags": { "jinpachi_bond_deep": false } }
+    },
+    { "type": "narration", "text": "立ち上がって、彼は拳を開いた。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "normal", "text": "……なあ。ひとつ頼んでいいか" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "もし俺が、俺じゃなくなったらさ" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "そのときは、俺の名前を呼んでくれ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……名前?" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "ああ。ジンパチって。ちゃんと呼んでくれ" },
+    { "type": "narration", "text": "変な頼みだと思った。" },
+    { "type": "narration", "text": "呼ばれなくなる心配をする人が、どこにいるだろう。" },
+    { "type": "narration", "text": "──いる、と分かるのは、もっとずっと後のことだ。" }
+  ],
+  "next": "ch03_11"
+}

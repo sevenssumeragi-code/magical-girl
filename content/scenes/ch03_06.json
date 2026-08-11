@@ -1,0 +1,273 @@
+{
+  "id": "ch03_06",
+  "chapter": 3,
+  "background": "bg_town_slope_night",
+  "bgm": "bgm_neo",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "ネオは、同じ街灯の下にいた。"
+    },
+    {
+      "type": "narration",
+      "text": "待っていたのだと思う。あの日と同じ場所に、同じ立ち方で。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "来たか。存外に早い"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "……取引がしたい"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "smile",
+      "text": "ほう"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "燼核を返してほしい。奪った五つを"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "断る、と言えば?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "……じゃあ、代わりに教えてほしい"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "sad",
+      "text": "あなたが言った五つが、何なのかを"
+    },
+    {
+      "type": "narration",
+      "text": "ネオの表情が、初めて崩れた。"
+    },
+    {
+      "type": "narration",
+      "text": "笑ったのでも、怒ったのでもない。困った顔だった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "sad",
+      "text": "……知って、どうする"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "分からない。でも、知らないままだと何も選べない"
+    },
+    {
+      "type": "narration",
+      "text": "ネオは、しばらく黙っていた。"
+    },
+    {
+      "type": "narration",
+      "text": "それから、自分の胸に手を当てた。灯核のある場所──ではない。彼にはそこに何もない。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "私は灯守ではない"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "surprised",
+      "text": "……え"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "灯核を持たぬ。契約もしておらぬ。この世界の生まれですらない"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "私は外環から来た。この世界の外側で、因果の綻びを観測している場所だ"
+    },
+    {
+      "type": "narration",
+      "text": "外環。"
+    },
+    {
+      "type": "narration",
+      "text": "聞いたこともない言葉なのに、彼の口から出ると、当たり前に存在するもののように響いた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "sad",
+      "text": "三年前、この街で、ひとつの願いが叶えられた"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "sad",
+      "text": "叶えかたが、間違っていた"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "sad",
+      "text": "その結果、この世界に、本来あるはずのないものが五つ生まれた"
+    },
+    {
+      "type": "narration",
+      "text": "五つ。"
+    },
+    {
+      "type": "narration",
+      "text": "六人いる。ゲルを除けば、五人だ。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "sad",
+      "text": "……待って"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "私の任務は、それを消すことだ。それだけだ"
+    },
+    {
+      "type": "narration",
+      "text": "消す。"
+    },
+    {
+      "type": "narration",
+      "text": "その言葉を、彼はまったく楽しそうに言わなかった。"
+    },
+    {
+      "type": "choice",
+      "prompt": "この人は、僕たちを消しに来ている。",
+      "options": [
+        {
+          "text": "取引に応じる。「話を最後まで聞く。その代わり、猶予をくれ」",
+          "bond": {
+            "neo": 15,
+            "geru": -6
+          },
+          "flags": {
+            "neo_deal": true,
+            "truth_neo_origin": true
+          }
+        },
+        {
+          "text": "拒む。「そんな話、信じない」",
+          "bond": {
+            "neo": -10,
+            "geru": 6
+          },
+          "flags": {
+            "neo_deal": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "ネオは、少しだけ意外そうな顔をした。",
+      "requires": {
+        "flags": {
+          "neo_deal": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "surprised",
+      "text": "……逃げも、斬りかかりもせぬか",
+      "requires": {
+        "flags": {
+          "neo_deal": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "よかろう。三日待とう。その間に、貴様らの側で決めるがいい",
+      "requires": {
+        "flags": {
+          "neo_deal": true
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "信じない、と言った瞬間、自分の声が震えているのが分かった。",
+      "requires": {
+        "flags": {
+          "neo_deal": false
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "sad",
+      "text": "……信じぬか。それでよい。そのほうが、貴様のためだ",
+      "requires": {
+        "flags": {
+          "neo_deal": false
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "去り際に、彼は一度だけ振り返った。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "ひとつ、覚えておくがいい"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "normal",
+      "text": "願いを間違えたのは、契約者ではない"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "neo",
+      "expression": "angry",
+      "text": "間違えたのは、叶えた側だ"
+    },
+    {
+      "type": "narration",
+      "text": "叶えた側。"
+    },
+    {
+      "type": "narration",
+      "text": "白い巻貝を背負った、あの小さな生き物のことだ。"
+    }
+  ],
+  "next": "ch03_07"
+}

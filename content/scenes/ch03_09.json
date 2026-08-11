@@ -1,0 +1,210 @@
+{
+  "id": "ch03_09",
+  "chapter": 3,
+  "background": "bg_eikai_theater",
+  "bgm": "bgm_battle_02",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "劇場の翳界が、二度目に開いた。"
+    },
+    {
+      "type": "narration",
+      "text": "同じ場所に同じものが開くことは、本来ない。閉じきれていなかったのだ。"
+    },
+    {
+      "type": "narration",
+      "text": "つまり、前回の僕たちが不十分だったということだった。"
+    },
+    {
+      "type": "narration",
+      "text": "入って三十秒で、それは崩れた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "ヒュウ、右だ!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "normal",
+      "text": "……左が空いています。そちらを塞ぐべきかと"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "右だっつってんだろ!"
+    },
+    {
+      "type": "narration",
+      "text": "前は、こんなことはなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチが指示を出せば、ヒュウは黙って従った。逆もそうだった。"
+    },
+    {
+      "type": "narration",
+      "text": "いま、二人はいちいち理由を言い合っている。"
+    },
+    {
+      "type": "narration",
+      "text": "正しさを競っているのではない。相手の判断を、信じられなくなっているのだ。"
+    },
+    {
+      "type": "sfx",
+      "asset": "se_impact"
+    },
+    {
+      "type": "narration",
+      "text": "空いた左から、腕が伸びた。"
+    },
+    {
+      "type": "narration",
+      "text": "ヒュウの言うほうが正しかった。それが分かった瞬間、ジンパチの動きが止まった。"
+    },
+    {
+      "type": "narration",
+      "text": "止まった前衛ほど、危ないものはない。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "angry",
+      "text": "ジンパチ!"
+    },
+    {
+      "type": "narration",
+      "text": "ゲルが割り込んだ。当然のように、彼女が受けた。"
+    },
+    {
+      "type": "narration",
+      "text": "受けて、初めて、吹き飛ばされた。"
+    },
+    {
+      "type": "sfx",
+      "asset": "se_impact"
+    },
+    {
+      "type": "narration",
+      "text": "客席の列を三つぶん越えて、ゲルが落ちた。"
+    },
+    {
+      "type": "narration",
+      "text": "誰も、それを予想していなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "この人は、吹き飛ばされない人だったからだ。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "angry",
+      "text": "──全員、下がって"
+    },
+    {
+      "type": "narration",
+      "text": "レニィの声だった。"
+    },
+    {
+      "type": "narration",
+      "text": "眠そうでもなく、間延びしてもいない。よく通る、はっきりした声。"
+    },
+    {
+      "type": "narration",
+      "text": "水色の光が、劇場の天井まで一気に立ち上がった。"
+    },
+    {
+      "type": "sfx",
+      "asset": "se_magic_cast"
+    },
+    {
+      "type": "narration",
+      "text": "その光量を、僕は初めて見た。"
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチが言っていた。レニィはあれで一番火力がある、と。"
+    },
+    {
+      "type": "narration",
+      "text": "一番どころではなかった。"
+    },
+    {
+      "type": "sfx",
+      "asset": "se_shatter"
+    },
+    {
+      "type": "narration",
+      "text": "舞台も、客席も、幕も、一撃で消えた。"
+    },
+    {
+      "type": "narration",
+      "text": "静かになった翳界の真ん中で、レニィは立っていた。"
+    },
+    {
+      "type": "narration",
+      "text": "そして、ゆっくり膝をついた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "……あ、やば。使いすぎた"
+    },
+    {
+      "type": "narration",
+      "text": "笑っている。笑いながら、灯核を出した。"
+    },
+    {
+      "type": "narration",
+      "text": "水色が、濁っていた。あんなに澄んでいたのに。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "surprised",
+      "text": "……お前、いつもこれ出せんのか"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "smile",
+      "text": "出せるよ。でもね、出すと、そのあと三日くらい眠いんだ"
+    },
+    {
+      "type": "narration",
+      "text": "三日眠い。"
+    },
+    {
+      "type": "narration",
+      "text": "──ムニが眠っていたのは、六日だった。"
+    },
+    {
+      "type": "narration",
+      "text": "外へ出て、僕たちは黙って帰った。"
+    },
+    {
+      "type": "narration",
+      "text": "勝ったのに、誰も勝った顔をしていなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "連携は崩れた。それでも、誰ひとり欠けずに帰ってきた。"
+    },
+    {
+      "type": "bond",
+      "delta": {
+        "renny": 5,
+        "hyu": 3,
+        "jinpachi": 3,
+        "geru": 3
+      }
+    }
+  ],
+  "next": "ch03_10"
+}

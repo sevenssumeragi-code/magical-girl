@@ -1,0 +1,215 @@
+{
+  "id": "ch04_08",
+  "chapter": 4,
+  "background": "bg_school_rooftop_night",
+  "bgm": "bgm_geru_theme",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_21_geru_rooftop"
+    },
+    {
+      "type": "narration",
+      "text": "ゲルは、屋上にいた。"
+    },
+    {
+      "type": "narration",
+      "text": "こういうとき、この人がどこにいるかだけは、もう分かるようになっていた。"
+    },
+    {
+      "type": "narration",
+      "text": "フェンスにもたれて、街を見ている。いつもと同じ立ち方で。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "normal",
+      "text": "……来るな、と言ったら?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "来る"
+    },
+    {
+      "type": "narration",
+      "text": "彼女は、少しだけ笑った気がした。暗くてよく見えなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "隣に立って、しばらく黙っていた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "sad",
+      "text": "……全部、私だったんだな"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "sad",
+      "text": "お前たちがここにいるのも、ムニが小さくなっていくのも、ヒュウが隠したのも"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "sad",
+      "text": "全部、私がひとこと漏らしたせいだ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "……訊きたいことがある"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "灯核を、出してくれないか"
+    },
+    {
+      "type": "narration",
+      "text": "ゲルは、動かなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "それから、諦めたように手を開いた。"
+    },
+    {
+      "type": "sfx",
+      "asset": "se_core_pulse"
+    },
+    {
+      "type": "narration",
+      "text": "紫の珠が浮かぶ。"
+    },
+    {
+      "type": "narration",
+      "text": "──もう、紫ではなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "縁のあたりに、辛うじて紫が残っている。中心は、ほとんど黒い。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "sad",
+      "text": "……体質じゃなかったんだね"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "sad",
+      "text": "ああ"
+    },
+    {
+      "type": "narration",
+      "text": "廊下の窓辺で、僕が初めて見たあの黒。燼核を使っても抜けなかった、底に沈んでいたもの。"
+    },
+    {
+      "type": "narration",
+      "text": "あれは、彼女自身の翳ではなかったのだ。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《五名は、この方の灯核から分岐しております》"
+    },
+    {
+      "type": "narration",
+      "text": "シェルは、いつのまにか給水塔の上にいた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《それぞれが持つ灯核は、写しです。本体はひとつだけ、そこにあります》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《五名ぶんの存在を維持するには、絶えず翳を供給し続ける必要があります》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《燼核で抜けないのは、抜いた端から、また作られているからです》"
+    },
+    {
+      "type": "narration",
+      "text": "僕たちが生きているぶんだけ、この人の灯核が黒くなる。"
+    },
+    {
+      "type": "narration",
+      "text": "三年、休みなく。"
+    },
+    {
+      "type": "narration",
+      "text": "そして誰よりも前に出て、誰よりも長く留まり、燼核の順番を後ろに回してきた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "angry",
+      "text": "……知ってたのか"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "sad",
+      "text": "知らない。理屈は今知った"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "sad",
+      "text": "……ただ、私が墜ちたらお前たちが困る、というのは、なんとなく分かってた"
+    },
+    {
+      "type": "narration",
+      "text": "なんとなく。"
+    },
+    {
+      "type": "narration",
+      "text": "その、なんとなくのために、三年ひとりで受けてきたのだ。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "sad",
+      "text": "……借りてるみたいだ、って言ったろ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "sad",
+      "text": "違ったな。借りてたんじゃない"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "sad",
+      "text": "私が、勝手に作ったんだ。頼まれてもいないのに"
+    },
+    {
+      "type": "narration",
+      "text": "違う、と言いたかった。"
+    },
+    {
+      "type": "narration",
+      "text": "でも、僕には何ひとつ、その反論の根拠がなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "僕はこの人の願いから生まれた。それは、今夜確定してしまった事実だった。"
+    }
+  ],
+  "next": "ch04_09"
+}

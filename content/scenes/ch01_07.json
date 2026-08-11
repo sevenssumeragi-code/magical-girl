@@ -1,0 +1,57 @@
+{
+  "id": "ch01_07",
+  "chapter": 1,
+  "background": "bg_school_classroom",
+  "bgm": "bgm_daily_02",
+  "lines": [
+    { "type": "narration", "text": "机を全部壁際に寄せると、教室はそれなりに広かった。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "一回やっとくぞ。実戦で足引っ張られちゃかなわねえ" },
+    { "type": "narration", "text": "ジンパチの両腕に、橙色の光が籠手の形をとって巻きついた。" },
+    { "type": "narration", "text": "僕のほうは、あの白い槍だ。相変わらず、どうやって出しているのか自分でも分からない。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "がんばってね。僕は見てるね" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "テメーも後でやるんだよ" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "……えぇ" },
+    { "type": "sfx", "asset": "se_magic_cast" },
+    { "type": "narration", "text": "合図はなかった。ジンパチは、いきなり距離を潰してきた。" },
+    { "type": "narration", "text": "速い。考える前に槍が動いて、辛うじて受ける。" },
+    { "type": "sfx", "asset": "se_impact" },
+    { "type": "narration", "text": "腕が痺れた。重い。速さと重さが両方ある。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "smile", "text": "おっ、受けたか" },
+    { "type": "narration", "text": "笑っている。さっきまで怒鳴っていた人が、殴り合いを始めた途端に楽しそうにしている。" },
+    { "type": "narration", "text": "二撃目、三撃目。全部真正面から来る。搦め手がまったくない。" },
+    { "type": "narration", "text": "──真正面しか来ないなら。" },
+    { "type": "narration", "text": "半歩、外へ流れた。ジンパチの拳が空を切り、そこへ槍の柄を差し込む。" },
+    { "type": "sfx", "asset": "se_impact" },
+    { "type": "narration", "text": "体勢が崩れた。倒れはしなかったけれど、間違いなく一本取った。" },
+    { "type": "narration", "text": "教室が、しんとした。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "surprised", "text": "……マジかよ" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "おやおや。ジンパチくんが初日の相手に膝を折るとは、珍しいものが見られました" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "angry", "text": "折ってねえ!" },
+    {
+      "type": "choice",
+      "prompt": "どう答えるか、一瞬迷った。",
+      "options": [
+        {
+          "text": "「もう一本。今度は本気で来て」",
+          "bond": { "jinpachi": 6, "renny": -3 }
+        },
+        {
+          "text": "「たまたまだよ。ジンパチが手加減してくれたんだと思う」",
+          "bond": { "jinpachi": -6, "renny": 3 }
+        }
+      ]
+    },
+    { "type": "narration", "text": "ジンパチは、しばらく僕の顔を見ていた。" },
+    { "type": "narration", "text": "それから、乱暴に頭を掻いた。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "normal", "text": "……お前、戦い方だけは覚えてんのな" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "うん。それだけは、身体が知ってる" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "sad", "text": "……気味悪い話だな" },
+    { "type": "narration", "text": "自分でもそう思う。" },
+    { "type": "narration", "text": "名前も、家も、親の顔も入っていない引き出しに、人の倒し方だけが入っている。" },
+    { "type": "narration", "text": "そんな人間が、いていいんだろうか。" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "normal", "text": "……まあいい。使えるやつは歓迎だ。それだけだ" },
+    { "type": "narration", "text": "背を向けて、彼は水を飲みに行った。" },
+    { "type": "narration", "text": "耳が、少しだけ赤かった気がする。" }
+  ],
+  "next": "ch01_08"
+}

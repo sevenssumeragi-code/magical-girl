@@ -1,0 +1,28 @@
+{
+  "id": "ch05_14",
+  "chapter": 5,
+  "background": "bg_eikai_core",
+  "bgm": "bgm_ending_bridge",
+  "lines": [
+    { "type": "narration", "text": "光の中で、僕は数えていた。" },
+    { "type": "narration", "text": "誰が残ったか。誰が残らなかったか。" },
+    { "type": "narration", "text": "レニィが数えるなと言った。誰が一番危ないかを数えるようになったら、もうだめなのだと。" },
+    { "type": "narration", "text": "そのとおりだと思う。" },
+    { "type": "narration", "text": "でも、いま数えているのは、そういう数ではない。" },
+    { "type": "narration", "text": "僕がこの三ヶ月で受け取ったものの数だ。" },
+    { "type": "narration", "text": "怒鳴られた回数。毛布を投げてよこされた回数。指を二本だけ握られた回数。" },
+    { "type": "narration", "text": "七人だ、と言い直すのに彼女が使った、あの少しの間。" },
+    { "type": "narration", "text": "全部、数え切れなかった。" },
+    { "type": "narration", "text": "空だった器に入るには、多すぎたのだ。" },
+    { "type": "narration", "text": "三ヶ月前、僕は崩れた道で目を覚まして、自分の名前だけを持っていた。" },
+    { "type": "narration", "text": "怖くなかった。惜しむ相手がいなかったからだ。" },
+    { "type": "narration", "text": "──いまは、怖い。" },
+    { "type": "narration", "text": "それが、僕がこの三ヶ月で手に入れたもののうち、いちばん確かなものだった。" },
+    { "type": "narration", "text": "光が、遠ざかっていく。" },
+    { "type": "narration", "text": "あるいは、近づいてきているのかもしれない。もう、どちらとも判断がつかない。" },
+    { "type": "narration", "text": "誰かが、僕の名前を呼んでいる。" },
+    { "type": "narration", "text": "それが誰の声なのか──そこから先は、僕がどう選んだかによる。" },
+    { "type": "resolveEnding" }
+  ],
+  "next": null
+}

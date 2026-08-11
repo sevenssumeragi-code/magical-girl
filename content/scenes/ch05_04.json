@@ -1,0 +1,356 @@
+{
+  "id": "ch05_04",
+  "chapter": 5,
+  "background": "bg_school_rooftop_night",
+  "bgm": "bgm_quiet",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "最後の夜だ、と誰かが言った。"
+    },
+    {
+      "type": "narration",
+      "text": "誰が言ったのかは覚えていない。全員が思っていたことだから、誰の声でも同じだった。"
+    },
+    {
+      "type": "narration",
+      "text": "屋上には、順番に人が上がってきた。"
+    },
+    {
+      "type": "narration",
+      "text": "話したいことがある人が上がってきて、話し終わると降りていく。そういう夜だった。"
+    },
+    {
+      "type": "choice",
+      "prompt": "誰と、最後の話をするか。",
+      "options": [
+        {
+          "text": "レニィ",
+          "requires": {
+            "flags": {
+              "renny_alive": true
+            },
+            "bondAtLeast": {
+              "renny": 30
+            }
+          },
+          "bond": {
+            "renny": 6
+          },
+          "flags": {
+            "last_talk_renny": true
+          }
+        },
+        {
+          "text": "ジンパチ",
+          "requires": {
+            "bondAtLeast": {
+              "jinpachi": 30
+            }
+          },
+          "bond": {
+            "jinpachi": 6
+          },
+          "flags": {
+            "last_talk_jinpachi": true
+          }
+        },
+        {
+          "text": "ヒュウ",
+          "requires": {
+            "bondAtLeast": {
+              "hyu": 30
+            }
+          },
+          "bond": {
+            "hyu": 6
+          },
+          "flags": {
+            "last_talk_hyu": true
+          }
+        },
+        {
+          "text": "ひとりで、街を見ている",
+          "taint": 3
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "smile",
+      "text": "あのね。僕、ずっと眠かった理由が分かったんだ",
+      "requires": {
+        "flags": {
+          "last_talk_renny": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "僕は、いなかった子だからさ。存在してるだけで、ずっと無理してたんだよ",
+      "requires": {
+        "flags": {
+          "last_talk_renny": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "smile",
+      "text": "でも、無理してでもいたかったなあ",
+      "requires": {
+        "flags": {
+          "last_talk_renny": true
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "その夜、レニィは一度も眠らなかった。",
+      "requires": {
+        "flags": {
+          "last_talk_renny": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "normal",
+      "text": "……なあ。俺、思い出したことがあるんだ",
+      "requires": {
+        "flags": {
+          "last_talk_jinpachi": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "sad",
+      "text": "元になった奴だよ。名前も顔も分かんねえけどさ",
+      "requires": {
+        "flags": {
+          "last_talk_jinpachi": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "sad",
+      "text": "そいつ、崩れた家に飛び込んだんだ。知らねえガキのために",
+      "requires": {
+        "flags": {
+          "last_talk_jinpachi": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "smile",
+      "text": "……俺、そういう奴の写しなんだぜ。悪くねえだろ",
+      "requires": {
+        "flags": {
+          "last_talk_jinpachi": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "normal",
+      "text": "私は、ずっと計算をしてまいりました",
+      "requires": {
+        "flags": {
+          "last_talk_hyu": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "sad",
+      "text": "誰が何日保つか。何を削れば何が延びるか。そればかりを考えておりました",
+      "requires": {
+        "flags": {
+          "last_talk_hyu": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "sad",
+      "text": "……ですが、ひとつだけ計算に入れ忘れていたものがあります",
+      "requires": {
+        "flags": {
+          "last_talk_hyu": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "smile",
+      "text": "私自身が、あの方に何かを言われたかったのだ、ということです",
+      "requires": {
+        "flags": {
+          "last_talk_hyu": true
+        }
+      }
+    },
+    {
+      "type": "sfx",
+      "asset": "se_wind"
+    },
+    {
+      "type": "narration",
+      "text": "夜明け前に、ムニが上がってきた。"
+    },
+    {
+      "type": "narration",
+      "text": "……いや。上がってこられなかった。もう、階段を登れる身体ではない。",
+      "requires": {
+        "flags": {
+          "muni_alive": false
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "muni",
+      "expression": "normal",
+      "text": "……おにいちゃん",
+      "requires": {
+        "flags": {
+          "muni_alive": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "muni",
+      "expression": "sad",
+      "text": "ぼく、なにもわかんないけど",
+      "requires": {
+        "flags": {
+          "muni_alive": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "muni",
+      "expression": "smile",
+      "text": "みんないっしょがいい",
+      "requires": {
+        "flags": {
+          "muni_alive": true
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "それが、この子の出した答えだった。",
+      "requires": {
+        "flags": {
+          "muni_alive": true
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "最後に、ヒュウが上がってきた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "normal",
+      "text": "……皆さん、降りていかれましたね"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "うん"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "smile",
+      "text": "では、私が最後です。順番というのは、こういうときに便利ですね"
+    },
+    {
+      "type": "narration",
+      "text": "フェンスに寄りかかって、彼は街を見た。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "sad",
+      "text": "……この街は、綺麗ですか"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "surprised",
+      "text": "……え"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "sad",
+      "text": "私には、判断がつかないのです"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "sad",
+      "text": "私が美しいと思うものは、全部、あの方の記憶から来ておりますので"
+    },
+    {
+      "type": "narration",
+      "text": "答えられなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "綺麗だよ、と言うのは簡単だ。でもそれは、この人の問いには答えていない。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "smile",
+      "text": "……よろしいのです。答えのない問いを立てるのが、私の趣味ですので"
+    },
+    {
+      "type": "narration",
+      "text": "空が白んだ。"
+    },
+    {
+      "type": "narration",
+      "text": "残り、十二時間。"
+    },
+    {
+      "type": "narration",
+      "text": "最後の夜が、静かに終わっていく。"
+    },
+    {
+      "type": "bond",
+      "delta": {
+        "renny": 5,
+        "hyu": 5,
+        "jinpachi": 5,
+        "muni": 5,
+        "geru": 5,
+        "neo": 3
+      }
+    }
+  ],
+  "next": "ch05_05"
+}

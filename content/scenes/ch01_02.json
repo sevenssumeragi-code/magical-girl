@@ -1,0 +1,195 @@
+{
+  "id": "ch01_02",
+  "chapter": 1,
+  "background": "bg_school_classroom",
+  "bgm": "bgm_daily_01",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_24_base_together"
+    },
+    {
+      "type": "narration",
+      "text": "二階の端の教室は、思っていたよりずっと生活の匂いがした。"
+    },
+    {
+      "type": "narration",
+      "text": "机を六つ寄せて作った大きな作業台。壁際に丸めた寝袋。カセットコンロ。飲みかけのペットボトル。棚の一段だけが妙に丁寧に片付けられていて、そこに色とりどりの珠が並んでいる。"
+    },
+    {
+      "type": "narration",
+      "text": "灯核だ。持ち主が眠るときは、こうして置いておくものらしい。"
+    },
+    {
+      "type": "narration",
+      "text": "扉が開いた音で、部屋の中の全員がこちらを見た。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "……おい。誰だそいつ"
+    },
+    {
+      "type": "narration",
+      "text": "真っ先に立ち上がったのは、茶髪をツンツンに立てた男子だった。制服の上にジャージを羽織っている。目つきが鋭い。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "normal",
+      "text": "灯守だ。シェルが拾ってきた"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "拾ってきたって、犬か猫みたいに言うなよ。……で、どこの誰なんだ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "{name}。……それ以外は、僕にも分からない"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "surprised",
+      "text": "はあ?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "sad",
+      "text": "記憶がないんだ。気がついたら、下の崩れた道に転がってた"
+    },
+    {
+      "type": "narration",
+      "text": "沈黙が落ちた。空気が冷えるのが分かる。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "……そんな話、信じられるかよ。ネオの手先って線だってあんだろうが"
+    },
+    {
+      "type": "narration",
+      "text": "ネオ。知らない名前だ。だけど部屋の温度が、その二文字で明らかに下がった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "smile",
+      "text": "まあまあ、ジンパチくん。そう吠えるものではありませんよ"
+    },
+    {
+      "type": "narration",
+      "text": "窓際から、緑の髪の男子が歩いてきた。長い前髪が片目を覆っている。覗いているほうの目は、赤い。"
+    },
+    {
+      "type": "narration",
+      "text": "背が高く、姿勢がいい。制服の着方まで丁寧で、この廃教室の中で明らかに浮いていた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "normal",
+      "text": "私はヒュウと申します。以後、お見知りおきを"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "smile",
+      "text": "……おや。今、少し見惚れましたね? 無理もありません。この照明でこの角度、我ながら罪深いと思っていたところです"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "テメーは黙ってろ"
+    },
+    {
+      "type": "narration",
+      "text": "ヒュウは気にした様子もなく、僕の手のひらを見た。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "normal",
+      "text": "ジンパチくん。彼の灯核をご覧になりましたか"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "surprised",
+      "text": "……あ?"
+    },
+    {
+      "type": "narration",
+      "text": "促されるまま、僕はもう一度、透明な珠を出した。"
+    },
+    {
+      "type": "narration",
+      "text": "教室の裸電球の光が、そのまま向こう側へ抜けていく。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "normal",
+      "text": "翳がひとつも溜まっていません。契約したてか、あるいは──ずいぶん綺麗な生き方をしてきたか、ですね"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "normal",
+      "text": "……ちっ"
+    },
+    {
+      "type": "choice",
+      "prompt": "ジンパチは、まだこちらを睨んでいる。",
+      "options": [
+        {
+          "text": "「疑うのは当然だと思う。僕でもそうする」",
+          "bond": {
+            "jinpachi": 6,
+            "hyu": -3
+          }
+        },
+        {
+          "text": "「そんなに怖い顔しなくても」",
+          "bond": {
+            "jinpachi": -6,
+            "hyu": 3
+          }
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチは、鼻から大きく息を吐いた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "normal",
+      "text": "……俺はジンパチだ。言っとくが、まだ信じたわけじゃねえからな"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "妙な真似したら、俺が真っ先にぶっ飛ばす"
+    },
+    {
+      "type": "narration",
+      "text": "怒鳴られているのに、なぜか、嫌な感じがしなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "この人は、疑っていることを隠さない人なんだと思った。"
+    }
+  ],
+  "next": "ch01_03"
+}

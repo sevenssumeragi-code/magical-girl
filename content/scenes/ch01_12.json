@@ -1,0 +1,69 @@
+{
+  "id": "ch01_12",
+  "chapter": 1,
+  "background": "bg_school_infirmary",
+  "bgm": "bgm_muni",
+  "lines": [
+    { "type": "cg", "asset": "cg_04_muni_slip" },
+    { "type": "narration", "text": "保健室のベッドは二台あって、片方はムニの寝床になっていた。" },
+    { "type": "narration", "text": "戦った日の夜は、ムニはいつも早く眠る。力を使うと、それだけ深く落ちるらしい。" },
+    { "type": "narration", "text": "レニィが枕元の椅子に座って、本を読んでいた。ページはずっと同じところで止まっている。たぶん彼も半分眠っている。" },
+    { "type": "narration", "text": "薬品の匂いが薄く残る部屋に、寝息だけがあった。" },
+    { "type": "narration", "text": "ムニが寝返りを打って、手を伸ばした。" },
+    { "type": "narration", "text": "その手が、レニィの制服の袖を掴んだ。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "normal", "text": "……にいちゃ" },
+    { "type": "narration", "text": "空気が、止まった。" },
+    { "type": "narration", "text": "レニィが本から顔を上げる。ムニは薄目を開けて、自分が掴んでいるものを見た。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "surprised", "text": "……あ" },
+    { "type": "dialogue", "speaker": "muni", "expression": "sad", "text": "……レニィ、だ" },
+    { "type": "narration", "text": "言い直した。慌てて、はっきりと。" },
+    { "type": "narration", "text": "そして、掴んでいた袖を離した。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "うん。レニィだよ" },
+    { "type": "narration", "text": "レニィの声は、いつもどおりだった。" },
+    { "type": "narration", "text": "いつもどおりすぎた。" },
+    { "type": "narration", "text": "枕元の明かりの下で、青い髪がふたつ並んでいる。" },
+    { "type": "narration", "text": "同じ青だ。似ている、という話ではない。同じ色だった。" },
+    {
+      "type": "choice",
+      "prompt": "今のは、何だったんだろう。",
+      "options": [
+        {
+          "text": "「今、にいちゃんって言った?」と訊く",
+          "bond": { "muni": -6, "renny": 6 },
+          "flags": { "noticed_muni_slip": true }
+        },
+        {
+          "text": "聞かなかったことにする",
+          "bond": { "muni": 6, "renny": -3 },
+          "flags": { "noticed_muni_slip": false }
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "訊いた瞬間、ムニは布団を頭までかぶってしまった。",
+      "requires": { "flags": { "noticed_muni_slip": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "muni",
+      "expression": "sad",
+      "text": "……いってない。いってないもん",
+      "requires": { "flags": { "noticed_muni_slip": true } }
+    },
+    {
+      "type": "narration",
+      "text": "何も言わなかった。ムニは僕の顔を少しだけ窺って、それから安心したように目を閉じた。",
+      "requires": { "flags": { "noticed_muni_slip": false } }
+    },
+    { "type": "narration", "text": "レニィは、本を閉じた。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "normal", "text": "この子ね、たまに寝ぼけて、いろんな人を別の名前で呼ぶんだ" },
+    { "type": "dialogue", "speaker": "renny", "expression": "smile", "text": "ジンパチのこと、おとうさんって呼んだこともあるよ。あのときは面白かったなあ" },
+    { "type": "narration", "text": "笑い話にしようとしている。それは分かった。" },
+    { "type": "narration", "text": "だから僕も笑った。" },
+    { "type": "narration", "text": "──ただ、部屋を出るとき、扉の隙間から一度だけ振り返った。" },
+    { "type": "narration", "text": "レニィは笑っていなかった。" },
+    { "type": "narration", "text": "眠っているムニの手を、じっと見ていた。自分の袖を掴んでいた、その小さな手を。" }
+  ],
+  "next": "ch01_13"
+}

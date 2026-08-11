@@ -1,0 +1,232 @@
+{
+  "id": "ch05_10",
+  "chapter": 5,
+  "background": "bg_eikai_core",
+  "bgm": "bgm_quiet",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_14_core_depth"
+    },
+    {
+      "type": "narration",
+      "text": "音が、消えた。"
+    },
+    {
+      "type": "narration",
+      "text": "白と紫だけの空間だった。上も下もない。壁もない。"
+    },
+    {
+      "type": "narration",
+      "text": "その真ん中に、瓦礫がひとつだけ置かれていた。"
+    },
+    {
+      "type": "narration",
+      "text": "コンクリートの塊。三年前の、あの街から持ってきたような。"
+    },
+    {
+      "type": "narration",
+      "text": "その上に、女の子が座っていた。"
+    },
+    {
+      "type": "narration",
+      "text": "十三歳だった。"
+    },
+    {
+      "type": "narration",
+      "text": "紫の髪は短い。制服の片袖が破れている。膝から下が汚れている。"
+    },
+    {
+      "type": "narration",
+      "text": "三日目の夜のままの姿で、彼女はそこにいた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "special",
+      "text": "……来たのか"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "来いって言われたから"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "special",
+      "text": "……そうだったな"
+    },
+    {
+      "type": "narration",
+      "text": "隣に座った。瓦礫は、二人ぶんの幅がなかった。それでも座った。"
+    },
+    {
+      "type": "narration",
+      "text": "しばらく、二人とも何も言わなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "屋上と同じだった。この人と僕は、いつもこうやって黙っていた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "special",
+      "text": "……なあ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "special",
+      "text": "私は、ずっと三日目にいるんだ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "special",
+      "text": "外では三年経った。飯も食ったし、背も伸びた"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "special",
+      "text": "でも、中身はここから動いてない"
+    },
+    {
+      "type": "narration",
+      "text": "知っている。この街が、それを全部見せていた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "special",
+      "text": "……お前たちを作ってしまったのも、そのせいだ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "special",
+      "text": "独りが嫌だと言った。ただ、それだけのために、五人を勝手に生かした"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "……ゲル"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "ひとつだけ、言わせてほしい"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "あなたは、僕たちに何かをしてやれた記憶が一度もない、って言ったよね"
+    },
+    {
+      "type": "narration",
+      "text": "十三歳の彼女が、顔を上げた。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "smile",
+      "text": "毎日してた。全部"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "smile",
+      "text": "前に出るのも、燼核を後ろに回すのも、列の一番後ろを歩くのも"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "smile",
+      "text": "ぜんぶ、数に入ってなかっただけだ"
+    },
+    {
+      "type": "narration",
+      "text": "白い空間に、紫の光が一度だけ揺れた。"
+    },
+    {
+      "type": "narration",
+      "text": "手のひらに、ゲルの灯核があった。"
+    },
+    {
+      "type": "narration",
+      "text": "黒くて、熱くて、中心に光の点がひとつだけ残っている。"
+    },
+    {
+      "type": "narration",
+      "text": "そして、僕のもう片方の手には、無色の灯核がある。"
+    },
+    {
+      "type": "narration",
+      "text": "空の器が、ひとつ。"
+    },
+    {
+      "type": "sfx",
+      "asset": "se_core_pulse"
+    },
+    {
+      "type": "choice",
+      "prompt": "選べるのは、僕だけだ。",
+      "options": [
+        {
+          "text": "僕が引き受ける。空の器に、全部移す",
+          "record": "haru_vessel",
+          "flags": {
+            "final_choice": true
+          },
+          "bond": {
+            "geru": 10
+          },
+          "next": "ch05_11"
+        },
+        {
+          "text": "五人ぶんの願いを、ここで終わらせる",
+          "record": "erase_five",
+          "flags": {
+            "final_choice": true
+          },
+          "bond": {
+            "renny": -6,
+            "hyu": -6,
+            "jinpachi": -6,
+            "muni": -6
+          },
+          "next": "ch05_12"
+        },
+        {
+          "text": "願いそのものを、彼女の手から断ち切る",
+          "record": "break_wish",
+          "flags": {
+            "final_choice": true
+          },
+          "taint": 50,
+          "next": "ch05_12"
+        },
+        {
+          "text": "ネオと共に、この因果ごと外環へ持っていく",
+          "record": "gaikan",
+          "flags": {
+            "final_choice": true
+          },
+          "requires": {
+            "flags": {
+              "neo_route": true
+            }
+          },
+          "next": "ch05_13"
+        }
+      ]
+    }
+  ],
+  "next": "ch05_11"
+}

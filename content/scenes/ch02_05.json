@@ -1,0 +1,98 @@
+{
+  "id": "ch02_05",
+  "chapter": 2,
+  "background": "bg_town_park",
+  "bgm": "bgm_daily_02",
+  "lines": [
+    { "type": "narration", "text": "六日目の朝、ムニは目を覚ました。" },
+    { "type": "narration", "text": "何事もなかったみたいに起き上がって、お腹が空いたと言った。" },
+    { "type": "narration", "text": "ジンパチが泣きそうな顔で怒鳴り、ヒュウが珍しく言葉を選び損ね、レニィが眠ったまま笑った。" },
+    { "type": "narration", "text": "その日の午後、僕はムニを児童公園へ連れていった。" },
+    { "type": "narration", "text": "錆びたブランコと、猫の足跡だらけの砂場しかない小さな公園だ。それでもムニは、ずいぶん嬉しそうだった。" },
+    { "type": "dialogue", "speaker": "muni", "expression": "smile", "text": "{name}おにいちゃん、みてて。たかいのできるよ" },
+    { "type": "narration", "text": "ブランコを漕ぐ。高くない。ぜんぜん高くない。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "smile", "text": "すごいね" },
+    { "type": "dialogue", "speaker": "muni", "expression": "smile", "text": "でしょ" },
+    { "type": "narration", "text": "笑っている。ちゃんと、ここにいる。" },
+    { "type": "narration", "text": "だから僕は、そのとき決めてしまった。" },
+    { "type": "narration", "text": "この子を、もう戦わせない。" },
+    { "type": "narration", "text": "翳界でムニがしていることは、ほかの誰にもできない。だからこそ、いちばん重い。" },
+    { "type": "narration", "text": "六日眠った理由が分からない以上、また同じことが起きる。次はもっと長いかもしれない。" },
+    { "type": "narration", "text": "簡単な話だ。連れていかなければいい。" },
+    {
+      "type": "choice",
+      "prompt": "ブランコの軋む音を聞きながら、僕は口を開いた。",
+      "options": [
+        {
+          "text": "「ムニは、もう翳界に来ないでいい」",
+          "bond": { "muni": 10, "geru": -6 },
+          "flags": { "muni_benched": true }
+        },
+        {
+          "text": "「次からも、一緒に行こう」",
+          "bond": { "muni": -6, "geru": 6 },
+          "flags": { "muni_benched": false }
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "ムニは、ブランコを止めた。",
+      "requires": { "flags": { "muni_benched": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "muni",
+      "expression": "surprised",
+      "text": "……ぼく、いらない子になるの?",
+      "requires": { "flags": { "muni_benched": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "smile",
+      "text": "違うよ。休んでてほしいんだ",
+      "requires": { "flags": { "muni_benched": true } }
+    },
+    {
+      "type": "narration",
+      "text": "そう言うと、ムニはしばらく考えて、それから笑った。",
+      "requires": { "flags": { "muni_benched": true } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "muni",
+      "expression": "smile",
+      "text": "じゃあ、おるすばんする。まってるね",
+      "requires": { "flags": { "muni_benched": true } }
+    },
+    {
+      "type": "narration",
+      "text": "嬉しそうだった。心の底から、嬉しそうだった。",
+      "requires": { "flags": { "muni_benched": true } }
+    },
+    {
+      "type": "narration",
+      "text": "ムニは、ブランコを漕ぐ足に力を入れた。",
+      "requires": { "flags": { "muni_benched": false } }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "muni",
+      "expression": "smile",
+      "text": "うん! ぼく、やくにたつもん",
+      "requires": { "flags": { "muni_benched": false } }
+    },
+    {
+      "type": "narration",
+      "text": "役に立つ。五歳の子が、そんな言葉を覚えている。",
+      "requires": { "flags": { "muni_benched": false } }
+    },
+    { "type": "narration", "text": "帰り道、ムニは僕の指を二本だけ握って歩いた。" },
+    { "type": "narration", "text": "手のひら全部ではなく、二本。それが、この子の距離の取り方らしかった。" },
+    { "type": "narration", "text": "──あとになって、僕は何度もこの午後を思い返すことになる。" },
+    { "type": "narration", "text": "ブランコの軋む音。猫の足跡。ムニの笑い方。" },
+    { "type": "narration", "text": "そして、自分がどれだけ正しいつもりでいたか、ということを。" }
+  ],
+  "next": "ch02_06"
+}

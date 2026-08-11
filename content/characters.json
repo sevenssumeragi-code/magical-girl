@@ -1,0 +1,265 @@
+{
+  "$schema": "./characters.schema.json",
+  "version": 1,
+  "note": "口調ルール(voice)は npm run lint:voice が機械的に検証する。追加・変更時は必ず lint も更新すること。",
+  "characters": [
+    {
+      "id": "haru",
+      "name": "ハル",
+      "nameEditable": true,
+      "maxNameLength": 8,
+      "role": "protagonist",
+      "hasBond": false,
+      "sex": "male",
+      "age": 15,
+      "appearance": {
+        "hair": "白に近い淡い灰色・短髪",
+        "eyes": "無色に近い薄灰色",
+        "outfit": "汐灘第二中の旧制服を着崩したもの。灯守形態は白基調で装飾がほとんどない",
+        "note": "『空白の器』であることを、色の無さで視覚的に示す。Codexへ: 他6人より彩度を明確に落とす"
+      },
+      "voice": {
+        "firstPerson": "僕",
+        "secondPerson": ["きみ", "あなた"],
+        "style": "断定を避け、語尾がやや弱い。丁寧すぎず粗すぎない中庸。地の文は全てハルの一人称視点",
+        "endings": ["〜と思う", "〜かな", "〜だ", "〜けど"],
+        "forbiddenFirstPerson": ["俺", "私", "わたし", "ぼく"],
+        "differentiation": "レニィと一人称『僕』が同じ。ハルは語尾を伸ばさず(『〜だよぉ』禁止)、ひらがな比率を上げない"
+      },
+      "calls": {
+        "renny": "レニィ",
+        "hyu": "ヒュウ",
+        "jinpachi": "ジンパチ",
+        "muni": "ムニ",
+        "geru": "ゲル",
+        "neo": "ネオ"
+      },
+      "expressions": ["normal", "smile", "sad", "angry", "surprised", "special"]
+    },
+    {
+      "id": "renny",
+      "name": "レニィ",
+      "role": "main",
+      "hasBond": true,
+      "sex": "male",
+      "age": 15,
+      "appearance": {
+        "hair": "青・ふわりとした癖毛のミディアム",
+        "eyes": "青",
+        "outfit": "制服。上着のボタンが大抵かかっていない。灯守形態は水色と白",
+        "note": "ムニと同じ青。Codexへ: ムニと同系統の青を意図的に使うこと(真相の視覚的伏線)"
+      },
+      "voice": {
+        "firstPerson": "僕",
+        "secondPerson": ["きみ"],
+        "style": "ほわほわした天然系。平易な語彙、短文、ひらがな多め。よく寝ている",
+        "endings": ["〜だよ", "〜だね", "〜かなあ"],
+        "rareEndings": {
+          "patterns": ["〜だよぉ", "〜だねぇ", "〜なのぉ"],
+          "frequency": "レニィの台詞10行に1回程度。眠い時・気が抜けている時に限る"
+        },
+        "forbiddenFirstPerson": ["俺", "私", "わたし", "オレ"],
+        "differentiation": "ハルと一人称が同じ。レニィは語尾を伸ばす崩れがあり、漢字を減らし、文が短い"
+      },
+      "calls": {
+        "haru": "ハル",
+        "hyu": "ヒュウ",
+        "jinpachi": "ジンパチ",
+        "muni": "ムニ",
+        "geru": "ゲル",
+        "neo": "ネオ"
+      },
+      "callStyleRule": "ジンパチとヒュウは必ず呼び捨て。『くん』『さん』を付けない",
+      "expressions": ["normal", "smile", "sad", "angry", "surprised", "special"],
+      "secret": "ゲルの弟が『生きていたら在ったはずの姿』として実体化した存在"
+    },
+    {
+      "id": "hyu",
+      "name": "ヒュウ",
+      "role": "main",
+      "hasBond": true,
+      "sex": "male",
+      "age": 17,
+      "appearance": {
+        "hair": "緑・片目を覆う長い前髪",
+        "eyes": "赤（見えているのは片目のみ）",
+        "outfit": "制服を几帳面に着こなす。灯守形態は深緑と黒、長身のシルエット",
+        "note": "隠れている方の目は special 表情でのみ露出させる"
+      },
+      "voice": {
+        "firstPerson": "私",
+        "secondPerson": ["あなた"],
+        "style": "ナルシストで気取り屋。常時敬語。比喩と美的表現を好み、自分の容姿に時折言及する",
+        "endings": ["〜ですね", "〜でしょう", "〜ますよ", "〜ではありませんか"],
+        "forbiddenFirstPerson": ["俺", "僕", "オレ"],
+        "hardRule": "全ての台詞が敬体(です・ます調)であること。常体の言い切りは禁止"
+      },
+      "calls": {
+        "haru": "ハル",
+        "renny": "レニィ",
+        "jinpachi": "ジンパチくん",
+        "muni": "ムニ",
+        "geru": "ゲル",
+        "neo": "ネオ"
+      },
+      "callStyleRule": "レニィは呼び捨て。ジンパチは必ず『ジンパチくん』",
+      "expressions": ["normal", "smile", "sad", "angry", "surprised", "special"],
+      "secret": "ゲルを庇って墜化した年上の灯守の先輩が素材。墜化への親和性が最も高い"
+    },
+    {
+      "id": "jinpachi",
+      "name": "ジンパチ",
+      "role": "main",
+      "hasBond": true,
+      "sex": "male",
+      "age": 16,
+      "appearance": {
+        "hair": "茶髪のツンツンヘアー",
+        "eyes": "琥珀色",
+        "outfit": "制服の上にジャージを羽織る。灯守形態は赤と橙、籠手状の装甲",
+        "note": ""
+      },
+      "voice": {
+        "firstPerson": "俺",
+        "secondPerson": ["お前", "てめえ"],
+        "style": "俺様系の熱血漢。断定形・命令形・感嘆符が多い。文が短く荒い",
+        "endings": ["〜だぜ", "〜だろうが", "〜んだよ", "〜してやる"],
+        "forbiddenFirstPerson": ["僕", "私", "わたし"]
+      },
+      "calls": {
+        "haru": "ハル",
+        "renny": "レニィ",
+        "hyu": "ヒュウ",
+        "muni": "ムニ",
+        "geru": "ゲル",
+        "neo": "ネオ"
+      },
+      "expressions": ["normal", "smile", "sad", "angry", "surprised", "special"],
+      "secret": "崩落した家からゲルを引きずり出し、そのまま死んだ名も知らぬ誰かが素材"
+    },
+    {
+      "id": "muni",
+      "name": "ムニ",
+      "role": "main",
+      "hasBond": true,
+      "sex": "male",
+      "age": 5,
+      "appearance": {
+        "hair": "青・短くやわらかい",
+        "eyes": "青",
+        "outfit": "サイズの合わない大きなパーカー。灯守形態は淡い水色のポンチョ状",
+        "note": "レニィと同系統の青（真相の視覚的伏線）。体格を明確に小さく"
+      },
+      "voice": {
+        "firstPerson": "ぼく",
+        "secondPerson": ["きみ", "おにいちゃん"],
+        "style": "5歳。ひらがな中心で漢字を極力使わない。文が短く途切れる。甘えん坊で寂しがり屋",
+        "endings": ["〜なの", "〜だもん", "〜やだ", "〜して"],
+        "forbiddenFirstPerson": ["僕", "俺", "私", "わたし"],
+        "hardRule": "一人称は必ずひらがなの『ぼく』。漢字『僕』は禁止。難読漢字を使わない"
+      },
+      "calls": {
+        "haru": "ハルおにいちゃん",
+        "renny": "レニィ",
+        "hyu": "ヒュウおにいちゃん",
+        "jinpachi": "ジンパチ",
+        "geru": "ゲルねえちゃん",
+        "neo": "こわいひと"
+      },
+      "expressions": ["normal", "smile", "sad", "angry", "surprised", "special"],
+      "bondNote": "ムニの絆値は恋愛ではなく『信頼・保護』の指標。恋愛描写を一切行わない",
+      "secret": "ゲルの実の弟。5歳で死んだ、その時のままの姿"
+    },
+    {
+      "id": "geru",
+      "name": "ゲル",
+      "role": "main",
+      "hasBond": true,
+      "sex": "female",
+      "age": 16,
+      "appearance": {
+        "hair": "紫・セミロングボブ",
+        "eyes": "紫",
+        "outfit": "制服のスカートの下にスパッツ。灯守形態は紫と銀、実用一辺倒の軽装",
+        "note": "本作唯一の女性。可憐さより機能性を優先したデザインにすること"
+      },
+      "voice": {
+        "firstPerson": "私",
+        "secondPerson": ["お前"],
+        "style": "女性らしい喋り方をしない。ぶっきらぼうで短い文。現代的で平易な語彙。感情表現が乏しい",
+        "endings": ["〜だ", "〜だな", "〜だろ", "〜しろ"],
+        "forbiddenFirstPerson": ["俺", "僕", "あたし", "わたくし"],
+        "forbiddenSecondPerson": ["貴様"],
+        "hardRule": "二人称『貴様』の使用を全編で禁止する。必ず『お前』を使う",
+        "differentiation": "ネオと一人称『私』・語尾『〜だ/〜だな』が重なる。ゲルは【短文・現代語・平易】で区別する。敬語、古風表現(〜であろう、〜ぞ、愚かな等)、荘重な修辞を一切使わない"
+      },
+      "calls": {
+        "haru": "ハル",
+        "renny": "レニィ",
+        "hyu": "ヒュウ",
+        "jinpachi": "ジンパチ",
+        "muni": "ムニ",
+        "neo": "ネオ"
+      },
+      "expressions": ["normal", "smile", "sad", "angry", "surprised", "special"],
+      "secret": "本作で唯一の本物の契約者。3年前の願い『もう二度と、独りで戦いたくない』が全ての起点"
+    },
+    {
+      "id": "neo",
+      "name": "ネオ",
+      "role": "main",
+      "hasBond": true,
+      "sex": "male",
+      "age": "外見18相当",
+      "appearance": {
+        "hair": "金髪ロングヘア",
+        "eyes": "碧",
+        "outfit": "この世界のものではない意匠の外套と細身の長剣。灯守形態を持たず、常時この姿",
+        "note": "他6人と異なり制服姿が存在しない。異物であることを一目で示す"
+      },
+      "voice": {
+        "firstPerson": "私",
+        "secondPerson": ["貴様"],
+        "style": "高飛車で高圧的。長く荘重な文。古風・格式的な語彙。相手を見下す修辞を多用",
+        "endings": ["〜だ", "〜だな", "〜であろう", "〜のだ", "〜か"],
+        "vocabulary": ["愚かな", "許そう", "片腹痛い", "〜に過ぎん", "覚えておくがいい"],
+        "forbiddenFirstPerson": ["俺", "僕", "わたし"],
+        "differentiation": "ゲルと一人称・語尾が重なる。ネオは【長文・古風語彙・荘重】で区別する。現代的な口語(『うざい』『マジで』等)を一切使わない"
+      },
+      "calls": {
+        "haru": "貴様",
+        "renny": "貴様ら",
+        "hyu": "貴様",
+        "jinpachi": "貴様",
+        "muni": "その童",
+        "geru": "契約者"
+      },
+      "expressions": ["normal", "smile", "sad", "angry", "surprised", "special"],
+      "secret": "外環から派遣された執行者。任務は『因果を歪めた願いの産物5体の消去』。正体は第3章で示唆、第4章で開示"
+    },
+    {
+      "id": "shell",
+      "name": "シェル",
+      "role": "npc",
+      "hasBond": false,
+      "sex": "none",
+      "appearance": {
+        "hair": "白い巻貝を背負った小動物",
+        "eyes": "瞳孔のない黒い点",
+        "outfit": "なし",
+        "note": "表情差分は normal / tilt / glow の3種のみ"
+      },
+      "voice": {
+        "firstPerson": "私",
+        "secondPerson": ["あなた"],
+        "style": "常に丁寧で穏やか。感情がない。声は音ではなく頭に直接届く（テキスト表示は《 》で囲む）",
+        "endings": ["〜です", "〜ますよ", "〜でしょうか"],
+        "hardRule": "嘘を一度もつかない。ただし訊かれなかったことは決して答えない。この一貫性を全編で厳守する"
+      },
+      "expressions": ["normal", "tilt", "glow"]
+    }
+  ],
+  "voiceLintTargets": [
+    "haru", "renny", "hyu", "jinpachi", "muni", "geru", "neo", "shell"
+  ]
+}

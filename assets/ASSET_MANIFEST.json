@@ -1,0 +1,1578 @@
+{
+  "version": 1,
+  "title": "魔法少女レニィ☆マギカ (Mahou Shoujo Renny Magica)",
+  "note": "グラフィック/BGM担当(Codex)向けの契約ファイル。パスは全て実在すること(現状はプレースホルダ)。本物に差し替えるだけで動作する。詳細な手順は assets/README.md を参照。",
+  "namingConvention": {
+    "background": "bg_<場所>_<時間帯>",
+    "sprite": "sp_<キャラid>_<表情>",
+    "cg": "cg_<連番2桁>_<内容>",
+    "bgm": "bgm_<用途>[_<連番2桁>]",
+    "se": "se_<内容>"
+  },
+  "spec": {
+    "background": {
+      "size": "1920x1080",
+      "format": "png",
+      "note": "1280x720基準で表示。上下左右に若干の余白を持たせる"
+    },
+    "sprite": {
+      "size": "800x1400",
+      "format": "png",
+      "alpha": true,
+      "note": "腰から上。全表情で頭部位置を固定し、差分切替でズレが出ないこと"
+    },
+    "cg": {
+      "size": "1920x1080",
+      "format": "png"
+    },
+    "bgm": {
+      "format": "mp3",
+      "loop": true,
+      "note": "ループポイントをシームレスに。冒頭2秒以内に主題が立ち上がること"
+    },
+    "se": {
+      "format": "ogg",
+      "loop": false,
+      "note": "0.1〜3.0秒"
+    }
+  },
+  "artDirection": {
+    "palette": "全体に彩度低め。灯守形態と翳界のみ彩度を上げてコントラストを作る",
+    "keyRule": "レニィとムニは同系統の青を意図的に共有する(物語上の伏線)。ハルのみ全キャラ中で最も彩度が低い(空白の器の表現)",
+    "neoRule": "ネオだけは他6人と異なる意匠(異世界の様式)。制服姿を持たない"
+  },
+  "assets": [
+    {
+      "id": "bg_title",
+      "type": "bg",
+      "path": "assets/bg/bg_title.png",
+      "description": "タイトル画面。夜明け前の丘の上の廃校を遠景に、無色の灯核がひとつ浮かぶ",
+      "used_in": [
+        "title"
+      ]
+    },
+    {
+      "id": "bg_ruin_street_night",
+      "type": "bg",
+      "path": "assets/bg/bg_ruin_street_night.png",
+      "description": "3年前の崩落で廃墟になった街路。夜。アスファルトが割れ、街灯が数本だけ生きている",
+      "used_in": [
+        "pr_01",
+        "pr_03",
+        "ch03_12",
+        "ch03_13",
+        "ch04_01",
+        "end_bad_b"
+      ]
+    },
+    {
+      "id": "bg_school_gate_night",
+      "type": "bg",
+      "path": "assets/bg/bg_school_gate_night.png",
+      "description": "廃校となった旧・汐灘第二中学校の正門。夜。錆びた門扉と傾いた校名板",
+      "used_in": [
+        "pr_04",
+        "ch01_01",
+        "ch03_11",
+        "ch05_06"
+      ]
+    },
+    {
+      "id": "bg_school_classroom",
+      "type": "bg",
+      "path": "assets/bg/bg_school_classroom.png",
+      "description": "6人の拠点である廃教室。机を寄せた作業台、寝袋、灯核を並べる棚。生活感がある",
+      "used_in": [
+        "ch01_02",
+        "ch01_03",
+        "ch01_07",
+        "ch01_11",
+        "ch02_01",
+        "ch02_07",
+        "ch03_01",
+        "ch03_05",
+        "ch04_02",
+        "ch04_06",
+        "ch04_09",
+        "ch05_01",
+        "end_normal"
+      ]
+    },
+    {
+      "id": "bg_school_corridor",
+      "type": "bg",
+      "path": "assets/bg/bg_school_corridor.png",
+      "description": "廃校の廊下。窓ガラスが半分割れ、床に落ち葉。奥行きのある構図",
+      "used_in": [
+        "ch01_04",
+        "ch01_14",
+        "ch02_09",
+        "ch03_10",
+        "ch04_07"
+      ]
+    },
+    {
+      "id": "bg_school_rooftop_night",
+      "type": "bg",
+      "path": "assets/bg/bg_school_rooftop_night.png",
+      "description": "廃校の屋上。夜。フェンス越しに汐灘市の夜景と海",
+      "used_in": [
+        "ch01_05",
+        "ch01_13",
+        "ch02_12",
+        "ch03_07",
+        "ch04_08",
+        "ch04_13",
+        "ch05_04"
+      ]
+    },
+    {
+      "id": "bg_school_rooftop_day",
+      "type": "bg",
+      "path": "assets/bg/bg_school_rooftop_day.png",
+      "description": "同じ屋上の昼。上記と完全に同一アングルで、光と空だけを差し替えたもの",
+      "used_in": [
+        "ch02_04"
+      ]
+    },
+    {
+      "id": "bg_school_infirmary",
+      "type": "bg",
+      "path": "assets/bg/bg_school_infirmary.png",
+      "description": "廃校の保健室。埃をかぶったベッドが2台。カーテンが半分閉まっている",
+      "used_in": [
+        "ch01_12",
+        "ch02_03",
+        "ch02_11",
+        "ch02_13",
+        "ch04_14"
+      ]
+    },
+    {
+      "id": "bg_school_storage",
+      "type": "bg",
+      "path": "assets/bg/bg_school_storage.png",
+      "description": "廃校の用具倉庫。暗く狭い。ヒュウが燼核を隠していた場所",
+      "used_in": [
+        "ch03_04",
+        "ch04_11"
+      ]
+    },
+    {
+      "id": "bg_town_slope_day",
+      "type": "bg",
+      "path": "assets/bg/bg_town_slope_day.png",
+      "description": "汐灘市の坂道。昼。海へ下る長い坂と密集した家並み",
+      "used_in": [
+        "ch01_06",
+        "end_good_b"
+      ]
+    },
+    {
+      "id": "bg_town_slope_night",
+      "type": "bg",
+      "path": "assets/bg/bg_town_slope_night.png",
+      "description": "同じ坂道の夜。街灯と家々の窓明かり。上記と同一アングル",
+      "used_in": [
+        "ch02_08",
+        "ch03_06",
+        "ch04_10",
+        "ch05_02"
+      ]
+    },
+    {
+      "id": "bg_town_shopping",
+      "type": "bg",
+      "path": "assets/bg/bg_town_shopping.png",
+      "description": "夕方の商店街。半分シャッターが下りている。生きている街と死んだ街の境目",
+      "used_in": [
+        "ch01_08",
+        "ch03_02"
+      ]
+    },
+    {
+      "id": "bg_town_park",
+      "type": "bg",
+      "path": "assets/bg/bg_town_park.png",
+      "description": "小さな児童公園。錆びたブランコと砂場。ムニと過ごす場所",
+      "used_in": [
+        "ch02_05",
+        "ch03_08",
+        "ch04_12"
+      ]
+    },
+    {
+      "id": "bg_eikai_void",
+      "type": "bg",
+      "path": "assets/bg/bg_eikai_void.png",
+      "description": "翳界の基本形。上下の感覚が曖昧な虚空に、黒い澱が糸状に漂う。彩度は高いが不快な配色",
+      "used_in": [
+        "pr_02",
+        "ch02_10",
+        "ch04_05",
+        "ch05_03",
+        "end_bad_c"
+      ]
+    },
+    {
+      "id": "bg_eikai_garden",
+      "type": "bg",
+      "path": "assets/bg/bg_eikai_garden.png",
+      "description": "翳界「花壇」。枯れない造花が無限に敷き詰められた空間。墜者の未練が『世話をされること』だった",
+      "used_in": [
+        "ch01_09",
+        "ch01_10"
+      ]
+    },
+    {
+      "id": "bg_eikai_clock",
+      "type": "bg",
+      "path": "assets/bg/bg_eikai_clock.png",
+      "description": "翳界「時計」。巨大な歯車と無数の止まった時計。全ての針が同じ時刻を指している",
+      "used_in": [
+        "ch02_02",
+        "ch02_06"
+      ]
+    },
+    {
+      "id": "bg_eikai_theater",
+      "type": "bg",
+      "path": "assets/bg/bg_eikai_theater.png",
+      "description": "翳界「劇場」。客席が全て空の巨大劇場。舞台の上だけが眩しい",
+      "used_in": [
+        "ch03_03",
+        "ch03_09"
+      ]
+    },
+    {
+      "id": "bg_eikai_final",
+      "type": "bg",
+      "path": "assets/bg/bg_eikai_final.png",
+      "description": "ゲルの灯核の内側。3年前の崩落した街が、割れた紫の結晶の中に閉じ込められている",
+      "used_in": [
+        "ch05_07",
+        "ch05_08",
+        "ch05_09"
+      ]
+    },
+    {
+      "id": "bg_eikai_core",
+      "type": "bg",
+      "path": "assets/bg/bg_eikai_core.png",
+      "description": "灯核の最深部。何もない白と紫の空間に、瓦礫がひとつだけ置かれている",
+      "used_in": [
+        "ch05_10",
+        "ch05_11",
+        "ch05_12",
+        "ch05_13",
+        "ch05_14",
+        "end_bad_a"
+      ]
+    },
+    {
+      "id": "bg_flashback_ruin",
+      "type": "bg",
+      "path": "assets/bg/bg_flashback_ruin.png",
+      "description": "3年前の崩落直後の街。回想用。全体を褪せたセピア寄りの処理にすること",
+      "used_in": [
+        "ch04_03",
+        "ch04_04",
+        "ch05_05"
+      ]
+    },
+    {
+      "id": "bg_gaikan",
+      "type": "bg",
+      "path": "assets/bg/bg_gaikan.png",
+      "description": "外環。幾何学的で無機質な観測領域。ネオの故郷。この世界のどの背景とも様式が異なること",
+      "used_in": [
+        "end_secret"
+      ]
+    },
+    {
+      "id": "bg_epilogue_dawn",
+      "type": "bg",
+      "path": "assets/bg/bg_epilogue_dawn.png",
+      "description": "夜明けの汐灘市を丘の上から望む。本作で唯一、明確に暖色を使う背景",
+      "used_in": [
+        "end_true",
+        "end_good_a"
+      ]
+    },
+    {
+      "id": "sp_haru_normal",
+      "type": "sprite",
+      "path": "assets/sprite/sp_haru_normal.png",
+      "description": "ハル/平常。淡い灰色の短髪、薄灰色の瞳。全キャラ中で最も彩度が低い",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_haru_smile",
+      "type": "sprite",
+      "path": "assets/sprite/sp_haru_smile.png",
+      "description": "ハル/微笑。控えめ",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_haru_sad",
+      "type": "sprite",
+      "path": "assets/sprite/sp_haru_sad.png",
+      "description": "ハル/悲哀",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_haru_angry",
+      "type": "sprite",
+      "path": "assets/sprite/sp_haru_angry.png",
+      "description": "ハル/怒り。感情の振れ幅が小さいキャラなので抑制的に",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_haru_surprised",
+      "type": "sprite",
+      "path": "assets/sprite/sp_haru_surprised.png",
+      "description": "ハル/驚愕",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_haru_special",
+      "type": "sprite",
+      "path": "assets/sprite/sp_haru_special.png",
+      "description": "ハル/特殊。第4章で自分が空白の器だと知った時の表情。無色の灯核を掌に乗せている",
+      "used_in": [
+        "ch04_07",
+        "ch05_10"
+      ]
+    },
+    {
+      "id": "sp_renny_normal",
+      "type": "sprite",
+      "path": "assets/sprite/sp_renny_normal.png",
+      "description": "レニィ/平常。青い癖毛のミディアム、青い瞳。眠たげで力の抜けた立ち姿",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_renny_smile",
+      "type": "sprite",
+      "path": "assets/sprite/sp_renny_smile.png",
+      "description": "レニィ/微笑。ほわほわした天然系の笑顔",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_renny_sad",
+      "type": "sprite",
+      "path": "assets/sprite/sp_renny_sad.png",
+      "description": "レニィ/悲哀",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_renny_angry",
+      "type": "sprite",
+      "path": "assets/sprite/sp_renny_angry.png",
+      "description": "レニィ/怒り。滅多に見せないぶん強い印象に",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_renny_surprised",
+      "type": "sprite",
+      "path": "assets/sprite/sp_renny_surprised.png",
+      "description": "レニィ/驚愕",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_renny_special",
+      "type": "sprite",
+      "path": "assets/sprite/sp_renny_special.png",
+      "description": "レニィ/特殊。真相を悟った時の、初めて年相応に見える真剣な表情",
+      "used_in": [
+        "ch03_07",
+        "ch04_06"
+      ]
+    },
+    {
+      "id": "sp_hyu_normal",
+      "type": "sprite",
+      "path": "assets/sprite/sp_hyu_normal.png",
+      "description": "ヒュウ/平常。緑の長い前髪が片目を覆う、覗く瞳は赤。長身で姿勢が良い",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_hyu_smile",
+      "type": "sprite",
+      "path": "assets/sprite/sp_hyu_smile.png",
+      "description": "ヒュウ/微笑。自信に満ちた気取った笑み",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_hyu_sad",
+      "type": "sprite",
+      "path": "assets/sprite/sp_hyu_sad.png",
+      "description": "ヒュウ/悲哀",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_hyu_angry",
+      "type": "sprite",
+      "path": "assets/sprite/sp_hyu_angry.png",
+      "description": "ヒュウ/怒り。敬語のまま怒る冷たさ",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_hyu_surprised",
+      "type": "sprite",
+      "path": "assets/sprite/sp_hyu_surprised.png",
+      "description": "ヒュウ/驚愕",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_hyu_special",
+      "type": "sprite",
+      "path": "assets/sprite/sp_hyu_special.png",
+      "description": "ヒュウ/特殊。**前髪をかき上げ隠れていた方の目を露出させた姿**。両目とも赤く、片方に翳が滲んでいる",
+      "used_in": [
+        "ch03_04",
+        "ch04_09",
+        "ch04_11"
+      ]
+    },
+    {
+      "id": "sp_jinpachi_normal",
+      "type": "sprite",
+      "path": "assets/sprite/sp_jinpachi_normal.png",
+      "description": "ジンパチ/平常。茶髪のツンツンヘアー、琥珀色の瞳。制服の上にジャージ",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_jinpachi_smile",
+      "type": "sprite",
+      "path": "assets/sprite/sp_jinpachi_smile.png",
+      "description": "ジンパチ/笑。豪快な笑顔",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_jinpachi_sad",
+      "type": "sprite",
+      "path": "assets/sprite/sp_jinpachi_sad.png",
+      "description": "ジンパチ/悲哀。この表情が最も『効く』キャラなので丁寧に",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_jinpachi_angry",
+      "type": "sprite",
+      "path": "assets/sprite/sp_jinpachi_angry.png",
+      "description": "ジンパチ/怒り。彼の基本形と言ってよい",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_jinpachi_surprised",
+      "type": "sprite",
+      "path": "assets/sprite/sp_jinpachi_surprised.png",
+      "description": "ジンパチ/驚愕",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_jinpachi_special",
+      "type": "sprite",
+      "path": "assets/sprite/sp_jinpachi_special.png",
+      "description": "ジンパチ/特殊。『名前がない』と知った直後の、力の抜けた表情",
+      "used_in": [
+        "ch04_10",
+        "ch04_11"
+      ]
+    },
+    {
+      "id": "sp_muni_normal",
+      "type": "sprite",
+      "path": "assets/sprite/sp_muni_normal.png",
+      "description": "ムニ/平常。青い短髪と青い瞳の5歳児。サイズの合わない大きなパーカー。他キャラより明確に小さく",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_muni_smile",
+      "type": "sprite",
+      "path": "assets/sprite/sp_muni_smile.png",
+      "description": "ムニ/笑顔",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_muni_sad",
+      "type": "sprite",
+      "path": "assets/sprite/sp_muni_sad.png",
+      "description": "ムニ/泣き顔",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_muni_angry",
+      "type": "sprite",
+      "path": "assets/sprite/sp_muni_angry.png",
+      "description": "ムニ/むくれ顔。怒りというより拗ね",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_muni_surprised",
+      "type": "sprite",
+      "path": "assets/sprite/sp_muni_surprised.png",
+      "description": "ムニ/驚愕",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_muni_special",
+      "type": "sprite",
+      "path": "assets/sprite/sp_muni_special.png",
+      "description": "ムニ/特殊。**輪郭と手足が半透明になり、背景が透けている姿**",
+      "used_in": [
+        "ch02_13",
+        "ch03_08",
+        "ch04_12"
+      ]
+    },
+    {
+      "id": "sp_geru_normal",
+      "type": "sprite",
+      "path": "assets/sprite/sp_geru_normal.png",
+      "description": "ゲル/平常。紫のセミロングボブ、紫の瞳。腕を組み、感情の読めない顔",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_geru_smile",
+      "type": "sprite",
+      "path": "assets/sprite/sp_geru_smile.png",
+      "description": "ゲル/微笑。本作で最も貴重な表情。ぎこちなく、慣れていない笑い方",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_geru_sad",
+      "type": "sprite",
+      "path": "assets/sprite/sp_geru_sad.png",
+      "description": "ゲル/悲哀。泣かない。目を逸らすだけ",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_geru_angry",
+      "type": "sprite",
+      "path": "assets/sprite/sp_geru_angry.png",
+      "description": "ゲル/怒り。声を荒げず温度が下がるタイプ",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_geru_surprised",
+      "type": "sprite",
+      "path": "assets/sprite/sp_geru_surprised.png",
+      "description": "ゲル/驚愕",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_geru_special",
+      "type": "sprite",
+      "path": "assets/sprite/sp_geru_special.png",
+      "description": "ゲル/特殊。**半ばまで黒く染まった紫の灯核を握りしめている姿**",
+      "used_in": [
+        "ch04_08",
+        "ch04_14",
+        "ch05_09"
+      ]
+    },
+    {
+      "id": "sp_neo_normal",
+      "type": "sprite",
+      "path": "assets/sprite/sp_neo_normal.png",
+      "description": "ネオ/平常。金髪ロング、碧眼。異世界の意匠の外套と細身の長剣。見下ろす角度",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_neo_smile",
+      "type": "sprite",
+      "path": "assets/sprite/sp_neo_smile.png",
+      "description": "ネオ/嘲笑。優しい笑みではない",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_neo_sad",
+      "type": "sprite",
+      "path": "assets/sprite/sp_neo_sad.png",
+      "description": "ネオ/悲哀。彼が消すべき対象に情を持ちかけた瞬間の顔",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_neo_angry",
+      "type": "sprite",
+      "path": "assets/sprite/sp_neo_angry.png",
+      "description": "ネオ/怒り",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_neo_surprised",
+      "type": "sprite",
+      "path": "assets/sprite/sp_neo_surprised.png",
+      "description": "ネオ/驚愕。滅多にない",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_neo_special",
+      "type": "sprite",
+      "path": "assets/sprite/sp_neo_special.png",
+      "description": "ネオ/特殊。**外環の執行者としての正装で抜刀した姿**。背後に幾何学的な紋様",
+      "used_in": [
+        "ch03_13",
+        "ch04_01",
+        "ch05_03"
+      ]
+    },
+    {
+      "id": "sp_shell_normal",
+      "type": "sprite",
+      "path": "assets/sprite/sp_shell_normal.png",
+      "description": "シェル/平常。白い巻貝を背負った小動物。瞳孔のない黒い点の目。無表情",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_shell_tilt",
+      "type": "sprite",
+      "path": "assets/sprite/sp_shell_tilt.png",
+      "description": "シェル/小首を傾げる。感情ではなく機械的な仕草として",
+      "used_in": [
+        "all"
+      ]
+    },
+    {
+      "id": "sp_shell_glow",
+      "type": "sprite",
+      "path": "assets/sprite/sp_shell_glow.png",
+      "description": "シェル/貝殻が発光。契約と真相開示の場面",
+      "used_in": [
+        "pr_03",
+        "ch04_02"
+      ]
+    },
+    {
+      "id": "cg_01_awakening",
+      "type": "cg",
+      "path": "assets/cg/cg_01_awakening.png",
+      "description": "崩れた街路に横たわるハルが目を開ける俯瞰。無色の灯核が傍らに落ちている",
+      "used_in": [
+        "pr_01"
+      ]
+    },
+    {
+      "id": "cg_02_first_battle",
+      "type": "cg",
+      "path": "assets/cg/cg_02_first_battle.png",
+      "description": "翳界で6人が初めて揃って戦う場面。それぞれの灯守形態の全身が見える",
+      "used_in": [
+        "ch01_09"
+      ]
+    },
+    {
+      "id": "cg_03_six_cores",
+      "type": "cg",
+      "path": "assets/cg/cg_03_six_cores.png",
+      "description": "**伏線B**。机に並べられた6つの灯核。5つは色付き、ハルのひとつだけ完全に無色透明",
+      "used_in": [
+        "ch01_11"
+      ]
+    },
+    {
+      "id": "cg_04_muni_slip",
+      "type": "cg",
+      "path": "assets/cg/cg_04_muni_slip.png",
+      "description": "**伏線A**。保健室で寝ぼけたムニがレニィの袖を掴んでいる。二人の青い髪が並ぶ構図",
+      "used_in": [
+        "ch01_12"
+      ]
+    },
+    {
+      "id": "cg_05_geru_core",
+      "type": "cg",
+      "path": "assets/cg/cg_05_geru_core.png",
+      "description": "**伏線C**。廊下で燼核を使った直後のゲルの灯核。他5人と違い翳が薄く残っている",
+      "used_in": [
+        "ch01_14"
+      ]
+    },
+    {
+      "id": "cg_06_muni_transparent",
+      "type": "cg",
+      "path": "assets/cg/cg_06_muni_transparent.png",
+      "description": "保健室でムニの手が背後の景色を透かす瞬間。ハルの視点",
+      "used_in": [
+        "ch02_13"
+      ]
+    },
+    {
+      "id": "cg_07_neo_appear",
+      "type": "cg",
+      "path": "assets/cg/cg_07_neo_appear.png",
+      "description": "ネオが教室に現れ、6人を一蹴して燼核を奪う場面",
+      "used_in": [
+        "ch02_07"
+      ]
+    },
+    {
+      "id": "cg_08_hyu_hoard",
+      "type": "cg",
+      "path": "assets/cg/cg_08_hyu_hoard.png",
+      "description": "用具倉庫で燼核を抱えたヒュウが振り返る。片目の前髪が乱れている",
+      "used_in": [
+        "ch03_04"
+      ]
+    },
+    {
+      "id": "cg_09_not_human",
+      "type": "cg",
+      "path": "assets/cg/cg_09_not_human.png",
+      "description": "廃墟の街路。ネオが剣先を向けて『貴様らは、人間ではない』と告げる",
+      "used_in": [
+        "ch03_13"
+      ]
+    },
+    {
+      "id": "cg_10_geru_wish",
+      "type": "cg",
+      "path": "assets/cg/cg_10_geru_wish.png",
+      "description": "回想。瓦礫の中、13歳のゲルがシェルに向かって願いを口にする。セピア処理",
+      "used_in": [
+        "ch04_04"
+      ]
+    },
+    {
+      "id": "cg_11_manifestation",
+      "type": "cg",
+      "path": "assets/cg/cg_11_manifestation.png",
+      "description": "ゲルの灯核から溢れた翳が5つの人影を形作る瞬間。うち1体だけが輪郭のない空白",
+      "used_in": [
+        "ch04_05"
+      ]
+    },
+    {
+      "id": "cg_12_betrayal",
+      "type": "cg",
+      "path": "assets/cg/cg_12_betrayal.png",
+      "description": "裏切りの瞬間。**3パターン必要**（ヒュウ版/ジンパチ版/ネオ版）。ファイル名末尾に _hyu / _jinpachi / _neo を付けた3枚を用意すること",
+      "variants": [
+        "hyu",
+        "jinpachi",
+        "neo"
+      ],
+      "used_in": [
+        "ch04_11"
+      ]
+    },
+    {
+      "id": "cg_13_farewell",
+      "type": "cg",
+      "path": "assets/cg/cg_13_farewell.png",
+      "description": "決別の瞬間。**3パターン必要**（ムニ版/レニィ版/ゲル版）。公園にて。ファイル名末尾に _muni / _renny / _geru",
+      "variants": [
+        "muni",
+        "renny",
+        "geru"
+      ],
+      "used_in": [
+        "ch04_12"
+      ]
+    },
+    {
+      "id": "cg_14_core_depth",
+      "type": "cg",
+      "path": "assets/cg/cg_14_core_depth.png",
+      "description": "灯核の最深部。瓦礫の上に3年前の13歳のゲルが独りで座っている。ハルが向かい合う",
+      "used_in": [
+        "ch05_10"
+      ]
+    },
+    {
+      "id": "cg_15_true_end",
+      "type": "cg",
+      "path": "assets/cg/cg_15_true_end.png",
+      "description": "TRUE END。夜明けの丘に6人が並んで立つ。ハルの姿だけが僅かに光を透かしている",
+      "used_in": [
+        "end_true"
+      ]
+    },
+    {
+      "id": "cg_16_secret_end",
+      "type": "cg",
+      "path": "assets/cg/cg_16_secret_end.png",
+      "description": "SECRET END。外環の門の前に立つネオとハル。二人とも背を向けている",
+      "used_in": [
+        "end_secret"
+      ]
+    },
+    {
+      "id": "bgm_title",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_title.mp3",
+      "description": "タイトル画面。静謐なピアノとストリングス。主題の提示",
+      "spec": {
+        "length": "2:00",
+        "loop": true
+      },
+      "used_in": [
+        "title"
+      ]
+    },
+    {
+      "id": "bgm_prologue",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_prologue.mp3",
+      "description": "プロローグ。心細さと無音に近い空虚さ。低音のドローンと単音のピアノ",
+      "spec": {
+        "length": "2:00",
+        "loop": true
+      },
+      "used_in": [
+        "pr_01"
+      ]
+    },
+    {
+      "id": "bgm_daily_01",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_daily_01.mp3",
+      "description": "日常A。廃校の拠点。穏やかだがどこか仮初めの明るさ",
+      "spec": {
+        "length": "2:00",
+        "loop": true
+      },
+      "used_in": [
+        "ch01_01",
+        "ch01_02",
+        "ch02_01",
+        "end_normal"
+      ]
+    },
+    {
+      "id": "bgm_daily_02",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_daily_02.mp3",
+      "description": "日常B。街での場面。軽快で少しコミカル",
+      "spec": {
+        "length": "2:00",
+        "loop": true
+      },
+      "used_in": [
+        "ch01_06",
+        "ch01_07",
+        "ch02_05"
+      ]
+    },
+    {
+      "id": "bgm_quiet",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_quiet.mp3",
+      "description": "静かな対話。屋上での二人きりの会話。ギターとピアノの小編成",
+      "spec": {
+        "length": "2:00",
+        "loop": true
+      },
+      "used_in": [
+        "ch01_05",
+        "ch01_11",
+        "ch03_07",
+        "ch04_13",
+        "ch05_04",
+        "ch05_10"
+      ]
+    },
+    {
+      "id": "bgm_sad",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_sad.mp3",
+      "description": "哀切。喪失と後悔。チェロ主体",
+      "spec": {
+        "length": "2:00",
+        "loop": true
+      },
+      "used_in": [
+        "ch02_03",
+        "ch02_11",
+        "ch03_05",
+        "ch04_06",
+        "ch04_07",
+        "ch04_12"
+      ]
+    },
+    {
+      "id": "bgm_tension",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_tension.mp3",
+      "description": "緊張。不穏な予兆。刻むリズムと不協和音",
+      "spec": {
+        "length": "1:40",
+        "loop": true
+      },
+      "used_in": [
+        "pr_04",
+        "ch01_14",
+        "ch02_07",
+        "ch03_01",
+        "ch04_09",
+        "ch05_01",
+        "ch05_06"
+      ]
+    },
+    {
+      "id": "bgm_horror",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_horror.mp3",
+      "description": "恐怖。異常の発覚。音程の定まらない持続音",
+      "spec": {
+        "length": "1:40",
+        "loop": true
+      },
+      "used_in": [
+        "ch02_13",
+        "ch03_04",
+        "ch04_11",
+        "end_bad_c"
+      ]
+    },
+    {
+      "id": "bgm_shock",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_shock.mp3",
+      "description": "衝撃・真相開示。世界が反転する感覚。ブラスとティンパニ",
+      "spec": {
+        "length": "1:40",
+        "loop": true
+      },
+      "used_in": [
+        "ch03_13",
+        "ch04_01",
+        "ch04_05",
+        "ch04_14"
+      ]
+    },
+    {
+      "id": "bgm_shell",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_shell.mp3",
+      "description": "シェルのテーマ。感情のない機械的な美しさ。硬質な電子音",
+      "spec": {
+        "length": "1:40",
+        "loop": true
+      },
+      "used_in": [
+        "pr_03",
+        "ch04_02"
+      ]
+    },
+    {
+      "id": "bgm_battle_01",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_battle_01.mp3",
+      "description": "戦闘A。標準的な翳界戦。疾走感",
+      "spec": {
+        "length": "2:00",
+        "loop": true
+      },
+      "used_in": [
+        "pr_02",
+        "ch01_09",
+        "ch02_02",
+        "ch03_03"
+      ]
+    },
+    {
+      "id": "bgm_battle_02",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_battle_02.mp3",
+      "description": "戦闘B。劣勢・追い詰められた戦い。重く粘る",
+      "spec": {
+        "length": "2:00",
+        "loop": true
+      },
+      "used_in": [
+        "ch01_10",
+        "ch02_06",
+        "ch02_10",
+        "ch03_09"
+      ]
+    },
+    {
+      "id": "bgm_battle_03",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_battle_03.mp3",
+      "description": "戦闘C。最終決戦。全主題の再構成。本作で最も編成が厚い",
+      "spec": {
+        "length": "2:30",
+        "loop": true
+      },
+      "used_in": [
+        "ch05_03",
+        "ch05_07",
+        "ch05_08"
+      ]
+    },
+    {
+      "id": "bgm_renny",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_renny.mp3",
+      "description": "レニィのテーマ。ふわふわと浮遊感のある3拍子",
+      "spec": {
+        "length": "1:40",
+        "loop": true
+      },
+      "used_in": [
+        "ch01_03",
+        "ch02_04"
+      ]
+    },
+    {
+      "id": "bgm_hyu",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_hyu.mp3",
+      "description": "ヒュウのテーマ。優美でやや芝居がかったワルツ",
+      "spec": {
+        "length": "1:40",
+        "loop": true
+      },
+      "used_in": [
+        "ch01_08",
+        "ch03_02"
+      ]
+    },
+    {
+      "id": "bgm_jinpachi",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_jinpachi.mp3",
+      "description": "ジンパチのテーマ。直線的で熱いギターロック",
+      "spec": {
+        "length": "1:40",
+        "loop": true
+      },
+      "used_in": [
+        "ch02_09",
+        "ch03_10",
+        "ch04_10"
+      ]
+    },
+    {
+      "id": "bgm_muni",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_muni.mp3",
+      "description": "ムニのテーマ。オルゴールの単純な旋律。徐々に音が欠けていく仕掛けを入れてよい",
+      "spec": {
+        "length": "1:40",
+        "loop": true
+      },
+      "used_in": [
+        "ch01_04",
+        "ch01_12",
+        "ch03_08"
+      ]
+    },
+    {
+      "id": "bgm_geru",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_geru.mp3",
+      "description": "ゲルのテーマ(日常版)。硬く抑制されたピアノ独奏",
+      "spec": {
+        "length": "1:40",
+        "loop": true
+      },
+      "used_in": [
+        "ch01_13",
+        "ch02_12",
+        "ch03_11"
+      ]
+    },
+    {
+      "id": "bgm_geru_theme",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_geru_theme.mp3",
+      "description": "ゲルのテーマ(真相版)。bgm_geru と同一旋律をフルオーケストラで展開したもの。**必ず bgm_geru と同じ主題を使うこと**",
+      "spec": {
+        "length": "2:30",
+        "loop": true
+      },
+      "used_in": [
+        "ch04_03",
+        "ch04_04",
+        "ch04_08",
+        "ch05_05"
+      ]
+    },
+    {
+      "id": "bgm_neo",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_neo.mp3",
+      "description": "ネオのテーマ。荘重で威圧的。パイプオルガンと弦",
+      "spec": {
+        "length": "1:40",
+        "loop": true
+      },
+      "used_in": [
+        "ch02_08",
+        "ch03_06",
+        "ch03_12",
+        "ch05_02"
+      ]
+    },
+    {
+      "id": "bgm_neo_theme",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_neo_theme.mp3",
+      "description": "ネオのテーマ(外環版)。異界の音律。本作の他曲と音階そのものを変えること",
+      "spec": {
+        "length": "2:00",
+        "loop": true
+      },
+      "used_in": [
+        "ch05_13",
+        "end_secret"
+      ]
+    },
+    {
+      "id": "bgm_despair",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_despair.mp3",
+      "description": "絶望。全てが手遅れになった時。旋律が解体されていく",
+      "spec": {
+        "length": "2:00",
+        "loop": true
+      },
+      "used_in": [
+        "ch05_09",
+        "ch05_12",
+        "end_bad_a",
+        "end_bad_b"
+      ]
+    },
+    {
+      "id": "bgm_hope",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_hope.mp3",
+      "description": "希望。絶望と同じ旋律を長調に転じたもの。**bgm_despair と同一主題であること**",
+      "spec": {
+        "length": "2:00",
+        "loop": true
+      },
+      "used_in": [
+        "ch05_11",
+        "end_good_a",
+        "end_good_b"
+      ]
+    },
+    {
+      "id": "bgm_ending_bridge",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_ending_bridge.mp3",
+      "description": "エンディング判定シーンの短い繋ぎ。無調から徐々に主題へ",
+      "spec": {
+        "length": "1:00",
+        "loop": true
+      },
+      "used_in": [
+        "ch05_14"
+      ]
+    },
+    {
+      "id": "bgm_true",
+      "type": "bgm",
+      "path": "assets/bgm/bgm_true.mp3",
+      "description": "TRUE END主題歌相当。本作の全テーマを統合した集大成。歌ものにしてもよい",
+      "spec": {
+        "length": "3:00",
+        "loop": true
+      },
+      "used_in": [
+        "end_true"
+      ]
+    },
+    {
+      "id": "se_ui_select",
+      "type": "se",
+      "path": "assets/se/se_ui_select.ogg",
+      "description": "UIカーソル移動",
+      "spec": {
+        "length": "0.1s"
+      },
+      "used_in": [
+        "ui"
+      ]
+    },
+    {
+      "id": "se_ui_confirm",
+      "type": "se",
+      "path": "assets/se/se_ui_confirm.ogg",
+      "description": "UI決定",
+      "spec": {
+        "length": "0.2s"
+      },
+      "used_in": [
+        "ui"
+      ]
+    },
+    {
+      "id": "se_ui_cancel",
+      "type": "se",
+      "path": "assets/se/se_ui_cancel.ogg",
+      "description": "UIキャンセル",
+      "spec": {
+        "length": "0.2s"
+      },
+      "used_in": [
+        "ui"
+      ]
+    },
+    {
+      "id": "se_text_blip",
+      "type": "se",
+      "path": "assets/se/se_text_blip.ogg",
+      "description": "文字送り音。非常に短く耳障りでないこと",
+      "spec": {
+        "length": "0.05s"
+      },
+      "used_in": [
+        "ui"
+      ]
+    },
+    {
+      "id": "se_bell",
+      "type": "se",
+      "path": "assets/se/se_bell.ogg",
+      "description": "遠くの学校のチャイム",
+      "spec": {
+        "length": "3.0s"
+      },
+      "used_in": [
+        "ch01_03",
+        "ch01_06"
+      ]
+    },
+    {
+      "id": "se_door",
+      "type": "se",
+      "path": "assets/se/se_door.ogg",
+      "description": "古い引き戸の開閉",
+      "spec": {
+        "length": "1.0s"
+      },
+      "used_in": [
+        "multiple"
+      ]
+    },
+    {
+      "id": "se_footstep",
+      "type": "se",
+      "path": "assets/se/se_footstep.ogg",
+      "description": "廊下の足音",
+      "spec": {
+        "length": "1.0s"
+      },
+      "used_in": [
+        "multiple"
+      ]
+    },
+    {
+      "id": "se_wind",
+      "type": "se",
+      "path": "assets/se/se_wind.ogg",
+      "description": "屋上の風",
+      "spec": {
+        "length": "3.0s"
+      },
+      "used_in": [
+        "multiple"
+      ]
+    },
+    {
+      "id": "se_rain",
+      "type": "se",
+      "path": "assets/se/se_rain.ogg",
+      "description": "雨",
+      "spec": {
+        "length": "3.0s"
+      },
+      "used_in": [
+        "multiple"
+      ]
+    },
+    {
+      "id": "se_glass_break",
+      "type": "se",
+      "path": "assets/se/se_glass_break.ogg",
+      "description": "ガラスが割れる",
+      "spec": {
+        "length": "1.0s"
+      },
+      "used_in": [
+        "multiple"
+      ]
+    },
+    {
+      "id": "se_sword",
+      "type": "se",
+      "path": "assets/se/se_sword.ogg",
+      "description": "ネオの抜刀と斬撃",
+      "spec": {
+        "length": "0.8s"
+      },
+      "used_in": [
+        "ch02_07",
+        "ch03_13",
+        "ch05_03"
+      ]
+    },
+    {
+      "id": "se_magic_cast",
+      "type": "se",
+      "path": "assets/se/se_magic_cast.ogg",
+      "description": "灯守の魔力行使",
+      "spec": {
+        "length": "1.0s"
+      },
+      "used_in": [
+        "multiple"
+      ]
+    },
+    {
+      "id": "se_impact",
+      "type": "se",
+      "path": "assets/se/se_impact.ogg",
+      "description": "戦闘の被弾・着弾",
+      "spec": {
+        "length": "0.5s"
+      },
+      "used_in": [
+        "multiple"
+      ]
+    },
+    {
+      "id": "se_heartbeat",
+      "type": "se",
+      "path": "assets/se/se_heartbeat.ogg",
+      "description": "心音。真相開示と墜化直前",
+      "spec": {
+        "length": "2.0s"
+      },
+      "used_in": [
+        "ch03_13",
+        "ch04_14"
+      ]
+    },
+    {
+      "id": "se_core_pulse",
+      "type": "se",
+      "path": "assets/se/se_core_pulse.ogg",
+      "description": "灯核の脈動。翳が広がる音",
+      "spec": {
+        "length": "2.0s"
+      },
+      "used_in": [
+        "multiple"
+      ]
+    },
+    {
+      "id": "se_shatter",
+      "type": "se",
+      "path": "assets/se/se_shatter.ogg",
+      "description": "灯核が砕ける音。本作で最も重い音にすること",
+      "spec": {
+        "length": "2.0s"
+      },
+      "used_in": [
+        "ch04_11",
+        "ch05_09"
+      ]
+    },
+    {
+      "id": "cg_17_renny_dream",
+      "type": "cg",
+      "path": "assets/cg/cg_17_renny_dream.png",
+      "description": "レニィの夢。屋上で星を見つめるレニィ",
+      "used_in": [
+        "ch03_07"
+      ]
+    },
+    {
+      "id": "cg_18_muni_park",
+      "type": "cg",
+      "path": "assets/cg/cg_18_muni_park.png",
+      "description": "ムニとハル。公園のブランコ",
+      "used_in": [
+        "ch03_08"
+      ]
+    },
+    {
+      "id": "cg_19_hyu_veil",
+      "type": "cg",
+      "path": "assets/cg/cg_19_hyu_veil.png",
+      "description": "ヒュウの墜化への恐れ",
+      "used_in": [
+        "ch04_09"
+      ]
+    },
+    {
+      "id": "cg_20_jinpachi_name",
+      "type": "cg",
+      "path": "assets/cg/cg_20_jinpachi_name.png",
+      "description": "ジンパチへ名前を贈る夜",
+      "used_in": [
+        "ch04_10"
+      ]
+    },
+    {
+      "id": "cg_21_geru_rooftop",
+      "type": "cg",
+      "path": "assets/cg/cg_21_geru_rooftop.png",
+      "description": "屋上で灯核を抱くゲル",
+      "used_in": [
+        "ch04_08"
+      ]
+    },
+    {
+      "id": "cg_22_neo_decision",
+      "type": "cg",
+      "path": "assets/cg/cg_22_neo_decision.png",
+      "description": "ネオとハルの選択",
+      "used_in": [
+        "ch05_02"
+      ]
+    },
+    {
+      "id": "cg_23_final_descent",
+      "type": "cg",
+      "path": "assets/cg/cg_23_final_descent.png",
+      "description": "灯核へ降りる仲間たち",
+      "used_in": [
+        "ch05_07"
+      ]
+    },
+    {
+      "id": "cg_24_base_together",
+      "type": "cg",
+      "path": "assets/cg/cg_24_base_together.png",
+      "description": "拠点で過ごす六人",
+      "used_in": [
+        "ch01_02"
+      ]
+    },
+    {
+      "id": "cg_25_end_good_a",
+      "type": "cg",
+      "path": "assets/cg/cg_25_end_good_a.png",
+      "description": "GOOD A エンディング",
+      "used_in": [
+        "end_good_a"
+      ]
+    },
+    {
+      "id": "cg_26_end_good_b",
+      "type": "cg",
+      "path": "assets/cg/cg_26_end_good_b.png",
+      "description": "GOOD B エンディング",
+      "used_in": [
+        "end_good_b"
+      ]
+    },
+    {
+      "id": "cg_27_end_normal",
+      "type": "cg",
+      "path": "assets/cg/cg_27_end_normal.png",
+      "description": "NORMAL エンディング",
+      "used_in": [
+        "end_normal"
+      ]
+    },
+    {
+      "id": "cg_28_end_bad_a",
+      "type": "cg",
+      "path": "assets/cg/cg_28_end_bad_a.png",
+      "description": "BAD A エンディング",
+      "used_in": [
+        "end_bad_a"
+      ]
+    },
+    {
+      "id": "cg_29_end_bad_b",
+      "type": "cg",
+      "path": "assets/cg/cg_29_end_bad_b.png",
+      "description": "BAD B エンディング",
+      "used_in": [
+        "end_bad_b"
+      ]
+    },
+    {
+      "id": "cg_30_end_bad_c",
+      "type": "cg",
+      "path": "assets/cg/cg_30_end_bad_c.png",
+      "description": "BAD C エンディング",
+      "used_in": [
+        "end_bad_c"
+      ]
+    }
+  ]
+}

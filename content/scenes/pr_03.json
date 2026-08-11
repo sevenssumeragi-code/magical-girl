@@ -1,0 +1,51 @@
+{
+  "id": "pr_03",
+  "chapter": 0,
+  "background": "bg_ruin_street_night",
+  "bgm": "bgm_shell",
+  "lines": [
+    { "type": "narration", "text": "《おめでとうございます》" },
+    { "type": "narration", "text": "声が、耳を通らずに頭の中で鳴った。" },
+    { "type": "narration", "text": "足元を見る。白い巻貝を背負った、猫より小さな生き物が、僕を見上げていた。目は瞳孔のない黒い点で、どこを見ているのか分からない。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《はじめまして。私はシェルといいます》" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……しゃべった" },
+    { "type": "dialogue", "speaker": "shell", "expression": "tilt", "text": "《正確には、しゃべってはいません。あなたの中に直接届けています。そのほうが確実ですから》" },
+    { "type": "narration", "text": "口が動いている様子はない。それなのに、声は穏やかで、丁寧で、少しも急いでいなかった。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《いま倒したのは墜者といいます。この街に穴を開けて、人を引きずり込むものです》" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《そして、それを倒せる人のことを、私たちは灯守と呼んでいます》" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "灯守……" },
+    { "type": "dialogue", "speaker": "shell", "expression": "glow", "text": "《ええ。あなたのことです》" },
+    { "type": "sfx", "asset": "se_core_pulse" },
+    { "type": "narration", "text": "胸のあたりが、ふっと軽くなった。" },
+    { "type": "narration", "text": "気づくと、僕の手の上に、卵くらいの大きさの宝珠が浮かんでいた。" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《灯核です。灯守の魂を、身体の外に出して形にしたもの。本体はそちらで、身体のほうが器です》" },
+    { "type": "dialogue", "speaker": "haru", "expression": "surprised", "text": "……これが、僕?" },
+    { "type": "dialogue", "speaker": "shell", "expression": "normal", "text": "《はい。割れれば終わりですので、大切になさってください》" },
+    { "type": "narration", "text": "手のひらの上でゆっくり回るそれを、僕は街灯にかざしてみた。" },
+    { "type": "narration", "text": "光は、まっすぐ通り抜けた。" },
+    { "type": "narration", "text": "色がない。濁ってもいない。ただ、何も入っていないガラス玉みたいに透きとおっている。" },
+    { "type": "narration", "text": "そのときは、綺麗だな、としか思わなかった。" },
+    {
+      "type": "choice",
+      "prompt": "訊きたいことは、いくらでもあった。どれから訊こう。",
+      "options": [
+        {
+          "text": "「灯守って、何をする人なの」",
+          "flags": { "asked_about_contract": false }
+        },
+        {
+          "text": "「僕の記憶は、どこにいったの」"
+        },
+        {
+          "text": "「灯守には、どうやったらなれるの」",
+          "flags": { "asked_about_contract": true }
+        }
+      ]
+    },
+    { "type": "narration", "text": "シェルは、どの問いにも同じ調子で答えた。" },
+    { "type": "narration", "text": "急かしもしないし、はぐらかしもしない。訊いたことには、必ず答えが返ってくる。" },
+    { "type": "narration", "text": "だからこのときの僕は、この生き物を、ずいぶん誠実なものだと思ったのだ。" },
+    { "type": "narration", "text": "──訊かなかったことは、ひとつも答えないということに、まだ気づいていなかった。" }
+  ],
+  "next": "pr_04"
+}

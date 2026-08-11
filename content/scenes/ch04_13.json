@@ -1,0 +1,244 @@
+{
+  "id": "ch04_13",
+  "chapter": 4,
+  "background": "bg_school_rooftop_night",
+  "bgm": "bgm_quiet",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "残った者で、屋上に集まった。"
+    },
+    {
+      "type": "narration",
+      "text": "誰が呼んだわけでもない。順番に上がってきて、気づけばそこにいた。"
+    },
+    {
+      "type": "narration",
+      "text": "三年、この場所はゲルひとりのものだった。"
+    },
+    {
+      "type": "narration",
+      "text": "いま、そこに何人かで座っている。それが、いちばん残酷なことのような気がした。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "sad",
+      "text": "……なあ。整理させてくれ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "sad",
+      "text": "ゲルが墜ちる。放っときゃ、あと何日かで"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "normal",
+      "text": "ええ。灯核の状態から見て、長くて十日でしょう"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "sad",
+      "text": "で、ゲルが墜ちたら、俺たちも消える"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "normal",
+      "text": "そうなります"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "……逆はねえのかよ。俺たちが先に消えりゃ、ゲルは助かるんだろ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "shell",
+      "expression": "normal",
+      "text": "《はい。理論上は》"
+    },
+    {
+      "type": "narration",
+      "text": "誰も、その先を言わなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "選択肢は、二つしかない。"
+    },
+    {
+      "type": "narration",
+      "text": "全員で消えるか。僕たちが先に消えて、ゲルひとりを残すか。"
+    },
+    {
+      "type": "narration",
+      "text": "──三年前に戻るか、それとも、三年前より悪くするか。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "……ゲルはさ、独りで戦いたくないって言ったんだよ"
+    },
+    {
+      "type": "narration",
+      "text": "レニィが、ぽつりと言った。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "僕たちが消えたら、あの人はまた独りだよ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "それって、願いを叶えたことになるのかなあ"
+    },
+    {
+      "type": "narration",
+      "text": "ならない。"
+    },
+    {
+      "type": "narration",
+      "text": "この場の全員が、それは分かっていた。"
+    },
+    {
+      "type": "narration",
+      "text": "分かっていて、ほかの案が出せなかった。"
+    },
+    {
+      "type": "sfx",
+      "asset": "se_wind"
+    },
+    {
+      "type": "narration",
+      "text": "そのとき、僕はシェルに言われたことを思い出していた。"
+    },
+    {
+      "type": "narration",
+      "text": "──ほかの四名は、契約者の願いに縛られている。あなたには、その縛りがない。",
+      "requires": {
+        "flags": {
+          "accepted_self": true
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "──この件において、自分で選べるのは、あなただけです。",
+      "requires": {
+        "flags": {
+          "accepted_self": true
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "あの生き物は、僕に何かを言いかけて、やめた。訊かなかったからだ。",
+      "requires": {
+        "flags": {
+          "accepted_self": false
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "いまさら訊く気にはなれなかった。答えを聞いたところで、僕に何ができる。",
+      "requires": {
+        "flags": {
+          "accepted_self": false
+        }
+      }
+    },
+    {
+      "type": "choice",
+      "prompt": "みんなが、僕を見ていた。",
+      "options": [
+        {
+          "text": "「ゲルを助ける。それだけは絶対だ」",
+          "bond": {
+            "geru": 6,
+            "renny": -3,
+            "muni": -3,
+            "hyu": 6,
+            "jinpachi": 6
+          }
+        },
+        {
+          "text": "「誰も消さない。方法を探す」",
+          "bond": {
+            "renny": 6,
+            "muni": 6,
+            "geru": -3,
+            "hyu": -3,
+            "jinpachi": -3
+          }
+        },
+        {
+          "text": "「まだ決めない。決めるのは全員が揃ってからだ」",
+          "bond": {
+            "renny": 3,
+            "muni": 3,
+            "hyu": 3,
+            "jinpachi": 3,
+            "geru": 3,
+            "neo": 3
+          }
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "誰も反論しなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "それは、賛成という意味ではなかったと思う。"
+    },
+    {
+      "type": "narration",
+      "text": "ただ、誰かが何かを言い切ってくれるのを、全員が待っていたのだ。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "smile",
+      "text": "……頼もしくなられましたね"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "normal",
+      "text": "拾われてきた三ヶ月前とは、大違いだな"
+    },
+    {
+      "type": "narration",
+      "text": "笑い声が、ほんの少しだけ起きた。"
+    },
+    {
+      "type": "narration",
+      "text": "この夜が、僕たちが笑った最後の夜になった。"
+    },
+    {
+      "type": "narration",
+      "text": "誰も、席を立たなかった。それだけのことが、この夜には重かった。"
+    },
+    {
+      "type": "bond",
+      "delta": {
+        "renny": 5,
+        "hyu": 5,
+        "jinpachi": 5,
+        "muni": 5,
+        "geru": 5
+      }
+    }
+  ],
+  "next": "ch04_14"
+}

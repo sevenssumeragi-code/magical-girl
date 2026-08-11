@@ -1,0 +1,189 @@
+{
+  "id": "ch02_06",
+  "chapter": 2,
+  "background": "bg_eikai_clock",
+  "bgm": "bgm_battle_02",
+  "lines": [
+    {
+      "type": "narration",
+      "text": "時計の翳界は、まだ閉じていなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "撤退した翳界は、放っておくと外へ滲み出す。だから、戻らなければならない。"
+    },
+    {
+      "type": "narration",
+      "text": "五人で潜った。ムニは、拠点で留守番だ。",
+      "requires": {
+        "flags": {
+          "muni_benched": true
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "六人で潜った。ただしムニは後方に置いて、力を使わせないと決めていた。",
+      "requires": {
+        "flags": {
+          "muni_benched": false
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "止める者のいない翳界は、まるで別の場所だった。"
+    },
+    {
+      "type": "narration",
+      "text": "歯車が回る。針が落ちてくる。壁の時計がいっせいにガラスを割って、破片が雨のように降る。"
+    },
+    {
+      "type": "sfx",
+      "asset": "se_glass_break"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "jinpachi",
+      "expression": "angry",
+      "text": "うるせえな、この部屋は!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "normal",
+      "text": "静けさが、どれほど贅沢だったか分かりますね"
+    },
+    {
+      "type": "narration",
+      "text": "ムニがいた頃は、この音の全部が消えていたのだ。"
+    },
+    {
+      "type": "narration",
+      "text": "あの子が黙らせていたものの量を、僕たちは失って初めて数えた。"
+    },
+    {
+      "type": "narration",
+      "text": "そして、その穴を埋めたのはゲルだった。"
+    },
+    {
+      "type": "narration",
+      "text": "彼女は前に出た。誰よりも前に出て、誰よりも長く留まった。"
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチが引くべき場面でも引かず、ヒュウが下がるべき場面でも下がらない。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "angry",
+      "text": "下がれ。全部私が受ける"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "hyu",
+      "expression": "angry",
+      "text": "ゲル、それではあなたが保ちません──"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "angry",
+      "text": "そのほうが早い"
+    },
+    {
+      "type": "narration",
+      "text": "早い。確かに早かった。"
+    },
+    {
+      "type": "narration",
+      "text": "彼女が一人で受ければ、ほかの四人はほとんど傷を負わない。連携を組み立てるより、単純に速い。"
+    },
+    {
+      "type": "sfx",
+      "asset": "se_impact"
+    },
+    {
+      "type": "narration",
+      "text": "紫の刃が、歯車の軸を断つ。時計の壁が崩れ、墜者の核が剥き出しになる。"
+    },
+    {
+      "type": "narration",
+      "text": "止めを刺したのもゲルだった。"
+    },
+    {
+      "type": "sfx",
+      "asset": "se_shatter"
+    },
+    {
+      "type": "narration",
+      "text": "三時十四分を指したままの時計が、いっせいに落ちて割れた。"
+    },
+    {
+      "type": "narration",
+      "text": "外へ出て、僕たちは灯核を確かめた。"
+    },
+    {
+      "type": "narration",
+      "text": "ジンパチ、薄い。ヒュウ、薄い。レニィ、ほとんど濁っていない。僕も同じ。"
+    },
+    {
+      "type": "narration",
+      "text": "ゲルの灯核だけ、彼女は出さなかった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "ゲル"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "geru",
+      "expression": "normal",
+      "text": "済んでる。もう使った"
+    },
+    {
+      "type": "narration",
+      "text": "嘘だ。燼核の数は、朝と変わっていなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "僕は数えていた。彼女がそれを知らないだけだ。"
+    },
+    {
+      "type": "narration",
+      "text": "けれど、その場では言えなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "疲れきった四人の前で、いま一番働いた人間を嘘つきだと言う。それができるほど、僕は強くなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "帰り道、ゲルは列の一番後ろを歩いていた。"
+    },
+    {
+      "type": "narration",
+      "text": "先頭でも真ん中でもなく、いちばん後ろ。"
+    },
+    {
+      "type": "narration",
+      "text": "全員の背中が見える場所を、彼女はいつも選んでいた。"
+    },
+    {
+      "type": "narration",
+      "text": "ムニのいない戦いを、四人で越えた。埋まらない穴を、それぞれが少しずつ持った。"
+    },
+    {
+      "type": "bond",
+      "delta": {
+        "hyu": 3,
+        "jinpachi": 3,
+        "geru": 3
+      }
+    }
+  ],
+  "next": "ch02_07"
+}

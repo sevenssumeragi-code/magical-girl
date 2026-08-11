@@ -1,0 +1,25 @@
+{
+  "name": "mahou-shoujo-renny-magica",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "魔法少女レニィ☆マギカ - 中編ノベルゲーム",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint:voice": "node tools/lint-voice.mjs",
+    "lint:assets": "node tools/lint-assets.mjs",
+    "lint": "npm run lint:assets && npm run lint:voice",
+    "gen:placeholders": "node tools/gen-placeholders.mjs",
+    "check": "npm run build && npm test && npm run lint"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.7",
+    "vitest": "^3.2.4"
+  }
+}

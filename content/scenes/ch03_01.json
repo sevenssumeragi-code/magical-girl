@@ -1,0 +1,70 @@
+{
+  "id": "ch03_01",
+  "chapter": 3,
+  "chapterTitle": "第三章 ─ 軋む",
+  "background": "bg_school_classroom",
+  "bgm": "bgm_tension",
+  "lines": [
+    { "type": "narration", "text": "机の真ん中に、黒い粒がひとつ置かれた。" },
+    { "type": "narration", "text": "ひとつだ。七つあったものが、ひと月でひとつになった。" },
+    { "type": "narration", "text": "誰も座っていなかった。全員が立ったまま、その一粒を見ている。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "現状を整理しましょう。数字だけ申し上げます" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "この二週間で潜った翳界は四つ。落ちた燼核は四つ。使ったのは十一です" },
+    { "type": "dialogue", "speaker": "jinpachi", "expression": "surprised", "text": "……十一?" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "ええ。ネオに奪われた五つを差し引いても、勘定が合いません" },
+    { "type": "narration", "text": "合わない。それは、この部屋の誰かが余分に使っているということだ。" },
+    { "type": "narration", "text": "あるいは──誰かの翳が、ひとりぶんでは説明がつかない速さで溜まっている、ということだ。" },
+    { "type": "narration", "text": "僕は、ゲルを見ないようにした。見たら、その視線だけで名指しになる。" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "議論はいい。決めろ" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "一個しかない。誰に使う" },
+    { "type": "narration", "text": "五つの灯核が、机に並んだ。" },
+    { "type": "narration", "text": "ジンパチの琥珀は、半分が黒い。前に出続けた結果だ。" },
+    { "type": "narration", "text": "ヒュウの深緑も、同じくらい濁っている。この前、ゲルが順番を回さなかったからだ。" },
+    { "type": "narration", "text": "レニィの水色は、意外なほど澄んでいる。" },
+    { "type": "narration", "text": "ムニの淡い青は、色が薄い。濁っているのではなく、色そのものが減っている。" },
+    { "type": "narration", "text": "そして、ゲルの紫。" },
+    { "type": "narration", "text": "今日は出した。出さないわけにいかなかったのだと思う。" },
+    { "type": "narration", "text": "底のほうが、はっきりと黒い。前に見たときの、霞のような黒ではなかった。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "……ゲル、それ" },
+    { "type": "dialogue", "speaker": "geru", "expression": "normal", "text": "私は最後だ。決めろ" },
+    {
+      "type": "choice",
+      "prompt": "たったひとつの燼核を、誰に。",
+      "options": [
+        {
+          "text": "ジンパチに（前衛が落ちれば全員が死ぬ）",
+          "bond": { "jinpachi": 10, "hyu": -3, "renny": -3, "muni": -3, "geru": -3 }
+        },
+        {
+          "text": "ヒュウに（次に危ないのは彼だ）",
+          "bond": { "hyu": 10, "jinpachi": -3, "renny": -3, "muni": -3, "geru": -3 }
+        },
+        {
+          "text": "ムニに（色が減っているのが一番怖い）",
+          "bond": { "muni": 10, "jinpachi": -3, "hyu": -3, "renny": -3, "geru": -3 }
+        },
+        {
+          "text": "レニィに（誰も気にしていない者を選ぶ）",
+          "bond": { "renny": 10, "jinpachi": -3, "hyu": -3, "muni": -3, "geru": -3 }
+        },
+        {
+          "text": "ゲルに（本人がどれだけ嫌がっても）",
+          "bond": { "geru": 10, "jinpachi": -3, "hyu": -3, "renny": -3, "muni": -3 }
+        }
+      ]
+    },
+    { "type": "sfx", "asset": "se_core_pulse" },
+    { "type": "narration", "text": "選ばれなかった四人は、やっぱり何も言わなかった。" },
+    { "type": "narration", "text": "けれど前と違って、今度は誰も顔を上げなかった。" },
+    { "type": "narration", "text": "前は、選ばれた一人が浄化される音を、全員で聞いていた。" },
+    { "type": "narration", "text": "今夜は、全員が別々の方向を見ていた。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "……こういうの、よくないねぇ" },
+    { "type": "narration", "text": "レニィが、めずらしく最後まで起きていた。" },
+    { "type": "dialogue", "speaker": "renny", "expression": "sad", "text": "誰が一番危ないか、みんなで数えるようになったら、もうだめだよ" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……じゃあ、どうすればいい" },
+    { "type": "dialogue", "speaker": "renny", "expression": "normal", "text": "わかんない。でも、数えちゃだめなんだ" },
+    { "type": "narration", "text": "無責任な言い方だと思った。" },
+    { "type": "narration", "text": "そして、たぶんこの部屋でいちばん正しい言葉だとも思った。" }
+  ],
+  "next": "ch03_02"
+}

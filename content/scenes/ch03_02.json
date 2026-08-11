@@ -1,0 +1,82 @@
+{
+  "id": "ch03_02",
+  "chapter": 3,
+  "background": "bg_town_shopping",
+  "bgm": "bgm_hyu",
+  "lines": [
+    { "type": "narration", "text": "ヒュウが、拠点にいない時間が増えた。" },
+    { "type": "narration", "text": "元々ひとりで出歩く人ではあった。買い出しも、偵察も、進んで引き受ける。" },
+    { "type": "narration", "text": "けれど最近は、帰ってきたときに何を持っているかを言わない。" },
+    { "type": "narration", "text": "商店街で、偶然すれ違った。彼は僕に気づいて、いつもの笑い方をした。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "おや。奇遇ですね" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "買い出し?" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "ええ。少々、見て回っておりました" },
+    { "type": "narration", "text": "手ぶらだった。" },
+    { "type": "narration", "text": "ヒュウは、僕の視線が自分の手にいったのを、正確に把握した。この人はいつもそうだ。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "何も買わない日もありますよ。眺めるのも買い物のうちです" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "……そうだね" },
+    { "type": "narration", "text": "嘘だ、とは思わなかった。ただ、全部ではないと思った。" },
+    { "type": "narration", "text": "シャッターの並ぶ通りを、二人で歩いた。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "ひとつ、伺ってもよろしいですか" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "あなたは、ゲルの灯核を見ましたね。あの底に沈んでいるものを" },
+    { "type": "narration", "text": "足が止まった。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "顔に出ています。昨夜、あなただけが驚いていませんでした" },
+    { "type": "dialogue", "speaker": "haru", "expression": "sad", "text": "……いつから知ってたんだ" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "一年ほど前でしょうか。数えはじめたのは" },
+    { "type": "narration", "text": "この人も、数えていた。" },
+    { "type": "narration", "text": "ゲルが自分ひとりで数えていたものを、ヒュウもまた、自分ひとりで数えていたのだ。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "あの方は、私たちのぶんまで受けています。誰よりも前に出て、誰よりも長く留まる" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "sad", "text": "そして、燼核の順番を、必ず自分から後ろへ回してしまわれます" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "……あれは、放っておけば必ず墜ちますよ" },
+    { "type": "narration", "text": "断言だった。感情の乗っていない、計算の結果としての断言。" },
+    { "type": "dialogue", "speaker": "haru", "expression": "normal", "text": "みんなに言おう。ゲルを説得する" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "smile", "text": "説得。ええ、それも手ですね" },
+    { "type": "narration", "text": "笑った。同意していない笑い方だった。" },
+    { "type": "dialogue", "speaker": "hyu", "expression": "normal", "text": "では、私はこちらですので" },
+    { "type": "narration", "text": "分かれ道で、彼は拠点とは逆の方向へ歩いていった。" },
+    {
+      "type": "choice",
+      "prompt": "その背中が、角を曲がる。",
+      "options": [
+        {
+          "text": "後をつける",
+          "bond": { "hyu": -6, "geru": 3 },
+          "flags": { "tailed_hyu": true }
+        },
+        {
+          "text": "つけない。信じる",
+          "bond": { "hyu": 6, "geru": -3 },
+          "flags": { "tailed_hyu": false }
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "十歩ぶん離れて、後を追った。ヒュウは一度も振り返らなかった。",
+      "requires": { "flags": { "tailed_hyu": true } }
+    },
+    {
+      "type": "narration",
+      "text": "曲がった先は、坂の裏手だった。廃校の、裏門へ続く道だ。",
+      "requires": { "flags": { "tailed_hyu": true } }
+    },
+    {
+      "type": "narration",
+      "text": "帰る道を、わざわざ遠回りしている。",
+      "requires": { "flags": { "tailed_hyu": true } }
+    },
+    {
+      "type": "narration",
+      "text": "追わなかった。この人が言わないことには、この人なりの理由がある。",
+      "requires": { "flags": { "tailed_hyu": false } }
+    },
+    {
+      "type": "narration",
+      "text": "そう思ったのは、僕がヒュウを信じていたからだ。",
+      "requires": { "flags": { "tailed_hyu": false } }
+    },
+    { "type": "narration", "text": "──信じるというのは、便利な言葉だと思う。" },
+    { "type": "narration", "text": "見ないでいる理由に、そのまま使えてしまう。" }
+  ],
+  "next": "ch03_03"
+}

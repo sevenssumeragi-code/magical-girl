@@ -1,0 +1,309 @@
+{
+  "id": "ch03_07",
+  "chapter": 3,
+  "background": "bg_school_rooftop_night",
+  "bgm": "bgm_quiet",
+  "lines": [
+    {
+      "type": "cg",
+      "asset": "cg_17_renny_dream"
+    },
+    {
+      "type": "narration",
+      "text": "屋上に、レニィがいた。"
+    },
+    {
+      "type": "narration",
+      "text": "この人が夜中に起きているところを、僕はほとんど見たことがない。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "normal",
+      "text": "あ、{name}"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "surprised",
+      "text": "……珍しいね。寝てないの"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "うん。最近ね、寝るのがちょっと怖いんだ"
+    },
+    {
+      "type": "narration",
+      "text": "フェンスに背を預けて、彼は膝を抱えていた。"
+    },
+    {
+      "type": "narration",
+      "text": "いつものふわふわした感じが、今夜はどこにもなかった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "……変な夢を見るんだよ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "normal",
+      "text": "どんな"
+    },
+    {
+      "type": "narration",
+      "text": "レニィは、答えるまでに時間をかけた。"
+    },
+    {
+      "type": "choice",
+      "prompt": "急かしてはいけない気がした。",
+      "options": [
+        {
+          "text": "隣に座って、待つ",
+          "bond": {
+            "renny": 10,
+            "muni": 3
+          },
+          "flags": {
+            "heard_renny_dream": true
+          }
+        },
+        {
+          "text": "「言いたくないなら、いいよ」と切り上げる",
+          "bond": {
+            "renny": -6
+          },
+          "flags": {
+            "heard_renny_dream": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "レニィは、ありがとう、とは言わなかった。ただ、少しだけこちらに寄った。",
+      "requires": {
+        "flags": {
+          "heard_renny_dream": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "あのね。夢の中で、僕、五歳なんだ",
+      "requires": {
+        "flags": {
+          "heard_renny_dream": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "surprised",
+      "text": "……五歳",
+      "requires": {
+        "flags": {
+          "heard_renny_dream": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "うん。ムニと同じ。それで、崩れた家の下にいるんだよ",
+      "requires": {
+        "flags": {
+          "heard_renny_dream": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "上のほうで、誰かが名前を呼んでる。女の子の声。ずっと呼んでる",
+      "requires": {
+        "flags": {
+          "heard_renny_dream": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "でもね、僕、返事ができないんだ。口が動かないの",
+      "requires": {
+        "flags": {
+          "heard_renny_dream": true
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "膝を抱えた腕に、力が入っていた。",
+      "requires": {
+        "flags": {
+          "heard_renny_dream": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "そこで目が覚めるんだけどさ。おかしいんだよ",
+      "requires": {
+        "flags": {
+          "heard_renny_dream": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "僕、五歳のときのことなんて、ひとつも覚えてないのに",
+      "requires": {
+        "flags": {
+          "heard_renny_dream": true
+        }
+      }
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "あの夢の中のことだけ、なんでか、ちゃんと覚えてるんだ",
+      "requires": {
+        "flags": {
+          "heard_renny_dream": true
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "そう、と言って、僕はその場を離れた。",
+      "requires": {
+        "flags": {
+          "heard_renny_dream": false
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "階段を降りながら、振り返らなければよかったと思った。",
+      "requires": {
+        "flags": {
+          "heard_renny_dream": false
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "レニィはまだ、膝を抱えたまま座っていた。",
+      "requires": {
+        "flags": {
+          "heard_renny_dream": false
+        }
+      }
+    },
+    {
+      "type": "narration",
+      "text": "覚えていないはずのことを、覚えている。"
+    },
+    {
+      "type": "narration",
+      "text": "僕の場合は、その逆だ。あるはずのものが、まるごと無い。"
+    },
+    {
+      "type": "narration",
+      "text": "似ている、と思った。"
+    },
+    {
+      "type": "narration",
+      "text": "この人と僕の記憶の壊れ方は、鏡のように似ている。"
+    },
+    {
+      "type": "sfx",
+      "asset": "se_wind"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "smile",
+      "text": "……ねえ、{name}"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "smile",
+      "text": "もし僕がさ、僕じゃなかったら、どうする?"
+    },
+    {
+      "type": "narration",
+      "text": "冗談みたいな言い方だった。"
+    },
+    {
+      "type": "narration",
+      "text": "だから僕も、冗談みたいに返してしまった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "haru",
+      "expression": "smile",
+      "text": "……レニィがレニィじゃなかったら、誰なんだよ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "smile",
+      "text": "さあ。誰だろうねぇ"
+    },
+    {
+      "type": "narration",
+      "text": "笑って、彼は空を見た。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "sad",
+      "text": "……ねえ。もしそうだったら、{name}は僕のこと、まだレニィって呼んでくれる?"
+    },
+    {
+      "type": "narration",
+      "text": "そこで初めて、これが冗談ではないと気づいた。"
+    },
+    {
+      "type": "narration",
+      "text": "気づいたのに、うまい言葉が出てこなかった。"
+    },
+    {
+      "type": "narration",
+      "text": "呼ぶよ、と言えばよかった。それだけでよかったのだ。"
+    },
+    {
+      "type": "narration",
+      "text": "僕は、黙ってしまった。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "renny",
+      "expression": "smile",
+      "text": "……いいよ。困らせちゃったね"
+    },
+    {
+      "type": "narration",
+      "text": "──それを、あとでずいぶん後悔することになる。"
+    }
+  ],
+  "next": "ch03_08"
+}
